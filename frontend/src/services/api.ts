@@ -72,7 +72,7 @@ export interface AnswerResponse {
   search_method?: string;  // New field (domain_based_quality, etc.)
   timing?: TimingInfo;
   timing_ms?: number;  // Simple timing in milliseconds
-  candidates?: string[];
+  candidates?: Array<{ code: string; name: string }>;
   need_clarification?: boolean;
 }
 export interface FeedbackRequest {

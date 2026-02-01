@@ -28,7 +28,7 @@ interface Message {
   feedback?: 'up' | 'down' | null;
   timing_ms?: number;
   search_method?: string;
-  candidates?: string[];
+  candidates?: Array<{ code: string; name: string }>;
 }
 
 interface User {

@@ -72,16 +72,49 @@ export function MessageContent({ text }: MessageContentProps) {
     h2: ({ children }: any) => <h2 className="text-lg font-bold mb-2 mt-3">{children}</h2>,
     h3: ({ children }: any) => <h3 className="text-md font-bold mb-1 mt-2">{children}</h3>,
     blockquote: ({ children }: any) => <blockquote className="border-l-4 border-gray-300 pl-4 italic my-4 text-gray-600 dark:text-gray-400">{children}</blockquote>,
+    // Table components
+    table: ({ children }: any) => (
+      <div className="overflow-x-auto my-4 rounded-lg shadow-md border border-gray-300 dark:border-gray-500">
+        <table className="min-w-full divide-y divide-gray-300 dark:divide-gray-500">
+          {children}
+        </table>
+      </div>
+    ),
+    thead: ({ children }: any) => (
+      <thead className="bg-gray-200 dark:bg-gray-700">
+        {children}
+      </thead>
+    ),
+    tbody: ({ children }: any) => (
+      <tbody className="bg-white dark:bg-gray-900/60 divide-y divide-gray-300 dark:divide-gray-500">
+        {children}
+      </tbody>
+    ),
+    tr: ({ children }: any) => (
+      <tr className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+        {children}
+      </tr>
+    ),
+    th: ({ children }: any) => (
+      <th className="px-6 py-3 text-left text-sm font-bold text-black dark:text-white uppercase tracking-wider border-r last:border-r-0 border-gray-300 dark:border-gray-500">
+        {children}
+      </th>
+    ),
+    td: ({ children }: any) => (
+      <td className="px-6 py-4 text-sm text-gray-900 dark:text-gray-100 whitespace-pre-wrap border-r last:border-r-0 border-gray-300 dark:border-gray-500">
+        {children}
+      </td>
+    ),
   };
 
   return (
-    <div className="markdown-content text-sm md:text-base text-gray-800 dark:text-gray-200">
+    <div className="markdown-content text-sm md:text-base text-gray-800 dark:text-gray-200" >
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={components}
       >
         {markdownText}
       </ReactMarkdown>
-    </div>
+    </div >
   );
 }
