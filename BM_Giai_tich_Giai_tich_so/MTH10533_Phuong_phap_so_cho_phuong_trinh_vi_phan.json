@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Phan Thị Mỹ Duyên",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Giải tích, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Giải tích, E201A, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10533",
+      "Tên học phần: Giải tích số cho phương trình vi phân",
+      "Tên học phần bằng tiếng Anh: Numerical analysis of Ordinary Differential Equations",
+      "Số tín chỉ: 4 (3LT + 1TH)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 3",
+      "Số tiết thực hành: 1",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành: ",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết:",
+      "Các học phần học trước học phần này: Phương trình vi phân, Giải tích số",
+      "Học phần song hành:",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Môn học hướng đến sinh viên quan tâm phương pháp để giải nghiệm rời rạc của phương trình vi phân. Qua học phần này, sinh viên có thể bắt đầu nghiên cứu lý thuyết số hay làm việc trong môi trường công nghiệp. Môn học này sẽ giúp sinh viên nắm được những kiến thức sau:",
+      "Những phương trình vi phân mô phỏng các bài toán thực tế.",
+      "Bài toán giá trị đầu và bài toán giá trị biên.",
+      "Một số phương pháp số để các bài toán giá trị đầu và bài toán giá trị biên, ví dụ như phương pháp Euler, phương pháp Runge-Kutta, phương pháp shooting, phương pháp sai phân hữu hạn.",
+      "Áp dụng các phương pháp nêu trên và sử dụng phần mềm tính toán (Matlab/Python) để tìm nghiệm giải số cho phương trình vi phân, đánh giá sự hội tụ và sai số của các phương pháp."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: cung cấp cho sinh viên những phương pháp số để giải hầu hết những loại phương trình vi phân, áp dụng các phương pháp số để giải nghiệm xấp xỉ và lập trình biểu diễn nghiệm trên máy tính bằng phần mềm lập trình tính toán (Python, Matlab,..)",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Khái niệm cơ bản của phương trình vi phân và ứng dụng trong thực tiễn | 3/6 |  |\n| MH1.2 | Các phương pháp số cơ bản cho phương trình vi phân. | 3/6 |  |\n| MH1.3 | Phân tích, đánh giá sự ổn định, hội tụ và sai số | 3/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Lập trình | 3/5 |  |\n| MH2.2 | Liên hệ phương trình vi phân và một số ứng dụng trong thực tế | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Tham gia đầy đủ các buổi học trên lớp và thảo luận ngoài giờ lên lớp. | 3/5 |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm vững kiến thức, thể hiện đã tiếp nhận những ý tưởng, phương pháp. | I, T, U | MH1.1; MH1.2; MH1.3 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP2 | Nâng cao và bổ sung năng lực, phong phú thêm trong trải nghiệm học tập | I, T, U | MH2.1;<br>MH2.2 |  |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 5 | CHP3 | Mạnh dạn tiếp xúc vấn đề mới, tự tin, cởi mở, tò mò, tôn trọng phong cách và quan điểm khác biệt | I, T, U | MH3 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình | X |  | X | X | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  | X | X | ĐG1.5 | 30% |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  | X | X | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần: Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: Bài toán giá trị đầu (IVP) | 1-7 |  | X | X |  |  |  |  |  |  |\n| Bài 1.1 Giới thiệu bài toán giá trị đầu – Initial Value Problem (IVP) và ý tưởng sử dụng phương pháp số để tìm nghiệm giải số | 1-2 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.2: Phương pháp Euler | 3-4 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.3: Các phương pháp cải thiện cho phương pháp Euler | 5-6 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.4: Phương pháp Runge-Kutta | 7-8 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Chương 2: Bài toán giá trị biên (BVP) | 9-15 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 2.1: Giới thiệu bài toán giá trị biên | 9-10 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 2.2: Phương pháp shooting | 11-12 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 2.3: Phương pháp sai phân hữu hạn | 13-14 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Ôn tập | 15 |  |  |  |  |  |  |  |  |  |\n| Tổng cộng số tiết |  |  | 45 | 15 |  |  |  |  |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Kendall Atkinson, Weimin Han, David Stewart | 2009 | Numerical Solution of Ordinary Differential Equations | John Wiley & Sons, Inc | Giáo trình chính | …. |\n| 2 | Qingkai Kong, Timmy Siauw, Alexandre Bayen | 2020 | Python Programming and Numerical methods | Academic Press | Giáo trình chính | …. |\n| 3 | K.W. Morton, D. F. Mayers | 2005 | Numerical Solution of Ordinary Differential Equations | Cambridge University Press | Giáo trình chính |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Phương pháp số cho phương trình vi phân |  | X |  |  |  | X |  |  | X | X | X |"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Thị Hoài Thương.",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Giải tích, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Giải tích, E201A, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10410.",
+      "Tên học phần: Giải tích số",
+      "Tên học phần bằng tiếng Anh: Numerical analysis",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 3.",
+      "Số tiết thực hành: 1.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết:",
+      "Các học phần học trước học phần này:",
+      "Học phần song hành:",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Môn học bao gồm các lý thuyết cơ bản về xấp xỉ và ứng dụng để xấp xỉ của đạo hàm, tích phân, trị riêng và đa thức nội suy. Phương pháp này đã được sử dụng giải các bài toán thực tế tương ứng với hiện tượng vật lý. Cuối cùng, chúng ta sử dụng ngôn ngữ lập trình (Matlab, Python,…) để mô phỏng các phương pháp xấp xỉ này."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Dẫn nhập những khái niệm cơ bản và phương pháp xấp xỉ của giải tích số, và cung cấp cho  sinh viên những công cụ để tìm giá trị xấp xỉ đạo hàm, tích phân, trị riêng và đa thức nội suy. Thông qua việc tìm các thuật toán giải những bài toán đặt ra học phần này muốn trang bị cho sinh viên tư duy giải quyết các bài toán thực tế dựa trên các kiến thức toán lý thuyết và phương tiện là ngôn ngữ lập trình.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Phân biệt khái niệm của sự xấp xỉ và các loại sai số. | 3/6 |  |\n| MH1.2 | Hiểu được các phương pháp xấp xỉ cơ bản nhất và các ứng dụng của nó. | 3/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2 | Sử dụng phần mềm tính toán | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng được các kiến thức về các loại sai số để đánh giá sai số của phương pháp xấp xỉ | I, T, U | MH1.1 |  |\n| 2 | CHP2 | Áp dụng các phương pháp xấp xỉ để tìm giá trị gần đúng của bài toán | I, T, U | MH1.2 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP3 | Sử dụng được phần mềm tính toán để mô phỏng giá trị xấp xỉ của bài toán | I, T, U | MH2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  | x | x | ĐG1.4 | 30% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  | x | x | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần: Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Sai số<br>Sai số tuyệt đối và sai số tương đối<br>Sai số chặt cụt<br>Khái niệm “Big O” | 1 | CHP1 | 5 | 0 | 0 | 5 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Phương pháp xấp xỉ đạo hàm<br>2.1. Tính gần đúng đạo hàm cấp 1<br>2.2.\tTính gần đúng đạo hàm cấp 2 | 2-3 | CHP1,<br>CHP2,<br>CHP3 | 5 | 5 | 0 | 10 | Thuyết giảng chủ động, thực hành | ĐG1, ĐG2 |\n| Chương 3: Đa thức nội suy<br>3.1. Đa thức nội suy Lagrange cấp 1<br>3.2.  Đa thức nội suy Lagrange cấp 2<br>3.3. Đa thức nội suy Lagrange cấp n | 4-6 | CHP1, CHP2,<br>CHP3 | 10 | 5 | 0 | 15 | Thuyết giảng chủ động, thực hành | ĐG1, ĐG2 |\n| Chương 4: Phương pháp xấp xỉ tích phân<br>4.1. Công thức Newton-Cotes đóng<br>4.2. Công thức Newton-Cotes mở<br>4.3. Phương pháp xĩ tích phân trên từng đoạn | 7-9 | CHP1, CHP2,<br>CHP3 | 10 | 5 | 0 | 15 | Thuyết giảng chủ động, thực hành | ĐG1, ĐG2 |\n| Chương 5: Trị riêng và vectơ riêng của ma trận<br>5.1.\tPhương pháp Power.<br>5.2. Phương pháp QR | 10 - 12 | CHP1, CHP2,<br>CHP3 | 5 | 10 | 0 | 15 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 6: Phương pháp bình phương tối thiểu<br>6.1. Sai số của phương pháp<br>6.2. Dạng tuyến tính của hệ cơ bản | 13-15 | CHP1, CHP2,<br>CHP3 | 10 | 5 | 0 | 15 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Richard L. Burden and J. Douglas Faires | 2010 | Numerical analysis, Ninth Edition | The Prindle, Weber and Schmidt Series in Mathematics PWS-Kent Publishing Company, Boston | Giáo trình chính |  |\n| 2 | T. Sauer | 2006 | Numerical Analysis. Pearson | Pearson Addison Wesley, | Tài liệu tham khảo |  |\n| 3 | Kincaid, W. Cheney | 1991 | Numerical Analysis. | Brooks/Cole Publishing Company | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Giải tích số |  |  | X |  |  | X |  |  | X | X | X |"
+    ]
+  }
+}

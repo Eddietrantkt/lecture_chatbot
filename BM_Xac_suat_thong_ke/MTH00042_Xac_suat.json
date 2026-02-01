@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Đặng Đức Trọng",
+      "Chức danh, học hàm, học vị: Giáo sư Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Xác Suất Thống Kê, khoa Toán Tin học, Trường: ĐHKHTN",
+      "Thời gian và địa điểm làm việc: ĐHKHTN, ĐHQG-HCM, 227 Nguyễn Văn Cừ, Tp HCM",
+      "Địa chỉ liên hệ:…",
+      "Điện thoại, email: ddtrong@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: …",
+      "Tên học phần: Xác suất",
+      "Tên học phần bằng tiếng Anh: Probability",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45",
+      "Số tiết thực hành: 0",
+      "Số tiết bài tập: 30",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [x]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không hoặc có, nếu có thì điền các thông tin sau",
+      "…….",
+      "…….",
+      "Các học phần học trước học phần này: không hoặc có, nếu có thì điền các thông tin sau",
+      "Vi tích phân 1A, Vi tích phân 2A, …….",
+      "…….",
+      "Học phần song hành: không hoặc có, nếu có thì điền các thông tin sau",
+      "…….",
+      "…….",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Xác suất Thống kê"
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung:…",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Có kiến thức đại cương về xác suất | 1,2 |  |\n| MH1.2 |  |  |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Ứng dụng được xác suất vào một số bài toán thực tiễn | 3,4 |  |\n| MH2.2 |  |  |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3… | Có khả năng học tập nghiên cứu lâu dài |  |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Có khái niệm về không gian xác suất | I | MH1.1;<br>… | CĐR1; CĐR2 |\n| 2 | CHP2 | Biết về biến ngẫu nhiên và phân phối | T | MH2.1 | CĐR2; CĐR3 |\n| 3 | CHP3 | Biết về luật số lớn và định lý giới hạn trung tâm | U |  | CĐR3 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP3 | Mô hình hóa được một số bài toán thực tế | T | MH2;<br>…. | CĐR2; CĐR3, CĐR5, CĐR7<br>… |\n| 4 | CHP4 | Ứng dụng tính khả năng xảy ra biến cố | U | MH2 | CĐR2; CĐR3, CĐR5, CĐR7 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 5 | CHP5 | Có khả năng giao tiếp xã hội, làm việc theo nhóm |  | MH3;<br>… | CĐR8, CĐR9,CĐR10<br>… |\n|  |  | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n| .. | .. |  |  |  |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) |  | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | x |  |  |  | ĐG1.1 |  | 30% |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | x |  |  |  | ĐG1.2 |  | 20% |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | x |  |  |  | ĐG2 |  | 50% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: Không gian xác suất | 1 | CĐR1 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.2, ĐG 1.1 |\n| Bài 1.1: Xác suất cổ điển | 1 | CĐR1 | 3 |  |  |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Bài 1.2: Không gian đo | 2 | CĐR1 | 3 |  |  |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Bài 1.3: Hàm đo được | 3 | CĐR1 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Bài 1.4: Tích phân Lebesgue | 4 | CĐR1 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Chương 2: Biến ngẫu nhiên | 5 | CĐR2 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 2.1. Biến ngẫu nhiên rời rạc | 5 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 2.2. Biến ngẫu nhiên liên tục. | 6 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 2.3. Biến đổi hàm mật độ | 7 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Chương 3: Các tham số đặc trưng |  | CĐR2 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 3.1. Kỳ vọng biến ngẫu nhiên rời rac | 8 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Bài 3.2: Kỳ vọng của biến ngẫu hiên liên tục | 9 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Bài 3.3. Các tham số trung bình, phương sai, hàm sinh moment | 10 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Chương 4: Tính độc lập |  | CĐR2 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.1, ĐG 2 |\n| Bài 4.1. Biến ngẫu nhiên nhiều chiều. Tính độc lập | 11 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Các phân phối mẫu | 12 | CĐR2 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Chương 5: Các định lý giới hạn |  | CĐR3 | 3 |  | 3 |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.1, ĐG 2 |\n| Luật số lớn | 13 | CĐR3 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Định lý giới hạn trung tâm | 14 | CĐR3 | 3 |  |  |  |  |  |  | ĐG 2 |\n|  |  |  |  |  |  |  |  |  |  |  |\n| Ôn tập | 15 |  | 3 |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |\n| Tổng cộng số tiết |  |  | 45 | … | 30 | … | … | … |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Đặng Đức Trọng, Đinh Ngọc Thanh | … | Độ đo xác suất | ĐHQG-HCM | Tài liệu tham khảo | …. |\n| 2 | Đặng Đức Trọng | … | Đề cương xác suất |  | Giáo trình chính | …. |\n| 3 |  | … | … |  | Tài liệu tham khảo | …. |\n| 4 | … | … | … |  | Tài liệu tham khảo | …. |\n| 5 | … | … | … |  | Khác | …. |\n| … | … | … | … |  | … | … |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80%",
+      "Dự lớp thực hành tối thiểu:….",
+      "Dự lớp bài tập tối thiểu: 80%….",
+      "Dự lớp thảo luận tối thiểu:…",
+      "Yêu cầu khác:….",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Đặng Đức Trọng",
+      "Chức danh, học hàm, học vị: Giáo sư Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Xác Suất Thống Kê, khoa Toán Tin học, Trường: ĐHKHTN",
+      "Thời gian và địa điểm làm việc: ĐHKHTN, ĐHQG-HCM, 227 Nguyễn Văn Cừ, Tp HCM",
+      "Địa chỉ liên hệ:…",
+      "Điện thoại, email: ddtrong@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: …",
+      "Tên học phần: Máy học thống kê",
+      "Tên học phần bằng tiếng Anh: Statistical learning",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45",
+      "Số tiết thực hành: 0",
+      "Số tiết bài tập: 30",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không hoặc có, nếu có thì điền các thông tin sau",
+      "…….",
+      "…….",
+      "Các học phần học trước học phần này: không hoặc có, nếu có thì điền các thông tin sau",
+      "Vi tích phân 1A, Vi tích phân 2A, Xác suất, Thống kê…….",
+      "…….",
+      "Học phần song hành: không hoặc có, nếu có thì điền các thông tin sau",
+      "…….",
+      "…….",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Xác suất Thống kê"
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung:…",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Có kiến thức đại cương về máy học thống kê | 1,2 |  |\n| MH1.2 |  |  |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Ứng dụng được máy học thống kê vào một số bài toán thực tiễn | 3,4 |  |\n| MH2.2 |  |  |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3… | Có khả năng học tập nghiên cứu lâu dài |  |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Biết khái niệm về hồi quy | I | MH1.1;<br>… | CĐR1; CĐR2 |\n| 2 | CHP2 | Biết về hồi quy suy rộng | T | MH2.1 | CĐR2; CĐR3 |\n| 3 | CHP3 | Biết về các phương pháp máy học khác | U |  | CĐR3 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 4 | CHP4 | Mô hình hóa được một số bài toán thực tế | T | MH2;<br>…. | CĐR2; CĐR3, CĐR5, CĐR7<br>… |\n| 5 | CHP5 | Ứng dụng phân tích được một số bài toán tài chính | U | MH2 | CĐR2; CĐR3, CĐR5, CĐR7 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 6 | CHP6 | Có khả năng giao tiếp xã hội, làm việc theo nhóm |  | MH3;<br>… | CĐR8, CĐR9,CĐR10<br>… |\n|  |  | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n| .. | .. |  |  |  |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) |  | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | x |  |  |  | ĐG1.1 |  | 30% |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | x |  |  |  | ĐG1.2 |  | 20% |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | x |  |  |  | ĐG2 |  | 50% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: K-lân cận gần nhất | 1 | CHP1, CHP4,CHP5,CHP6 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.2, ĐG 1.1 |\n| Bài 1.1: Phân loại Bayes | 1 | CHP1, CHP4,CHP5,CHP6 | 3 |  |  |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Bài 1.2: Phân loại KNN | 2 | CHP1, CHP4,CHP5,CHP6 | 3 |  |  |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Bài 1.3: Hồi quy KNN | 3 | CHP1, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Bài 1.4: Hồi quy KNN (tiếp) | 4 | CHP1, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1 |\n| Chương 2: Cây quyết định | 5 | CHP2, CHP4,CHP5,CHP6 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 2.1. Xây dựng cây quyết định | 5 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 2.2. Rừng ngẫu nhiên (random forest) | 6 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 2.3. Bootsting | 7 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Chương 3: Phân tích thành phần chính |  | CHP2, CHP4,CHP5,CHP6 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n| Bài 3.1. Loading và score | 8 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Bài 3.2: Biplots | 9 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Bài 3.3. Tỉ lệ phương sai | 10 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Chương 4: Phân tích chùm |  | CHP2, CHP4,CHP5,CHP6 |  |  |  |  |  |  | Soạn hệ thống bài tập để sinh viên tự giải bài tập,thảo luận | ĐG 1.1, ĐG 2 |\n| Bài 4.1. Phân chùm K-mean | 11 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Bài 4.2 Phân chùm lồng nhau | 12 | CHP2, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Bài 4.3 Sử dụng phân chùm | 13 | CHP3, CHP4,CHP5,CHP6 | 3 |  | 3 |  |  |  |  | ĐG 1.1, ĐG 2 |\n| Ôn tập | 14 | CHP3, CHP4,CHP5,CHP6 |  |  |  |  |  |  |  | ĐG 1.2, ĐG 1.1<br>ĐG2 |\n|  |  |  |  |  |  |  |  |  |  |  |\n| Ôn tập | 15 |  | 3 |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |\n| Tổng cộng số tiết |  |  | 45 | … | 30 | … | … | … |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Đặng Đức Trọng | 2024 | Máy học thống kê | ĐHQG-HCM | Giáo trình chính | …. |\n| 2 | Abraham Weishaus | 2018 | SOA Exam SRM | a/s/m Actuarial Study Materials | Tài liệu tham khảo | …. |\n| 3 | Edward W. Frees | 2010 | Regression Modeling with Actuarial and Financial Applications | Cambridge | Tài liệu tham khảo | …. |\n| 4 | … | … | … |  | Tài liệu tham khảo | …. |\n| 5 | … | … | … |  | Khác | …. |\n| … | … | … | … |  | … | … |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80%",
+      "Dự lớp thực hành tối thiểu:….",
+      "Dự lớp bài tập tối thiểu: 80%….",
+      "Dự lớp thảo luận tối thiểu:…",
+      "Yêu cầu khác:….",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "Thông tin về giảng viên": [
+      "Họ và tên: Trịnh Thanh Đèo",
+      "Chức danh, học hàm, học vị: Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Đại số, Khoa Toán-Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG-HCM",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh",
+      "Điện thoại, email: ttdeo@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10421",
+      "Tên học phần: Đại số hiện đại",
+      "Tên học phần bằng tiếng Anh: Modern Algebra",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60",
+      "Số tiết thực hành: 0",
+      "Số tiết bài tập: 0",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: có,",
+      "Đại số đại cương",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Đại số"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần trang bị các kiến thức cơ bản về các định lý về sự đẳng cấu nhóm, các định lý Sylow về nhóm hữu hạn, nhóm giải được, nhóm lũy linh, nhóm aben hữu hạn sinh, nhóm aben tự do và nhóm tự do; các định lý về sự đẳng cấu vành, đa thức trên vành giao hoán, vành Noether giao hoán, định lý cơ sở Hilbert, miền nguyên các ideal chính, miền nguyên Euclid, miền nguyên nhân tử hoá, miền nguyên Dedekind. Sinh viên cần biết các kiến thức cơ bản về nhóm, vành, trường để có thể theo học được học phần này."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên sẽ vận dụng các kiến thức về nhóm, vành, trường để nghiên cứu chuyên sâu về một số lớp nhóm cũng như một số lớp vành và miền nguyên đặc biệt.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm vững các khái niệm cơ bản về nhóm, vành, trường. | 2/6 |  |\n| MH1.2 | Nắm vững các kiến thức nâng cao về nhóm, vành và miền nguyên. | 3/6 |  |\n| MH1.3 | Vận dụng các kiến thức nâng cao về nhóm, vành và miền nguyên để giải toán. | 4/6 |  |\n| MH1.4 | Vận dụng các kiến thức nâng cao về nhóm, vành và miền nguyên để giải các bài toán nâng cao và bài toán mở. | 5/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Sử dụng thành thạo các kỹ năng suy luận toán học để phân tích và giải toán. | 3/5 |  |\n| MH2.2 | Có khả năng đọc, hiểu tài liệu toán học bằng tiếng nước ngoài; có kỹ năng làm việc độc lập, kỹ năng làm việc nhóm, kỹ năng quản lý thời gian, kỹ năng tư duy logic để phân tích và giải toán. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần chủ động, sáng tạo, hợp tác, tự thích nghi và tự điều chỉnh. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung<br>CĐR học phần | Mức độ giảng dạy<br>(I, T, U)* | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm vững các kiến thức cơ bản về nhóm, vành, trường để giải toán | I, T, U | MH1.1 |  |\n| 2 | CHP2 | Nắm vững các kiến thức nâng cao về nhóm, vành và miền nguyên để giải toán. | I, T, U | MH1.2<br>MT2.1 |  |\n| 3 | CHP3 | Vận dụng các kiến thức nâng cao về nhóm, vành và miền nguyên để giải toán. | I, T, U | MH1.3, MH2.1, MT3.1 |  |\n| 4 | CHP4 | Vận dụng các kiến thức nâng cao về nhóm, vành và miền nguyên để giải các bài toán nâng cao và bài toán mở. | I, T, U | MH1.4, MH2.1, MH3.1 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Có khả năng đọc, hiểu tài liệu toán học bằng tiếng nước ngoài; có kỹ năng làm việc độc lập, kỹ năng làm việc nhóm, kỹ năng quản lý thời gian, kỹ năng tư duy logic để phân tích và giải toán. | I, T, U | MH2.1, MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 10% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phương pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1. Nhóm | 1 – 8 |  | 32 | 0 | 0 | 32 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1. Các định lý về sự đẳng cấu nhóm | 1 | CHP1, CHP2 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2. Tác động của nhóm lên tập hợp | 2 | CHP1-2 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3. Các định lý Sylow đối với nhóm hữu hạn | 3 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4. Nhóm giải được | 4 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 5. Nhóm lũy linh | 5 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 6. Nhóm aben hữu hạn sinh | 6 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 7. Nhóm aben tự do | 7 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 8. Nhóm tự do | 8 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Vành và miền nguyên | 9-15 |  | 28 | 0 | 0 | 28 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1. Các định lý về sự đẳng cấu vành | 9 | CHP1-2 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2. Đa thức trên vành giao hoán | 10 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3. Vành Noether giao hoán | 11 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4. Miền nguyên các ideal chính | 12 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 5. Miền nguyên Euclid | 13 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 6. Miền nguyên nhân tử hóa | 14 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 7. Miền nguyên Dedekind | 15 | CHP2-5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên<br>Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Bùi Xuân Hải (chủ biên), Trịnh Thanh Đèo | 2002 | Đại số hiện đại | NXB<br>ĐHQG-HCM | Giáo trình chính |  |\n| 2 | Joseph J. Rotman | 1994 | An Introduction to the Theory of Groups, 4th ed., | Spriger-Verlag | Tài liệu<br>tham khảo |  |\n| 3 | S. Lang | 1965 | Algebra | Addison-Wesley | Tài liệu<br>tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: 70% số tiết học.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

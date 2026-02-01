@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Văn Thìn (A).",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Đại số, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Đại số, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH",
+      "Tên học phần: Lý thuyết số.",
+      "Tên học phần bằng tiếng Anh: Number Theory.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:",
+      "Các học phần tiên quyết: Toán rời rạc.",
+      "Các học phần học trước học phần này: có,",
+      "Đại số đại cương.",
+      "Toán rời rạc.",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):",
+      "Bộ môn phụ trách học phần: Bộ môn đại số."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên giải quyết được một số bài toán số học, giải được phương trình đồng dư bậc một. Vận dụng được định lý dư số trung hoa để giải quyết hệ phương trình đồng dư, nắm vững sự phân bố của số nguyên tố và thuật toán tìm số nguyên tố lớn.  Vận dụng các hàm số học và ứng dụng các hàm số học trong các thuật toán tính toán trên số nguyên lớn và trong lý thuyết mật mã. Viết được thuật toán giải các bài toán mật mã cơ bản.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Giải các bài toán số học và phương trình đồng dư bậc một. | 4/6 |  |\n| MH1.2 | Giải hệ phương trình đồng dư. | 4/6 |  |\n| MH1.3 | Hiểu cấu trúc vành  và ứng dụng của vành trong các định lý về lý thuyết số cổ điển. | 4/6 |  |\n| MH1.4 | Hiểu xác suất phân bố của số nguyên tố và xây dựng được thuật toán tìm số nguyên tố với xác suất lớn. | 4/6 |  |\n| MH1.5 | Viết được thuật toán sàng nguyên tố Eratosthenes. | 4/6 |  |\n| MH1.6 | Hiểu được khái niệm cơ bản lý thuyết mật mã và viết được thuật toán cơ bản về mật mã. | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Sử dụng phần mềm Python. | 3/5 |  |\n| MH2.2 | Ứng dụng công nghệ thông tin vào Lý thuyết số. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Giải các bài toán số học và phương trình đồng dư bậc một. | T, U | MH1.1,<br>MH1.3<br>MH3 |  |\n| 2 | CHP2 | Giải hệ phương trình đồng dư. | T, U | MH1.2,<br>MH1.3<br>MH3 |  |\n| 3 | CHP3 | Hiểu cấu trúc vành  và ứng dụng của vành trong các định lý về lý thuyết số cổ điển. | I, T | MH1.1,<br>MH1.3<br>MH3 |  |\n| 4 | CHP4 | Xây dựng được thuật toán tìm số nguyên tố với xác suất lớn  và thuật toán sàng nguyên tố Eratosthenes. | I, T | MH1.4,<br>MH1.5 <br>MH2.1,<br>MH2.2, MH3 |  |\n| 5 | CHP5 | Viết được thuật toán cơ bản về mật mã. | I, T | MH1.6,<br>MH2.1 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 6 | CHP6 | Sử dụng được phần mềm Python để viết chương trình thuật toán. | I, T, U | MH2.1, MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 25% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 20% | Giải bài tập |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 5% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Tính chất của số nguyên<br>Sự chia hết.<br>Phép chia Euclide.<br>Hệ cơ số.<br>Ước số chung lớn nhất và bội số chung nhỏ nhất.<br>Nguyên tố và nguyên tố cùng nhau.<br>Sự phân tích ra thừa số nguyên tố. | 1, 2 | CHP1 | 8 | 0 | 0 | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Vành Zn và đồng dư<br>2.1. Quan hệ tương đương.<br>2.2. Vành Zn.<br>2.3. Tính khả nghịch trong Zn.<br>2.4. Một số định lý trong số học. | 3, 4, 5 | CHP1, CHP2, CHP3 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: Hàm số học và nghiệm nguyên thủy<br>3.1. \tHàm phi Euler.<br>3.2.\tHàm số học.<br>3.3. \tHàm tổng các ước số và  hàm số các ước số.<br>3.4. Cấp của số nguyên và nghiệm nguyên thủy.<br>3.5. Nghiệm nguyên thủy của số nguyên tố. | 6, 7, 8, 9 | CHP1, CHP3 | 16 | 0 | 0 | 16 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 4: Thặng dư bình phương và khái niệm mật mã<br>4.1. \tThặng dư bình phương. <br>4.2. \tKý hiệu Legendre.<br>4.3. \tKý hiệu Jacobi. <br>4.4. Thuật toán bình phương và nhân.<br>4.5. Mật mã khóa công khai. | 10, 11, 12 | CHP1, CHP3,<br>CHP5, CHP6 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 5: Phân bố số nguyên tố<br>5.1.\tXác suất xuất hiện số nguyên tố.<br>5.2. Bổ đề mũ.<br>5.3. Định đề Bertrand.<br>5.4. Định lý Fermat về tổng bình phương 2 số chính phương.<br>5.5. Số giả nguyên tố.<br>5.6. Thuật toán Sàng nguyên tố Eratosthenes. | 13, 14, 15 | CHP1, CHP3, CHP4, CHP5 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Kenneth H.Rosen | 1984 | Elementary Number Theory and Its Applications | Addison-Wesley Publishing Company | Giáo trình chính | Thư viện |\n| 2 | Hà Huy Khoái, Phạm Huy Điển | 1998 | Applied statistics and probability for engineers | NXB Đại Học Quốc Gia Hà Nội | Tài liệu tham khảo |  |\n| 3 | David M.Burton | 2016 | Elementary Number Theory | Universiry Of New Hampshire | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày 26  tháng 07 năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

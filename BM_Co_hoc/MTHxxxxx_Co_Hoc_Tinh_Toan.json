@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Vũ Đỗ Huy Cường",
+      "Chức danh, học hàm, học vị: Giảng viên, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Cơ học, khoa Toán – Tin học, Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM",
+      "Thời gian và địa điểm làm việc: Văn phòng Bộ môn Cơ học, khoa Toán – Tin học.",
+      "Địa chỉ liên hệ: Văn phòng Bộ môn Cơ học, khoa Toán – Tin học.",
+      "Điện thoại: 0938021754\tEmail: vdhcuong@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail): không có"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: Chưa có",
+      "Tên học phần: Cơ học tính toán",
+      "Tên học phần bằng tiếng Anh: Computational Mechanics",
+      "Số tín chỉ: 3 (3 lý thuyết)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45",
+      "Số tiết thực hành: 0",
+      "Số tiết bài tập: 0",
+      "Khác: 0",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: không",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có): không có",
+      "Bộ môn phụ trách học phần: Bộ môn Cơ học"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Môn học giúp cho sinh viên có cái nhìn ban đầu về bức tranh toàn diện của toán ứng dụng qua những vấn đề từ đơn giản đến phức tạp trải rộng khắp các lĩnh vực của đời sống và khoa học kĩ thuật. Môn học trang bị cho sinh viên các kiến thức cơ bản về mô hình hóa và những kĩ năng cơ bản của việc mô phỏng qua việc sử dụng các phần mềm thương mại để giải quyết các bài toán cơ học cả về vật rắn biến dạng lẫn động lực học chất lỏng. Điều này sẽ giúp ích cho sinh viên trong các hoạt động nghiên cứu những vấn đề ứng dụng các vấn đề kĩ thuật trong cuộc sống."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: : Giúp cho sinh viên thấy được vai trò và nhiệm vụ của toán học ứng dụng qua những bài toán trong đời sống và khoa học kĩ thuật. Đề xuất những mô hình toán học và những phương pháp mô phỏng và các phần mềm tính toán để giải quyết một số bài toán cơ học kĩ thuật.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm vững các khái niệm cơ bản về mô phỏng số, phân tích các mô hình toán trong cơ học | 4/6 |  |\n| MH1.2 | Nắm vững khái niệm và vận dụng các phương pháp tính toán, mô phỏng hiện đại như Phương pháp phần tử hữu hạn (FEM), tính toán động học chất lỏng (CFD) | 5/6 |  |\n| MH1.3 | Nắm vững cách sử dụng phần mềm máy tính để giải quyết các bài toán cơ học và kĩ thuật | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Sử dụng thành thạo máy tính và phần mềm tính toán để mô phỏng và giải quyết các bài toán cơ học | 4/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần chủ động, sáng tạo, cộng tác. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm được các kiến thức nền tảng mô phỏng số dùng phần mềm máy tính. | I | MH1.1 | CCT1.4 |\n| 2 | CHP2 | Nắm vững được các loại bài toán kĩ thuật và các phương pháp tính toán hiện đại tương ứng | I,T | MH1.2 | CCT1.4 |\n| 3 | CHP3 | Thực hiện các quy trình thiết lập và tính toán mô phỏng các bài toán cơ học, kĩ thuật dùng phần mềm máy tính. | I,T,U | MH1.3 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP4 | Sử dụng phần mềm máy tính để thực hiện các bài toán mô phỏng | I,T,U | MH2.1 | CCT2.1 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 4 | CHP5 | Có tinh thần chủ động và sáng tạo trong công việc |  | MH3.1 | CCT3.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  | X |  | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  | X |  | ĐG1.4 | 30% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  | X |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Giới thiệu chung <br>Các bài toán cơ học, kĩ thuật thường gặp.<br>Các phương pháp tính toán và mô phỏng thường gặp<br>Giới thiệu một số phần mềm tính toán trên thị trường | 1 – 3 | CHP1, CHP2 | 6 | 0 | 3 | 18 | Thuyết giảng chủ động, bài tập | ĐG1.2<br>ĐG1.4 |\n| Chương 2: Tính toán vật rắn biến dạng<br>2.1. Các bài toán vật rắn biến dạng thường gặp<br>2.2.\tCác phần mềm tính toán chuyên dụng cho tính toán vật rắn biến dạng. | 4-8 | CHP2<br>CHP3<br>CHP4<br>CHP5 | 6 | 0 | 9 | 30 | Thuyết giảng chủ động, bài tập | ĐG1.2<br>ĐG1.4 |\n| Chương 3: Tính toán động lực học chất lỏng<br>3.1. Các bài toán động lực học chất lỏng thường gặp.<br>3.2.\tCác phần mềm tính toán chuyên dụng cho tính toán động lực học chất lỏng. | 9-13 | CHP2<br>CHP3<br>CHP4<br>CHP5 | 6 | 0 | 9 | 30 | Thuyết giảng chủ động, bài tập | ĐG1.2<br>ĐG1.4 |\n| Chương 4: Một số vấn đề khác<br>4.1. \tTính toán song song <br>4.2. \tTính toán hiệu năng cao<br>4.3. \tTối ưu trong tính toán. | 14-15 | CHP2<br>CHP3<br>CHP4 | 3 | 0 | 3 | 12 | Thuyết giảng chủ động, bài tập | ĐG1.4 ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Vũ Đỗ Huy Cường | 2023 | Giáo trình Cơ học tính toán | Tài liệu nội bộ | Giáo trình chính | Bộ môn Cơ học |\n| 2 | Y.C.Fung and Pin Tong | 2001 | Classical and computational solid mechanics | World Scientific | Giáo trình chính | Bộ môn Cơ học |\n| 3 | H.K Versteeg and W.Malalasekera | 1995 | An introduction to Computational Fluid Dynamics | Prentice Hall | Tài liệu tham khảo | Bộ môn Cơ học |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 75%",
+      "Dự lớp thực hành tối thiểu: 75%",
+      "Dự lớp bài tập tối thiểu: không có",
+      "Dự lớp thảo luận tối thiểu: không có",
+      "Yêu cầu khác: không có",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Cơ học tính toán |  |  |  | X |  | X |  |  |  | X |  |"
+    ]
+  }
+}

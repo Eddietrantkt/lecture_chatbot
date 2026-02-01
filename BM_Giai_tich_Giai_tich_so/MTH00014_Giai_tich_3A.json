@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Huỳnh Quang Vũ",
+      "Chức danh, học hàm, học vị: Giảng viên, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Giải tích, Khoa Toán - Tin học",
+      "Thời gian và địa điểm làm việc: Phòng E201, 227 Nguyễn Văn Cừ, Quận 5",
+      "Địa chỉ liên hệ: Khoa Toán - Tin học,  227 Nguyễn Văn Cừ, Quận 5",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH00014",
+      "Tên học phần: Giải tích 3A",
+      "Tên học phần bằng tiếng Anh: Analysis 3A",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 3",
+      "Số tiết thực hành: …",
+      "Số tiết bài tập: 1",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức:",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết:",
+      "Các học phần học trước học phần này: MTH00010 Giải tích 1A, MTH00011 Vi tích phân 1A, MTH00013 Vi tích phân 2A",
+      "Học phần song hành: …",
+      "Các yêu cầu khác:………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích"
+    ],
+    "Mô tả vắn tắt nội dung học phần:": [
+      "Môn học về Tích phân bội (tích phân Riemann của hàm nhiều biến) và Giải tích vectơ (phép tính vi tích phân trên đường và mặt trong không gian Euclid hai và ba chiều). Môn này tiếp nối các môn học Vi tích phân 1 và Vi tích phân 2, là kiến thức căn bản cho trình độ đại học các ngành Khoa học Kỹ thuật. Là môn đại cương cho các ngành Toán học, Toán tin, Toán ứng dụng, môn học yêu cầu tính chặt chẽ, chính xác, tổng quát cao hơn so với môn tương ứng cho các ngành khác. Môn học cung cấp cơ sở cho các khảo sát dùng  tích phân (trong các môn như Xác suất, Giải tích hàm), cho các khảo sát bằng mô hình toán học dùng công cụ Vi Tích phân (trong Cơ học, Thống kê, Phương trình toán lý, Phương trình đạo hàm riêng, Tính toán khoa học, Máy học, ...), cho các phát triển toán học (trong Giải tích, Hình học, …) và Vật lý."
+    ],
+    "Mục tiêu của học phần": [
+      "Người học có kiến thức và kỹ năng phù hợp nhóm ngành Toán học, Toán tin, Toán ứng dụng, tương đồng quốc tế, về tích phân Riemann của hàm nhiều biến và các mối quan hệ giữa phép tính vi phân và phép tích phân của hàm nhiều biến cho các đường và mặt trong không gian Euclid hai và ba chiều, hình thành thái độ học tập tích cực.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Tích phân Riemann của hàm với số biến nguyên dương bất kì, thể tích Riemann, tính chất, công cụ tính toán, và ứng dụng. Trình bày một cách chặt chẽ chính xác. | biết,  hiểu, vận dụng (3/6); phân tích, đánh giá, sáng tạo đối với sinh viên giỏi (6/6) |  |\n| MH1.2 | Phép tính vi phân và tích phân trên đường, miền, mặt, và khối trong không gian Euclid hai và ba chiều, các định lý cơ bản liên hệ, công cụ tính toán, và ứng dụng. Trình bày một cách chặt chẽ chính xác. | biết,  hiểu, vận dụng (3/6); phân tích, đánh giá, sáng tạo đối với sinh viên giỏi (6/6) |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Làm thành thạo tính toán, làm lý luận toán học đơn giản | làm thuần thục tính toán cơ bản (5/5), áp dụng chính xác lý luận toán học (3/5) |  |\n| MH2.2 | Dùng công cụ máy tính để tính toán | làm chính xác, phối hợp (4/5) |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Thấy được nhu cầu và hiệu quả của phát triển toán học để giải quyết những vấn đề ứng dụng, từ đó có thái độ học tập tích cực, nghiêm túc, chủ động, tự giác | tiếp nhận, phản hồi, cải thiện, điều chỉnh, hấp thụ (3/5) |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1.1 | Trình bày và sử dụng được điều kiện khả tích, điều kiện có thể tích, tính chất của tích phân Riemann | I, T, U | MH1.1 | CCT1.2, 2.3, 2.4, 3.1 |\n| 2 | CHP1.2 | Vận dụng thuần thục các công cụ để tính tích phân bội, bao gồm công thức Fubini, công thức đổi biến | I, T, U | MH1.1 | CCT1.2, 2.1, 2.3, 2.4, 3.1 |\n| 3 | CHP1.3 | Vận dụng giải một số bài toán ứng dụng gồm tính tổng giá trị, giá trị trung bình, tâm khối lượng, xác suất liên tục | I, T, U | MH1.1 | CCT1.2, 2.1, 2.3, 2.4, 3.1 |\n| 4 | CHP1.4 | Vận dụng thuần thục các công cụ để tính tích phân đường, tích phân mặt, bao gồm công cụ hàm thế và trường bảo toàn, công thức Green, công thức Stokes, công thức Gauss-Ostrogradsky | I, T, U | MH1.2 | CCT1.2, 2.1, 2.3, 2.4, 3.1 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP2.1 | Làm được lý luận và biến đổi đơn giản trên kí hiệu không thuần túy tính toán số | I, T, U | MH2.1 | CCT1.2, 2.3, 2.4, 3.1 |\n| 6 | CHP2.2 | Thực hành sử dụng máy tính để làm các tính toán tích phân và vẽ hình để minh họa và thiết lập tích phân | I, T, U | MH2.2 | CCT1.2, 2.1, 2.3, 2.4, 3.1 |"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 30% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần": [
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Phần 1: Tích phân bội |  |  |  |  |  |  |  |  |\n| Bài 1: Tích phân trên hình chữ nhật: Tích phân Riemann trên hình hộp: định nghĩa chính xác thông qua tổng trên tổng dưới (Darboux). | 1 | CHP1.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 2: Điều kiện khả tích:  chứng minh hàm liên tục thì khả tích, thể tích không, độ đo không, phát biểu điều kiện cần và đủ cho khả tích (không cần chứng minh). Tích phân trên miền tổng quát. | 2 | CHP1.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 3: Tích phân trên miền tổng quát (tiếp theo): Thể tích, điều kiện có thể tích, các tính chất của tích phân. Kiểm tra sự khả tích của các hàm thường gặp, sự có thể tích của các hình thường gặp. | 3 | CHP1.1, 2.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 4: Công thức Fubini: chứng minh chặt chẽ. | 4 | CHP1.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 4: Công thức Fubini (tiếp theo). Phương pháp cắt lớp. | 5 | CHP1.2 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 5: Công thức đổi biến: ôn tập về vi phân hàm nhiều biến, công thức đổi biến (không chứng minh nhưng có giải thích). | 6 | CHP1.2 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 5: Công thức đổi biến (tiếp theo): tọa độ cực, tọa độ cầu, các phép đổi biến khác. | 7 | CHP1.2, 2.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 6: Ứng dụng: tổng giá trị, giá trị trung bình, ứng dụng trong vật lí (tâm khối lượng), xác suất (tính tích phân của exp(-x^2)). Ôn tập. | 8 | CHP1.3, 2.2 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán, làm việc trên đồ án nhóm | ĐG1.2 |\n| Kiểm tra giữa kì |  |  |  |  |  |  |  | ĐG1.1 |\n| Phần 2: Giải tích vectơ |  |  |  |  |  |  |  |  |\n| Bài 7: Tích phân đường: ý nghĩa, sự phụ thuộc vào tham số hóa (phát biểu chặt chẽ, không cần chứng minh), miêu tả trực quan và tính toán. | 9 | CHP1.4 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 8: Công thức Newton-Leibniz. Trường bảo toàn. | 10 | CHP1.4, 2.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 9: Công thức Green: chứng minh chặt chẽ, miêu tả trực quan. Điều kiện đủ để trường phẳng là bảo toàn. Xét tính bảo toàn của trường vectơ bằng tính toán và trực quan. | 11 | CHP1.4, 2.1 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 10: Tích phân mặt: ý nghĩa, sự phụ thuộc vào tham số hóa phát biểu chặt chẽ, không cần chứng minh, miêu tả trực quan và tính toán. | 12 | CHP1.4 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 11: Công thức Stokes: chứng minh chặt chẽ, miêu tả trực quan. | 13 | CHP1.4 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Bài 12: Công thức Gauss-Ostrogradsky: chứng minh chặt chẽ, miêu tả trực quan. Ý nghĩa của div và curl. Sự thống nhất của các định lí cơ bản của Giải tích vectơ. Sơ nét ứng dụng của Giải tích vectơ. | 14 | CHP1.4, 2.2 | 3 |  | 2 | 5 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán, làm việc trên đồ án nhóm | ĐG1.2 |\n| Ôn tập | 15 |  | 3 |  | 2 | 5 |  | ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Huỳnh Quang Vũ | 2017 | Giáo trình Giải tích 3 | NXB ĐHQG TPHCM | Giáo trình chính | Bài giảng có ở https://sites.google.com/view/hqvu/teaching |\n| 2 | James Stewart | 2012 | Calculus | Brooks/Cole | Tài liệu tham khảo | Có bản dịch tiếng Việt cho lần xuất bản thứ 7, Nhà xuất bản Hồng Đức 2016 |\n| 3 | Nguyễn Đình Phư, Nguyễn Công Tâm, Đinh Ngọc Thanh and Đặng Đức Trọng | 2002 | Giáo trình giải tích hàm nhiều biến | NXB ĐHQG TPHCM | Tài liệu tham khảo |  |\n| 4 | Gerald B. Folland | 2001 | Advanced Calculus | Pearson | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 36 tiết",
+      "Dự lớp thực hành tối thiểu: …",
+      "Dự lớp bài tập tối thiểu: 24 tiết",
+      "Dự lớp thảo luận tối thiểu: …",
+      "Yêu cầu khác: …",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Giải tích 3A |  | X |  |  |  | X | X | X | X | X | X |"
+    ]
+  }
+}

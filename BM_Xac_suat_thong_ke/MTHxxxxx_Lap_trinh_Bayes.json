@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "Thông tin về giảng viên": [
+      "Họ và tên: Tô Đức Khánh",
+      "Chức danh, học hàm, học vị: Tiến Sĩ",
+      "Đơn vị công tác: Bộ môn Xác suất-Thống kê, Khoa Toán-Tin học, Trường Đại Học Khoa Học Tự Nhiên, Đại Học Quốc Gia Tp. Hồ Chí Minh",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Xác suất-Thống kê, Khoa Toán-Tin học, Trường Đại Học Khoa Học Tự Nhiên, 227 Nguyễn Văn Cừ, Quận 5, Tp. Hồ Chí Minh",
+      "Điện thoại: (+84) 973406479, email: tdkhanh@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTHxxxxx",
+      "Tên học phần: Mô hình Bayes 1",
+      "Tên học phần bằng tiếng Anh: Bayesian Models 1",
+      "Số tín chỉ: 04 (3 LT + 1 TH)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45",
+      "Số tiết thực hành/bài tập: 30",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương: □",
+      "Kiến thức cơ sở ngành: □",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ: □",
+      "Khóa luận tốt nghiệp: □",
+      "Các học phần tiên quyết: không có",
+      "Các học phần học trước học phần này:",
+      "Giải tích A1, A2",
+      "Lý thuyết độ đo và Xác suất",
+      "Lý thuyết thống kê",
+      "Thống kê Toán nâng cao",
+      "Học phần song hành: không",
+      "Các yêu cầu khác: không",
+      "Bộ môn phụ trách học phần: Bộ môn Xác suất-Thống kê, khoa Toán-Tin học"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Suy luận thống kê Bayes (Bayesian Statistical Inference) là một trong hai nhánh chính của thống kê suy luận (song song với thống kê suy luận tần số). Suy luận thống kê Bayes đã và đang được ứng dụng trong nhiều lĩnh vực nghiên cứu khác nhau, bao gồm: khoa học cơ bản, kỹ thuật, triết học, y học, thể thao và luật. Trong lý thuyết quyết định, suy luận Bayes có liên quan chặt chẽ với xác suất chủ quan, thường được gọi là “xác suất Bayes”. Đặc biệt, suy luận thống kê Bayes cũng là một trong những phương pháp được sử dụng nhiều trong máy học, và trí tuệ nhân tạo.",
+      "Học phần này trang bị cho sinh viên các kiến thức cở sở của suy luận thống kê Bayes nói chung và lập trình Bayes nói riêng, bao gồm ba phần chính: (i) giới thiệu các khái niệm cơ bản của thống kê Bayes: lý thuyết xác suất Bayes, hàm phân phối tiên nghiệm và hậu nghiệm của tham số, ước lượng điểm và ước lượng khoảng theo phương pháp Bayes; (ii) kiểm định giả thuyết và nhân tố Bayes; (iii) các phương pháp tính toán và lập trình cho suy luận thống kê Bayes: phương pháp Monte Carlo, phương pháp Markov Chain Monte Carlo, các phương pháp tạo mẫu Metropolis-Hastings, Gibbs. Môn học sẽ cân bằng giữa lý thuyết và thực hành, do đó, kỹ năng về lập trình với phần mềm xử lý số liệu thống kê R (hoặc python) cũng được trang bị cho sinh viên."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Giới thiệu các khái niệm cơ bản của suy luận thống kê Bayes tới sinh viên.",
+      "Hiểu các thuật toán mô phỏng dùng trong suy luận thống kê Bayes, và biết cách vận dụng vào trong các bài toán cụ thể.",
+      "Nắm vũng các bước để tính toán bằng phần mềm R (hoặc python).",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Hiểu biết kiến thức cơ bản của suy luận thống kê Bayes: công thức Bayes, hàm phân phối tiên nghiệm, hàm phân phối hậu nghiệm. | 1, 2 (Ghi nhớ + Hiểu) |  |\n| MH1.2 | Hiểu biết các thuật toán mô phỏng Monte Carlo cho thống kê Bayes: Markov Chain Monte Carlo, Metropolis-Hastings, và Gibbs. | 1, 2 (Ghi nhớ + Hiểu) |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Biết cách chọn hàm phân phối tiên nghiệm cho từng trường hợp cụ thể, tìm được phân phối hậu nghiệm tương ứng. | 3 (Áp dụng) |  |\n| MH2.2 | Thực hiện thành thạo các bài toán kiểm định, lựa chọn mô hình Bayes. | 3, 4, 5, 6 (Áp dụng + Phân tích + Đánh giá + Sáng tạo) |  |\n| MH2.3 | Sử dụng thành thạo phần mềm R trong việc áp dụng các thuật toán mô phỏng Monte Carlo. | 3, 4, 5, 6 (Áp dụng + Phân tích + Đánh giá + Sáng tạo) |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Nghiêm túc, cẩn trọng trong việc thiết lập hàm phân phối tiên nghiệm, áp dụng các thuật toán mô phỏng. |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Công thức xác suất Bayes. | T, U | MH1.1; MH3 | CĐR2; CĐR3; |\n| 2 | CHP2 | Hàm phân phối tiên nghiệm, và các cách chọn phổ biến. | T, U | MH1.1; MH2.1; MH3 | CĐR3; CĐR4; CĐR5 |\n| 3 | CHP3 | Hàm phối hậu nghiệm cho các mô hình cơ bản: phân phối chuẩn, nhị thức, Poisson. | T, U | MH1.1; MH2.1; MH3 | CĐR4; CĐR5; CĐR6; |\n| 4 | CHP4 | Ước lượng điểm, vùng đáng tin cho tham số và các bài toán kiểm định. | T, U | MH1.1; MH2.1; MH2.2; MH3 | CĐR5 |\n| 5 | CHP5 | Các thuật toán mô phỏng Monte Carlo. | T, U | MH1.2; MH2.3; MH3 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 6 | CHP6 | Thực hiện các phương pháp mô phỏng Monte Carlo với phần mềm R. | T, U | MH1.2; MH2.3; MH3 | CĐR5 |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 7 | CHP7 | Nghiêm túc, cẩn trọng trong việc thiết lập và áp dụng các thuật toán cho từng mô hình cụ thể. |  | MH3; | CĐR3; CĐR5 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng."
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá |\n| Đánh giá quá trình | Tổng điểm quá trình | X |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 20% |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |\n| Đánh giá quá trình | Điểm thực hành | X |  |  |  | ĐG1.4 | 20% |\n| Đánh giá quá trình | Điểm báo cáo nhóm | X |  |  |  | ĐG1.5 | 10% |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  | X | ĐG2 | 50% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần: Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phương pháp dạy học: thuyết trình chủ động; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học(*) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học(*) | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành | Bài tập | Số tiết | Phương pháp dạy học(*) | Bài đánh giá |\n| Chương 1: Giới thiệu suy luận thống kê Bayes | 1 | CHP1 |  |  |  |  |  |  |\n| Bài 1.1: Nhắc lại suy luận thống kê tần số và các bài toán liên quan; suy luận thống kê Bayes và các bài toán liên quan | 1 |  | 3 |  |  |  | Thuyết trình chủ động | ĐG 1.1, ĐG 2 |\n| Chương 2: Phân phối tiên nghiệm và hậu nghiệm | 2 - 5 | CHP2, CHP3 |  |  |  |  |  |  |\n| Bài 2.1. Phân phối hậu nghiệm cho các phân phối thông thường | 2 |  | 3 |  | 2.5 |  | Thuyết trình chủ động | ĐG 1.1, ĐG 1.5,<br>ĐG2 |\n| Bài 2.2: Phương pháp xấp xỉ phân phối hậu nghiệm khi cỡ mẫu lớn | 3 |  | 3 |  |  |  | Thuyết trình chủ động | ĐG 1.1, ĐG 1.5,<br>ĐG2 |\n| Bài 2.3: Tiên nghiệm chủ quan: phương pháp histogram hoặc phân vị, phương pháp so sánh tương đối, dựa trên các dạng hàm cụ thể (tiên nghiệm liên hợp) | 4 |  | 3 |  | 2.5 |  | Thuyết trình chủ động | ĐG 1.1, ĐG 1.5,<br>ĐG2 |\n| Bài 2.4: Tiên nghiệm khách quan: tiên nghiệm đều, tiên nghiệm Jeffreys, tiên nghiệm tham chiếu (reference priors) | 5 |  | 3 |  |  |  | Thuyết trình chủ động | ĐG 1.1, ĐG 1.5,<br>ĐG2 |\n| Chương 3: Suy luận Bayes | 6 – 7 | CHP4 |  |  |  |  |  |  |\n| Bài 3.1: Các phương pháp ước lượng điểm và tập đáng tin hậu nghiệm | 6 |  | 3 |  | 2.5 |  | Thuyết trình chủ động | ĐG 1.1, ĐG 1.5, ĐG 2 |\n| Bài 3.2: Kiểm định giả thuyết thống kê: lựa chọn mô hình, nhân tố Bayes, nghịch lý Jeffreys-Lindley, loại bỏ tham số phụ | 7 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.1, ĐG 1.4, ĐG 2 |\n| Chương 4: Phương pháp Monte Carlo cho suy luận thống kê Bayes | 8 – 12 | CHP5, CHP6 |  |  |  |  |  |  |\n| Bài 4.1: Giới thiệu phương pháp Monte Carlo, tích phân Monte Carlo, importance sampling | 8 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 2 |\n| Bài 4.2: Giới thiệu về Markov Chain Monte Carlo | 9 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 2 |\n| Bài 4.3: Thuật toán Metropolis-Hasting | 10 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 1.5, ĐG 2 |\n| Bài 4.4: Lấy mẫu Gibbs | 11 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 1.5, ĐG 2 |\n| Bài 4.5: Kiếm định tính hội tụ và tính dừng của các phương pháp Markov Chain Monte Carlo | 12 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 1.5, ĐG 2 |\n| Chương 5: Một số bài toán áp dụng | 13-15 | CHP6 |  |  |  |  |  |  |\n| Bài 5.1: So sánh trung bình của hai hoặc nhiều mẫu của phân phối chuẩn | 13 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 1.5, ĐG 2 |\n| Bài 5.2: Mô hình phân tầng | 14 |  |  | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 1.5, ĐG 2 |\n| Bài 5.3: Bài toán Lorax: giới thiệu Bayesian Networks | 15 |  | 3 | 2.5 |  |  | Thuyết trình chủ động | ĐG 1.4, ĐG 2 |\n| Tổng cộng số tiết |  |  | 45 | 30 |  |  |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Jayanta K. Ghosh<br>Mohan Delampady<br>Tapas Samanta | 2006 | An Introduction to Bayesian Analysis: Theory and Methods | Springer | Tài liệu tham khảo |  |\n| 2 | Christian P. Robers | 2007 | The Bayesian Choice | Springer | Tài liệu tham khảo |  |\n| 3 | Christian P. Robers<br>George Casella | 2009 | Introducing Monte Carlo Methods with R | Springer | Tài liệu tham khảo |  |\n| 4 | Therese M. Donovan<br>Ruth M. Mickey | 2016 | Bayesian Statistics for Beginner: A step-by-step Approach | Oxford | Tài liệu tham khảo |  |\n| 5 | Jim Albert | 2009 | Bayesian Computation with R | Springer | Tài liệu tham khảo |  |\n| 6 | Christian P. Robers<br>George Casella | 2004 | Monte Carlo Statistical Methods | Springer | Tài liệu tham khảo |  |\n| 7 | Jean-Michel Marin<br>Christian P. Robers | 2013 | Bayesian Essentials with R | Springer | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80%",
+      "Dự lớp thực hành tối thiểu: 80%",
+      "Dự lớp bài tập tối thiểu: 80%",
+      "Dự lớp thảo luận tối thiểu: không",
+      "Yêu cầu khác: không",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

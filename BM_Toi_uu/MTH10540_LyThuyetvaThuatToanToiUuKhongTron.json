@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Lê Hoàng Anh.",
+      "Chức danh, học hàm, học vị: Phó Giáo Sư, Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Tối ưu và Hệ thống, Khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Tối ưu và Hệ Thống, F13, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10540.",
+      "Tên học phần: LÝ THUYẾT VÀ THUẬT TOÁN TỐI ƯU KHÔNG TRƠN.",
+      "Tên học phần bằng tiếng Anh: NONSMOOTH OPTIMIZATION: THEORY and NUMERICAL METHODS.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 4.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này: không.",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Tối ưu và Hệ thống."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Nội dung môn học :",
+      "Các khái niệm : hàm lồi, hàm affine, hàm tựa, hàm liên hợp, tập dưới vi phân, hàm đối ngẫu …",
+      "Các định lý : Tồn tại và tính duy nhất của nghiệm, định lý đối ngẫu mạnh…",
+      "Các phương pháp : phương pháp đường dốc nhất, phương pháp điểm cận kề, phương pháp bó…"
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trang bị cho sinh viên một số thuật giải của bài toán tối ưu phi tuyến. Định hướng cho sinh viên làm luận văn về hướng lý thuyết và tiếp tục học cao hơn trong lĩnh vực giải các bài toán tối ưu.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Lập mô hình bài toán tối ưu không trơn | 4/6 |  |\n| MH1.2 | Phương pháp giải bài toán tối ưu không trơn | 4/6 |  |\n| MH1.3 | Cơ sở lý thuyết của tối ưu không trơn | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Sử dụng phần mềm liên quan giải bài toán tối ưu không trơn | 3/5 |  |\n| MH2.2 | Làm việc nhóm | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng được các kiến thức về tối ưu không trơn để mô hình hoá bài toán thực tế. | I, T, U | MH1.1 | CCT1.4 |\n| 2 | CHP2 | Sử dụng đúng thuật toán để giải bài toán tối ưu không trơn | I, T, U | MH1.2 | CCT1.4 |\n| 3 | CHP3 | Áp dụng cơ sở lý thuyết để chứng minh các vấn đề liên quan | I, T, U | MH1.3 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 4 | CHP4 | Sử dụng được các phần mềm liên quan để giải bài toán tối ưu không trơn | I, T, U | MH2.1, MH2.2 | CCT2.1,<br>CCT2.4 |\n| 5 | CHP5 | Giải quyết vẩn đề trong tình huống mới | I,T,U | MH2.2 | CCT2.1,<br>CCT2.4 |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 6 | CHP6 | Thích ứng các vấn đề liên quan bài toán tối ưu không trơn | I,T,U | MH3 | CCT3.1, CCT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 10% | Sửa bài tập trên lớp |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  | X | ĐG1.3 | 10% |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Một số kiến thức cơ sở <br>Ánh xạ affin, ánh xạ lồi<br>Một số hàm lồi đặc biệt<br>Hàm đối ngẫu<br>Tính liên tục của hàm lồi<br>Cực trị hàm lồi<br>Đạo hàm theo phương<br>Dưới vi phân<br>Phương pháp tính dưới vi phân | 1 – 4 | CHP1, CHP2, CHP3 | 12 | 0 | 0 | 6 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Phương pháp đường dốc nhất<br>2.1. Giới thiệu<br>2.2.\tHướng giảm<br>2.3.\tPhương pháp đường dốc nhất<br>2.4. Tốc độ hội tụ | 5-7 | CHP1, CHP2, CHP3, CHP4, CHP5, CHP6 | 10 | 0 | 0 | 5 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: Dưới vi phân xấp xĩ<br>3.1. Định nghĩa<br>3.2. Tính chất<br>3.2.\tĐạo hàm theo hướng xấp xỉ<br>3.3. Quy tắc tính dưới vi phân xấp xỉ | 8-9 | CHP1, CHP2, CHP3, CHP4, CHP5, CHP6 | 12 | 0 | 0 | 6 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 4: Phương pháp bó<br>4.1. Cách tiếp cận gốc<br>4.2. Cách tiếp cận đối ngẫu | 10-11 | CHP1, CHP2, CHP3, CHP4, CHP5, CHP6 | 10 | 0 | 0 | 5 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 5: Phương pháp điểm gần kề<br>5.1. Giới thiệu<br>5.2. Thuật toán<br>5.3.\tTốc độ hội tụ<br>5.4. Áp dụng | 12-14 | CHP1, CHP2, CHP3, CHP4, CHP5, CHP6 | 12 | 0 | 0 | 6 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Ôn tập | 15 | CHP1, CHP2,<br>CHP3 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Ledyaev Yu. S. ,  Stern R. J. ,  Clarke F. H., | 1998 | Nonsmooth analysis and control theory | Springer New York | Giáo trình chính | Thư viện KHTN |\n| 2 | Zowe Jochem ,  Outrata Jiri ,  Kocvara Michal | 1998 | Nonsmooth approach to optimization problems with equilibriu constraints : theory applications and numerical result | Springer New York | Giáo trình chính | Thư viện KHTN |\n| 3 | Shetty C. M ,  Bazaraa Mokhtar S, | 1990 | Nonlinear programming : theory and algoriths | Singapore :  J. Wiley | Tài liệu tham khảo | Thư viện KHTN |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: … số tiết học.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Lý thuyết và thuật toán tối ưu không trơn |  |  |  | X |  | X |  |  | X | X | X |"
+    ]
+  }
+}

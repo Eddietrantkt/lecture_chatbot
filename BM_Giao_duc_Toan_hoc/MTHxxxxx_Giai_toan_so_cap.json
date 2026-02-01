@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Trần Nam Dũng",
+      "Chức danh, học hàm, học vị: Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Giáo dục Toán học, khoa Toán-tin học,",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ:…",
+      "Điện thoại, email:…",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: …",
+      "Tên học phần: Giải Toán sơ cấp",
+      "Tên học phần bằng tiếng Anh: Solving Elemantary Mathematics",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45",
+      "Số tiết thực hành: 30",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: không",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần:  Giáo dục Toán học"
+    ],
+    "Mô tả vắn tắt nội dung học phần:": [
+      "Học phần cung cấp cho sinh viên hệ thống lý thuyết toán sơ cấp. Bên cạnh đó rèn luyện cho sinh viên kỹ năng giải các dạng toán sơ cấp ở phổ thông, có nâng cao, chuyên sâu nhằm đáp ứng nhu cầu giảng dạy sau khi tốt nghiệp."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Thông qua môn học này sinh viên nắm vững, hiểu sâu sắc các kiến thức về đại số, hình học sơ cấp, đồng thời nâng cao kỹ năng giải các bài toán sơ cấp liên quan đến chúng.",
+      "Mục tiêu cụ thể",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Vận dụng được các khái niệm, định lý, tính chất trong toán sơ cấp. | 2/6 |  |\n| MH1.2 | Áp dụng lý thuyết để giải các bài toán sơ cấp. | 3/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Thành thạo các kỹ năng biến đổi đại số. | 3/5 |  |\n| MH2.2 | Thành thạo kỹ năng phân tích các bài toán hình học. | 3/5 |  |\n| MH2.3 | Thành thạo kỹ năng giải các bài toán cấp THCS, THPT với trình độ nâng cao. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có hứng thú học tập, say mê tìm tòi, nghiên cứu tư liệu | 3/5 |  |\n| MH3.2 | Tích cực tham gia các tiết  học trên lớp, chuẩn bị bài đầy đủ theo hướng dẫn của giảng viên. | 3/5 |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Trình bày được khái niệm, định lý, tính chất trong toán sơ cấp | I,T | MH1.1 | CCT1.3; CCT1.4; |\n| 2 | CHP2 | Xây dựng đươc phương pháp giải các bài toán sơ cấp | I,T,U | MH1.1;<br>MH1.2 | CCT1.3; CCT1.4; |\n| 3 | CHP3 | Đánh giá được đặc điểm các bài toán cũng như phương pháp giải chúng. | I,T,U | MH1.1;<br>MH1.2 | CCT1.4; |\n| 4 | CHP4 | Mở rộng và sáng tạo các bài toán sơ cấp | I,T,U | MH1.1;<br>MH1.2 | CCT1.4; |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 4 | CHP4 | Thành thạo kỹ năng phân tích, tư duy logic, giải quyết vấn đề | U | MH2.1 | CCT2.1<br>CCT2.4 |\n| 5 | CHP5 | Thành thạo tư duy hệ thống | U | MH2.2 | CCT 2.2 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 6 | CHP6 | Có tinh thần học tập, thực hành, chủ động sáng tạo |  | MH3.1;<br>MH3.2 | CCT3.1<br>CCT4.1 |\n|  |  | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 | 60% |  |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  | X |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành | X |  |  | X | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm | X |  | X | X | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  | X | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X | X |  |  | ĐG2 | 40% |  |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Phương trình và bất phương trình<br>Bài 1.1 Các phép biến đổi tương đương<br>Bải 1.2 Phương trình, bất phương trình vô tỉ<br>Bải 1.3 Phương trình lượng giác<br>Bài 1.4 Phương trình, bất phương trình mũ và logarit<br>Bài 1.5 Hệ phương trình | 1,2 | CHP1<br>CHP2<br>CHP3<br>CHP4<br>CHP5 | 5 | 5 | 0 | 10 | Thuyết trình, Thảo luận | ĐG1.1<br>ĐG1.2 |\n| Chương 2: Bất đẳng thức<br>Bài 2.1 Tính chất cơ bản của bất đẳng thức<br>Bài 2.2 Phương pháp chứng minh bất đẳng thức<br>Bài 2.3 Một số bất đẳng thức cơ bản | 3 | CHP1<br>CHP2<br>CHP3 |  | 5 | 0 | 5 | Hỏi đáp<br>Luyện tập | ĐG1.1 |\n| Chương 3: Hàm số<br>Bài 3.1 Khái niệm hàm số<br>Bài 3.2 Một số phép biến đổi đồ thị<br>Bài 3.3 Giá trị lớn nhất và giá trị nhỏ nhất của hàm số | 4 | CHP1<br>CHP6 | 5 |  | 0 | 5 | Thuyết trình, <br>thảo luận, dự án | ĐG1.3<br>ĐG1.2 |\n| Chương 4: Đại số tổ hợp<br>Bài 4.1 Tập hợp, quy tắc đếm<br>Bài 4.2 Hoán vị, tổ hợp, chỉnh hợp<br>Bài 4.3 Nhị thức Newton | 5 | CHP3<br>CHP4<br>CHP5 |  | 5 | 0 | 5 | Thuyết trình, <br>thảo luận, dự án | ĐG1.4 |\n| Chương 5: Phương pháp giải toán hình học và một số dạng toán hình học<br>Bài 5.1 Các phương pháp suy luận trong giải toán hình học<br>Bài 5.2 Bài toán dựng hình<br>Bài 5.3 Bài toán chứng minh<br>Bài 5.4 Bài toán cực trị hình học | 6 | CHP1<br>CHP2<br>CHP3 |  | 5 | 0 | 5 | Thuyết trình, <br>thảo luận, dự án | ĐG1.1 |\n| Chương 6: Phương pháp tiên đề<br>Bài 6.1 Sơ lược lịch sử<br>Bài 6.2 Phương pháp tiên đề<br>Bài 6.3 Hệ tiên đề Hilbert, Pogorelov, hệ tiên đề không gian vectơ của hình học Euclid. | 7 | CHP1<br>CHP2 | 5 |  |  | 5 | Động não, <br>thảo luận, dự án | ĐG1.1<br>ĐG1.5 |\n| Chương 7: Đường, mặt, khối trong không gian Eucid<br>Bài 7.1 Khái niệm hình<br>Bài 7.2 Đường tròn<br>Bài 7.3 Đa giác<br>Bài 7.4 Hình đa diện, khối đa diện | 8,9 | CHP1<br>CHP4<br>CHP5 | 5 | 5 |  | 10 | Thuyết trình, <br>thảo luận, dự án | ĐG1.1<br>ĐG1.4<br>ĐG1.2 |\n| Chương 8: Phép biến hình trên mặt phẳng<br>Bài 8.1 Các phép biến hình<br>Bài 8.2 Biểu thức tọa độ của các phép biến hình<br>Bài 8.3 Ứng dụng | 10 | CHP1<br>CHP5<br>CHP6 | 5 |  |  | 5 | hỏi đáp, <br>thảo luận, dự án | ĐG1.1<br>ĐG1.3<br>ĐG1.2 |\n| Chương 9: Phương pháp tọa độ trong mặt phẳng<br>Bài 9.1 Một số khái niệm về hình giải tích phẳng<br>Bài 9.2 Tâm tỉ cự<br>Bài 9.3 Giải toán bằng phương pháp tọa độ trong mặt phẳng | 11,12 | CHP1<br>CHP2<br>CHP3 | 5 |  |  | 5 | Thuyết trình, <br>thảo luận, hỏi đáp | ĐG1.1<br>ĐG1.4<br>ĐG1.2 |\n| Chương 10: Phương pháp tọa độ trong không gian<br>Bài 10.1 Không gian tọa độ. Phương trình mặt phẳng, đường thẳng, mặt cầu<br>Bài 11.2 Tích vô hướng, tích có hướng, tích hỗn hợp<br>Bài 10.3 Giải toán bằng phương pháp tọa độ trong không gian | 13,14 | CHP1<br>CHP5 | 5 | 5 |  | 10 | Thuyết trình, <br>thảo luận, hỏi đáp | ĐG1.1<br>ĐG1.4<br>ĐG1.2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Vũ Tuấn, Nguyễn Văn Đoành | 2008 | Giáo trình toán sơ cấp | Nhà xuất bản đại học sư phạm | Giáo trình chính |  |\n| 2 | Hoàng Huy Sơn | 2009 | Đại số sơ cấp | Nhà xuất bản giáo dục | Giáo trình chính |  |\n| 3. | Văn Như Cương, Hoàng Ngọc Hưng, Đỗ Mạnh Hùng, Hoàng Trọng Thái | 2005 | Hình học sơ cấp và Thực hành giải toán | Nhà xuất bản đại học sư phạm | Giáo trình chính |  |\n| 4 | Đào Tam | 2005 | Giáo trình hình học sơ cấp | Nhà xuất bản đại học sư phạm | Tài liệu tham khảo |  |\n| 5 | H. S. Hall, M. A., S. R. Knight, B. A. | 1896 | Elementary Algebra |  | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 60%",
+      "Dự lớp thực hành tối thiểu: 70%",
+      "Yêu cầu khác:….",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Gỉai toán sơ cấp |  |  | x | x |  | x | x |  | x | x | x |"
+    ]
+  }
+}

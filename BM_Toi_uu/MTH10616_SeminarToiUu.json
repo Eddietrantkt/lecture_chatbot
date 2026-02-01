@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Môn học có thể do nhiều giảng viên cùng phụ trách tuỳ theo sự đăng ký của sinh viên và phê duyệt của Trưởng Bộ môn."
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10616.",
+      "Tên học phần: Seminar Tối ưu.",
+      "Tên học phần bằng tiếng Anh: Seminar on Optimization.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 4.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này: không.",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):",
+      "Môn học chỉ dành cho các sinh viên thoả các điều kiện sau:",
+      "có điếm trung bình chung từ 6.5 trở lên tính đến thời điểm đăng ký.",
+      "sẽ tốt nghiệp chuyên ngành Tối ưu (nếu sinh viên tốt nghiệp chuyên ngành khác thì điểm môn này sẽ bị huỷ)",
+      "có đơn xin học môn Seminar theo mẫu của Khoa và có Trưởng Bộ môn xác nhận.",
+      "Bộ môn phụ trách học phần: Bộ môn Tối ưu và Hệ thống."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Sinh viên sẽ làm việc trực tiếp với giáo viên hướng dẫn về một chủ đề. Nội dung chủ đề có thể là:",
+      "Những vấn đề chưa được đề cập trong các môn học thuộc chuyên ngành Tối ưu;",
+      "Những bài toán được phát sinh trong các môn học thuộc chuyên ngành Tối ưu nhưng chưa được giải quyết.",
+      "Những kết quả mới nhất trên thế giới và các kết quả sắp đăng của các giáo sư, giảng viên, nghiên cứu sinh Bộ môn Tối ưu và Hệ thống."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Học sâu hơn về chuyên ngành Tối ưu và chuẩn bị cho khoá luận tốt nghiệp.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1 | Cung cấp kiến thức chuyên sâu về Tối ưu phục vụ khoá luận tốt nghiệp | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Viết báo cáo, thuyết trình | 3/5 |  |\n| MH2.2 | Lập luận/biện giải/bảo vệ quan điểm | 3/5 |  |\n| MH2.3 | Làm việc nhóm | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng được các kiến thức  chuyên ngành để giải quyết các vấn đề liên quan đến Tối ưu. | I, T, U | MH1 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 2 | CHP2 | Giải quyết vẩn đề trong tình huống mới | I,T,U | MH2.1,<br>MH2.2, MH2.3 | CCT2.1,<br>CCT2.2,<br>CCT2.4 |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 3 | CHP3 | Thích ứng các vấn đề liên quan chuyên ngành Tối ưu | I,T,U | MH3 | CCT3.1, CCT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  | X | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  | X | ĐG1.3 | 20% |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  | X | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  | X | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "Các vấn đề của môn học sẽ được giảng viên giao để sinh viên tìm tòi, nghiên cứu và tranh luận trên lớp (hoặc chính sinh viên chọn đề tài mình thích). Các hình thức có thể áp dụng:",
+      "Dưới sự hướng dẫn của giảng viên, sinh viên tự đề xuất đề tài và sau đó báo cáo lại. Giảng viên sẽ phân tích và đánh giá kết quả.",
+      "Giảng viên chọn và trình bày vấn đề. Sinh viên trình bày tiếp thu về vấn đề đó."
+    ],
+    "Tài liệu học tập": [
+      "Cập nhật từ thông tin khoa học mới nhất tuỳ theo nội dung thảo luận và do giảng viên hướng dẫn cung cấp."
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: … số tiết học.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Seminar Tối ưu |  |  |  | X |  | X | X |  | X | X | X |"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Phan Thị Mỹ Duyên",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Giải tích, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Giải tích, E201A, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH00015",
+      "Tên học phần: Phương trình vi phân",
+      "Tên học phần bằng tiếng Anh: Ordinary Differential Equations",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 3",
+      "Số tiết thực hành:",
+      "Số tiết bài tập: 1",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương: ",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết:",
+      "Các học phần học trước học phần này: Giải tích 1A, Vi tích phân 1A, Đại số tuyến tính 1A",
+      "Học phần song hành: Vi tích phân 2A",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần này trang bị cho sinh viên khoa toán một kiến thức cơ bản tối thiểu trước khi vào các hướng chuyên ngành hẹp hơn. Nội dung học phần này gồm có: Phương trình vi phân cấp 1; Sự tồn tại và duy nhất nghiệm của bài toán Cauchy; Phương trình vi phân tuyến tính cấp 2 và cấp cao; Giới thiệu về hệ phương trình vi phân cấp 1."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: cung cấp cho sinh viên những phương pháp để giải một vài loại phương trình vi phân.",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Khái niệm cơ bản của phương trình vi phân và ứng dụng trong thực tiễn | 3/6 |  |\n| MH1.2 | Các phương pháp để giải một vài loại phương trình vi phân. | 3/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2 | Vận dụng các kiến thức trên vào các bài tập tính toán và các áp dụng thực tiễn. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Tham gia đầy đủ các buổi học trên lớp và thảo luận ngoài giờ lên lớp. | 3/5 |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm vững kiến thức, thể hiện đã tiếp nhận những ý tưởng, phương pháp. | I, T, U | MH1.1; MH1.2 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP2 | Nâng cao và bổ sung năng lực, phong phú thêm trong trải nghiệm học tập | I, T, U | MH2 |  |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 5 | CHP3 | Mạnh dạn tiếp xúc vấn đề mới, tự tin, cởi mở, tò mò, tôn trọng phong cách và quan điểm khác biệt | I, T, U | MH3 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình | X |  | X | X | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  | X | X | ĐG1.2 | 30% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  | X | X | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần: Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: Phương trình vi phân cấp 1 | 1-7 |  | X | X |  |  |  |  |  |  |\n| Bài 1.1: Các loại nghiệm của phương trình vi phân cấp 1. Sự tồn tại và duy nhất nghiệm của bài toán Cauchy. | 1 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.2: Phương trình vi phân cấp 1 dạng tách biến | 2 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.3: Phương trình vi phân tuyến tính cấp 1. | 3 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.4: Phương trình vi phân Bernoulli | 4 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 1.5: Phương trình vi phân cấp 1 dạng đẳng cấp | 5 |  |  |  |  |  |  |  |  |  |\n| Bài 1.6: Phương pháp số cho phương trình vi phân cấp 1. Một số mô hình thực tế | 6-7 |  |  |  |  |  |  |  |  |  |\n| Chương 2: Phương trình vi phân cấp 2 | 8-12 |  | X | X |  |  |  |  |  |  |\n| Bài 2.1: Sự tồn tại và duy nhất nghiệm của phương trình vi phân tuyến tính cấp cao. Nguyên lý chồng chất nghiệm. | 8 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 2.2: Định thức Wronskian. Nghiệm tổng quát của phương trình vi phân tuyến tính thuần nhất. | 9 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 2.3: Phương trình vi phân tuyến tính cấp 2 với hệ số hằng | 10 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 2.4: Phương trình vi phân tuyến tính cấp 2 không thuần nhất | 11 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Chương 3: Hệ phương trình vi phân cấp 1 | 12-15 |  | X | X |  |  |  |  |  |  |\n| Bài 3.1.1: Bài toán Cauchy cho hệ phương trình vi phân cấp 1 | 12 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 3.1.2: Mối liên hệ giữa phương trình vi phân cấp cao và hệ phương trình vi phân cấp 1 | 12 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 3.2: Hệ phương trình vi phân tuyến tính với hệ số hằng | 13 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Bài 3.3: Hệ phương trình vi phân tuyến tính không thuần nhất | 14 | CHP1, CHP2 | X | X |  |  |  |  |  |  |\n| Ôn tập | 15 |  |  |  |  |  |  |  |  |  |\n| Tổng cộng số tiết |  |  | 45 | 15 |  |  |  |  |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tài liệu | Tác giả | Năm xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- |\n| 1 | Bài giảng Giải tích A4, 2012. | Nguyễn Thành Long | 2012 | Giáo trình chính | Giảng viên cung cấp |\n| 2 | Phép tính vi phân hàm nhiều biến và phương trình vi phân | Nguyễn Thành Long, Nguyễn Công Tâm, Lê Thị Phương Ngọc, Nguyễn Anh Triết | NXB. ĐHQG Tp. HCM 2014 | Tài liệu tham khảo | Bộ môn/Thư quán |\n| 3 | Phương trình vi phân | Nguyễn Thanh Vũ | NXB. ĐHQG Tp. HCM, 2001. | Tài liệu tham khảo | Bộ môn/Thư quán |\n| 4 | Fundamentals of differential equations and boundary value problems | R. Kent Nagle, Edward B. Saff | Addison-Wesley Publishing Company, 1996. | Tài liệu tham khảo | Thư viện |\n| 5 | Elementary differential equations | William E. Boyce, Richard C. DiPrima, | John Wiley & Sons, 2001. | Tài liệu tham khảo | Thư viện |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Phương trình vi phân |  | X |  |  |  | X |  |  | X | X | X |"
+    ]
+  }
+}

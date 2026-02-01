@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Hà Văn Thảo",
+      "Chức danh, học hàm, học vị: Giảng viên - Thạc sĩ",
+      "Đơn vị công tác: Bộ môn Ứng dụng Tin học, Khoa Toán - Tin học",
+      "Thời gian và địa điểm làm việc: E202B",
+      "Địa chỉ liên hệ: 227 Nguyễn Văn Cừ, phường 4, quận 5, TP. Hồ Chí Minh",
+      "Điện thoại, email: hvthao@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTHxxxxx",
+      "Tên học phần: Toán rời rạc 2A",
+      "Tên học phần bằng tiếng Anh: Discrete Mathematics",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết:",
+      "Số tiết thực hành: …",
+      "Số tiết bài tập: …",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương: □",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành: □",
+      "Kiến thức bổ trợ: □",
+      "Khóa luận tốt nghiệp: □",
+      "Đồ án/dự án/seminar tốt nghiệp: □",
+      "Khác:….",
+      "Các học phần tiên quyết: …",
+      "Các học phần học trước học phần này: …",
+      "Học phần song hành: …",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: …"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Toán rời rạc là nền tảng lý thuyết để biểu diễn và nghiên cứu các đối tượng rời rạc trong lĩnh vực Khoa học và Kỹ thuật Máy tính, đặc biệt là về các vấn đề mang tính trừu tượng. Đây cũng là một loại đối tượng đặc thù mà máy tính số có khả năng lưu trữ và xử lý một cách hiệu quả nhất. Toán rời rạc là nền tảng toán học để mô hình hóa và biểu diễn các hệ thống thông tin dựa trên máy tính một cách chính xác và hiệu quả. Những kiến thức này đóng vai trò quan trọng trong việc giúp sinh viên hiểu sâu hơn về các khía cạnh trừu tượng trong cấu trúc và hoạt động của các hệ thống tính toán."
+    ],
+    "Mục tiêu của học phần": [
+      "Thông qua học phần này, sinh viên có thể học tập và rèn luyện nhiều kỹ năng. Về mảng kiến thức, sinh viên sẽ nắm vững và vận dụng những kiến thức của toán học cơ bản, đồng thời phát triển các tính chất cơ bản của đại số Boole nhằm xây dựng một mạch điện ở bước đầu tiên. Ngoài ra, môn học cung cấp các kiến thức về lý thuyết đồ thị và cây. Hơn nữa, sinh viên có khả năng vận dụng mô hình đồ thị, logic, bài toán tìm đường đi nhằm giải quyết các bài toán trong thực tế. Về mảng kỹ năng, sinh viên thông qua kiến thức được học mà trau dồi được kỹ năng tư duy, xây dựng, trình bày giải pháp tin học một cách chính xác và chặt chẽ. Với số lượng kiến thức trên, sinh viên sẽ cần có ý thức học nghiêm túc, tư duy rộng mở, tích cực nhằm tiếp thu và lĩnh hội tốt hơn, chủ động trong việc nắm giữ các kiến thức được học trên lớp bằng việc hoàn thành các bài tập tự rèn luyện.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm vững các khái niệm, định lý, thuật toán trong lý thuyết đồ thị và đại số Boole. | 1,2 |  |\n| MH1.2 | Vận dụng mô hình đồ thị, mạch logic để giải quyết các bài toán trong thực tế. | 1,2,3,4 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Trình bày chặt chẽ và chính xác các vấn đề chuyên môn. | 1,2,3,4 |  |\n| MH2.2 | Kỹ năng xây dựng và trình bày giải pháp tin học. | 1,2,3,4 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có ý thức học tập nghiêm túc, tích cực lĩnh hội kiến thức, rèn luyện kĩ năng. | 1,2,3 |  |\n| MH3.2 | Nghiêm túc và chủ động tự luyện tập, hoàn thành đầy đủ các yêu cầu của giảng viên. | 1,2,3,4 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CĐR1 | Hiểu các khái niệm về đồ thị, biểu diễn đồ thị | I, T, U | MT1.1 |  |\n| 2 | CĐR2 | Vận dụng các thuật toán đồ thị để giải quyết các bài toán trong thực tế | I, T, U | MT1.2, MT2.2 |  |\n| 3 | CĐR3 | Hiểu các khái niệm về cây | I, T, U | MT1.1 |  |\n| 4 | CĐR4 | Vận dụng các thuật toán trên cây như duyệt cây, cây khung tối tiểu | I, T, U | MT1.2, MT2.2 |  |\n| 5 | CĐR5 | Vận dụng đại số Boole để tối tiểu mạch logic | I, T, U | MT1.1, MT1.2, MT2.2 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 6 | CĐR6 | Trình bày chặt chẽ và chính xác các vấn đề | T, U | MT2.1 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phương pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương I: Đồ thị<br>I.1 Đồ thị và Các mô hình<br>I.2 Thuật ngữ và Các dạng đồ thị<br>I.3 Biểu diễn đồ thị<br>I.4 Liên thông | 1-4 | CĐR1 |  |  |  | 20 | -Thảo luận, thuyết trình, thực hành |  |\n| Chương II: Các thuật toán về đồ thị<br>II.1 Đường đi Euler và Hamilton<br>II.2 Đường đi ngắn nhất<br>II.3 Đồ thị phẳng<br>II.4 Tô màu đồ thị | 5-8 | CĐR1, CĐR2, CĐR6 |  |  |  | 20 | -Thảo luận, thuyết trình, thực hành |  |\n| Chương III: Cây<br>III.1 Giới thiệu cây<br>III.2 Duyệt cây<br>III.3 Cây khung<br>III.4 Cây khung tối tiểu | 9-12 | CĐR3, CĐR4, CĐR6 |  |  |  | 20 | -Thảo luận, thuyết trình, thực hành |  |\n| Chương IV: Đại số Boole<br>IV.1 Hàm Boole<br>IV.2 Biểu diễn hàm Boole<br>IV.3 Tối tiểu mạch logic | 13-15 | CĐR5 |  |  |  | 15 | -Thảo luận, thuyết trình, thực hành |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Kenneth H. Rosen | 2019 | Discrete mathematics and its applications, 8th Edition. | McGraw-Hill Education | Giáo trình chính |  |\n| 2 | Nguyễn Hữu Anh | 2007 | Toán rời rạc | NXB Lao động xã hội | Giáo trình chính |  |\n| 3 | Trần Ngọc Danh | 2004 | Toán rời rạc nâng cao | NXB ĐHQG TP.HCM | Giáo trình chính |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 45 tiết",
+      "Dự lớp thực hành tối thiểu: 30 tiết",
+      "Dự lớp bài tập tối thiểu: …",
+      "Dự lớp thảo luận tối thiểu: …",
+      "Yêu cầu khác: …",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n|  |  |  | X |  |  | X |  |  |  | X | X |"
+    ]
+  }
+}

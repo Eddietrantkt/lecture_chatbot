@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "Thông tin về giảng viên": [
+      "Họ và tên: Trịnh Thanh Đèo",
+      "Chức danh, học hàm, học vị: Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Đại số, Khoa Toán-Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG-HCM",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh",
+      "Điện thoại, email: ttdeo@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10505",
+      "Tên học phần: Đại số phân bậc",
+      "Tên học phần bằng tiếng Anh: Graded Algebra",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60",
+      "Số tiết thực hành: 0",
+      "Số tiết bài tập: 0",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: có,",
+      "Đại số đại cương",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Đại số"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần trang bị các kiến thức cơ bản về vành phân bậc, ideal phân bậc; môđun phân bậc, ideal nguyên tố liên kết, mô đun và vành Noether, mô đun và vành Artin, sự phân tích nguyên sơ; độ dài, độ cao và chiều của môđun. Sinh viên cần biết các kiến thức cơ bản về nhóm, vành, trường để có thể theo học được học phần này."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên sẽ vận dụng các kiến thức về phân bậc vành và phân bậc môđun để nghiên cứu chuyên sâu về lý thuyết vành và lý thuyết môđun.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm vững các khái niệm cơ bản về vành và môđun. | 2/6 |  |\n| MH1.2 | Nắm vững các kiến thức cơ bản về phân bậc vành và phân bậc môđun. | 3/6 |  |\n| MH1.3 | Vận dụng các kiến thức về phân bậc vành và phân bậc môđun để giải các bài toán về lý thuyết vành và lý thuyết môđun. | 4/6 |  |\n| MH1.4 | Vận dụng các kiến thức nâng cao về phân bậc vành và phân bậc môđun để giải các bài toán nâng cao và bài toán mở về lý thuyết vành và lý thuyết môđun. | 5/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Sử dụng thành thạo các kỹ năng suy luận toán học để phân tích và giải toán. | 3/5 |  |\n| MH2.2 | Có khả năng đọc, hiểu tài liệu toán học bằng tiếng nước ngoài; có kỹ năng làm việc độc lập, kỹ năng làm việc nhóm, kỹ năng quản lý thời gian, kỹ năng tư duy logic để phân tích và giải toán. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần chủ động, sáng tạo, hợp tác, tự thích nghi và tự điều chỉnh. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung<br>CĐR học phần | Mức độ giảng dạy<br>(I, T, U)* | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm vững các kiến thức cơ bản về vành và môđun | I, T, U | MH1.1 |  |\n| 2 | CHP2 | Nắm vững các kiến thức cơ bản về phân bậc vành và phân bậc môđun. | I, T, U | MH1.2<br>MT2.1 |  |\n| 3 | CHP3 | Vận dụng các kiến thức cơ bản về phân bậc vành và phân bậc môđun để giải các bài toán về lý thuyết vành và lý thuyết môđun. | I, T, U | MH1.3, MH2.1, MT3.1 |  |\n| 4 | CHP4 | Vận dụng các kiến thức nâng cao về phân bậc vành và phân bậc môđun để giải các bài toán nâng cao và bài toán mở về lý thuyết vành và lý thuyết môđun. | I, T, U | MH1.4, MH2.1, MH3.1 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Có khả năng đọc, hiểu tài liệu toán học bằng tiếng nước ngoài; có kỹ năng làm việc độc lập, kỹ năng làm việc nhóm, kỹ năng quản lý thời gian, kỹ năng tư duy logic để phân tích và giải toán. | I, T, U | MH2.1, MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 10% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phương pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1. Đại cương về môđun<br>1. Môđun<br>2. Môđun con<br>3. Môđun sinh bởi một tập hợp<br>4. Đồng cấu môđun<br>5. Dãy khớp | 1 – 2 | CHP1, CHP2 | 8 | 0 | 0 | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Vành phân bậc<br>1. Vành phân bậc<br>2. Ideal phân bậc<br>3. Đồng cấu vành phân bậc<br>4. Một số ứng dụng của phân bậc vành | 3-5 | CHP2, CHP3, CHP4, CHP5 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3. Môđun phân bậc<br>1. Môđun phân bậc<br>2. Môđun và vành Noether<br>3. Môđun và vành Artin | 6-8 | CHP2, CHP3, CHP4, CHP5 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 4. Sự phân tích nguyên sơ<br>1. Ideal nguyên sơ<br>2. Môđun con nguyên sơ<br>3. Sự phân tích nguyên sơ<br>4. Ideal nguyên tố liên kết | 9-11 | CHP2, CHP3, CHP4, CHP5 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 5. Độ dài, độ cao và chiều của môđun<br>1. Độ dài của môđun<br>2. Hàm Hilbert<br>3. Độ cao và chiều của môđun | 12-15 | CHP2, CHP3, CHP4, CHP5 | 16 | 0 | 0 | 16 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên<br>Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Trịnh Thanh Đèo | 2023 | Đại số phân bậc | NXB<br>ĐHQG-HCM | Giáo trình chính |  |\n| 2 | Dương Quốc Việt | 2008 | Lí thuyết chiều | NXB ĐHSP | Tài liệu<br>tham khảo |  |\n| 3 | R.Y. Sharp | 2000 | Step in Commutative Algebra, 2nd ed. | Cambridge University Press | Tài liệu<br>tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: 70% số tiết học.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Mai Hoàng Biên",
+      "Chức danh, học hàm, học vị: Phó giáo sư, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Đại số, Khoa Toán – Tin học",
+      "Thời gian, địa điểm làm việc: Sáng thứ 5, 9:00-12:00, hàng tuần tại bộ môn Đại số hoặc theo hẹn.",
+      "Địa chỉ liên hệ: Bộ môn Đại số, phòng F210, 227 Nguyễn Văn Cừ, Quận 5, TP. HCM",
+      "Điện thoại, email: mhbien@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):",
+      "Thông tin chung về môn học",
+      "Mã môn học: ????",
+      "Tên môn học (tiếng Việt): Nhóm tuyến tính",
+      "Tên môn học (tiếng Anh): Linear groups",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60",
+      "Số tiết thực hành: …",
+      "Số tiết bài tập: …",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các môn học tiên quyết: Đại số số tuyến tính",
+      "Các học phần tiên quyết: Không",
+      "Các học phần học trước học phần này: Không",
+      "Học phần song hành: Không",
+      "Các yêu cầu khác (nếu có): Không",
+      "Bộ môn phụ trách môn học: Bộ môn Đại số",
+      "Mục tiêu của môn học",
+      "Mục tiêu chung: Môn học trang bị cho người học một chủ đề rât quan trọng trong chuyên ngành đại số và kết nối với các chủ đề và hướng khác.",
+      "Mục tiêu cụ thể/ chuẩn đầu ra môn học:",
+      "Kiến thức: Nắm được khái niệm, định nghĩa về nhóm tuyến tính và vận dụng vào giải các bài tập liên quan.",
+      "Kỹ năng: Giải bài tập. Liên hệ với các hướng nghiên cứu khác như lý thuyết biểu diễn nhóm, đại số số nhóm.",
+      "Thái độ, chuyên cần: chuyên cần, làm bài tập đầy đủ.",
+      "Mô tả vắn tắt nội dung môn học: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo): Nhóm tuyến tính đóng một vai trò cực kỳ quan trọng trong nghiên cứu từ cổ điển cho tới hiện nay trong việc nghiên cứu lý thuyết nhóm. Trong chương trình đại cương, sinh viên chỉ được trang bị các kiến thức về nhóm tuyến tính trên trường. Môn này trang bị sinh viên một cách đầy đủ các kiến thức về nhóm tuyến tính và liên hệ với các môn học khác như đại số nhóm, đại số đường đi Leavitt, lý thuyết vành,....",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm được khái niệm cơ bản của lý định thức trên vành không nhất thiết giao hoán | 2/6 |  |\n| MH1.2 | Hiểu cấu trúc cơ bản của nhóm tuyến tính tổng quát | 3/6 |  |\n| MH1.3 | Hiểu cấu trúc cơ bản của nhóm tuyến tính đặt biệt và nhóm xạ ảnh | 4/6 |  |\n| M1.4 | Liên kết các bài toán trong một số hướng hẹp khác | 5/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Trình bày được các khái niệm cơ bản của nhóm tuyến tính | 2/6 |  |\n| MH2.2 | Làm được các bài tập cơ bản | 3/6 |  |\n| MH2.3 | Làm các bài tập mang tính vận dụng cao | 5/6 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần học tập tự giác, tự tìm hiểu các vấn đề liên quan | 3/6 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Hiểu và trình bày được các khái niệm cơ bản của như định thức, nhóm các ma trận khả nghịch, nhóm tuyến tính đặc biệt và nhóm xạ ảnh | I, T, U | MH1.1, M1.2, M1.3 và MH2.1 |  |\n| 2 | CHP2 | Làm các bài tập dạng cơ bản | I, T, U | MH1.1, MH1.2, MH1.4 và MH2.2 |  |\n| 3 | CHP3 | Làm các bài tập liên kết giữa nội dung đã học trong chương trình đại cương và nội dung đang học | I, T, U | MH1.4 và MH2.3 |  |\n| 4 | CHP4 | Có thể kết nối các nội dung của môn học và một số hướng nghiên cứu hẹp khác theo cách cơ bản nhất | I, T, U | MH1.4, MH2.3, MH3.1 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Có thể kết nối các nội dung môn học với các hướng nghiên cứu hẹp |  | MH1.4, MH2.3, MH3.1 |  |"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình | x |  | x | X | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 20% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | x |  | x | X | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | x |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SVtự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Giớ thiệu môn học và nhắc lại các kiến thức cơ bản trong lý thuyết nhóm | 1 |  | 4 | 0 | 0 | 0 | Thuyết giảng |  |\n| Chương 1: Trường hữu hạn<br>2.1. Các khái niệm cơ bản của trường<br>2.2. Cấu trúc cơ bản của trường hữu hạn | 2,3 |  | 8 |  | 2 | 4 | Thuyết giảng và sửa bài tập | GD91 và GĐ2 |\n| Chương 2: Vành chia<br>3.1. Các khái niệm cơ bản của vành chia<br>3.2. Một số ví dụ về vành chia<br>3.3. Vành chia Quatenion | 4, 5, 6 |  | 12 |  | 3 | 6 | Thuyết giảng và sửa bài tập | GĐ1 và GĐ2 |\n| Chương 3: Định thức Dieudonne<br>4.1. Nhóm giao hoán tử của nhóm nhân<br>4.2. Phép co và các phép biến đổi sơ cấp<br>4.3. Các khái niệm cơ bản của Định thức Dieudonne | 7, 8, 9 |  | 12 |  | 3 | 6 | Thuyết giảng và sửa bài tập | GĐ1 và GĐ2 |\n| Chương 4: Nhóm tuyến tính<br>5.1. Nhóm tuyến tính tổng quát<br>5.2. Nhóm tuyến tính đặc biệt<br>5.3. Nhóm tuyến tính xạ ảnh | 10, 11, 12 |  | 12 |  | 3 | 6 | Thuyết giảng và sửa bài tập | GĐ1 và GĐ2 |\n| Chương 5. Nhóm tuyến tính trên vành chia đặc biệt<br>6.1. Nhóm tuyến tính trên trường hữu hạn<br>6.2. Nhóm tuyến tính trên vành chia Quaternion thực | 13, 14 |  | 8 |  | 1 | 2 |  |  |\n| Ôn tập | 15 |  | 3 |  | 2 | 4 | Sửa bài tập |  |"
+    ],
+    "Tài liệu học tập": [
+      "Tất cả các tài liệu liệt kê dưới đây đều có thể tìm được trong bộ môn Đại số.",
+      "| STT | Tên tài liệu | Tác giả | Năm xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- |\n| 1 | Nhóm tuyến tính (Tái bản lần thứ nhất có sửa chữa và bổ sung),  NXB ĐHQG TP HCM | Bùi Xuân Hải | 2007 | Giáo trình chính | Bộ môn Đại số |\n| 2 | The classical Groups and K-Theory, Spriger-Verlag Berlin Heidenberg | Alexander J. Hahn,  O. Timothy O’Meara | 1989 | Tài liệu tham khảo | Bộ môn Đại số |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80%",
+      "Dự lớp thực hành tối thiểu: …",
+      "Dự lớp bài tập tối thiểu: …",
+      "Dự lớp thảo luận tối thiểu: …",
+      "Yêu cầu khác: …",
+      "TP.HCM, ngày ….tháng….năm"
+    ]
+  }
+}

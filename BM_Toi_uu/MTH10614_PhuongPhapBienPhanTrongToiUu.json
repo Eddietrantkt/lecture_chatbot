@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Võ Sĩ Trọng Long",
+      "Chức danh, học hàm, học vị: Tiến sĩ",
+      "Đơn vị công tác: Khoa Toán-Tin Học, Trường ĐH KHTN, TP. HCM",
+      "Thời gian và địa điểm làm việc: Sáng từ 9h-12h các ngày trong tuần, Phòng F13",
+      "Địa chỉ liên hệ: 227 Nguyễn Văn Cừ, Quận 5, TP. HCM",
+      "Điện thoại, email: vstlong@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10614",
+      "Tên học phần: Phương Pháp Biến Phân Trong Tối Ưu",
+      "Tên học phần bằng tiếng Anh: Variational Methods in Optimization",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60",
+      "Số tiết bài tập: 0",
+      "Loại học phần thuộc khối kiến thức (check vào các ô): (sử dụng  [x]  để chèn)",
+      "Kiến thức đại cương: □",
+      "Kiến thức cơ sở ngành: □",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ: □",
+      "Khóa luận tốt nghiệp: □",
+      "Đồ án/dự án/seminar tốt nghiệp: □",
+      "Khác:….",
+      "Các học phần tiên quyết: Không",
+      "Các học phần học trước học phần này:",
+      "Học phần song hành: Không",
+      "Các yêu cầu khác (nếu có): Không",
+      "Bộ môn phụ trách học phần: Tối ưu và Hệ thống"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần này nhằm trang bị cho người học các kiến thức cơ bản của giải tích biến phân bao gồm các nguyên lý biến phân hiện đại và các ứng dụng trong tối ưu."
+    ],
+    "Mục tiêu của học phần": [
+      "Trang bị cho sv các kiến thức về giải tích biến phân:",
+      "Về kiến thức:",
+      "Các nguyên lý biến phân",
+      "Kỹ thuật biến phân trong lý thuyết dưới vi phân",
+      "Kỹ thuật biến phân trong giải tích lồi",
+      "Về kỹ năng: Rèn luyện tư duy trừu tượng, logic",
+      "Về thái độ, chuyên cần: Thái độ tích cực, đi học chuyên cần",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Các nguyên lý biến phân hiện đại | 4/6 |  |\n| MH1.2 | Kỹ thuật biến phân trong lý thuyết dưới vi phân | 4/6 |  |\n| MH1.3 | Kỹ thuật biến phân trong giải tích lồi | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Rèn luyện tư duy trừu tượng logic | 3/5 |  |\n| MH2.2 | Vận dụng các kiến thức lý thuyết đề giải quyết các bài toán thực tế | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Thái độ tích cực, đi học chuyên cần | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Hiểu và vận dụng các kiến thức về các nguyên lý biến phân hiện đại nhằm thiết lập các điều kiện cần và đủ cho các bài toán tối ưu | I, T, U | MH1.1, MH2.2 | CCT1.4 |\n| 2 | CHP2 | Hiểu và vận dụng các kỹ thuật biến phân nhăm nghiên cứu lý thuyết dưới vi phân | I, T, U | MH1.3, MH1.2 | CCT1.4 |\n| 3 | CHP3 | Hiểu và vận dụng kỹ thuật biến phân vào giải tích lồi | I, T, U | MH1.3, MH2.2 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 4 | CHP4 | Hiểu và vấn dụng các kiến thức giải tích biến phân vào các môn học khác cũng như giải quyết các bài toán thực tế | I, T, U | MH2.1, MH2.2 | CCT2.4, CCT3.1, CCT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 40% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 20% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  | X | ĐG1.2 | 10% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm | X |  |  |  | ĐG1.5 | 5% |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 5% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  |  | ĐG2 | 60% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Các Nguyên Lý Biến Phân |  |  | 20 |  |  | 10 |  |  |\n| Bài 1.1: Nguyên lý biến phân Ekeland | 1 |  |  |  |  |  |  |  |\n| Bài 1.2: Các dạng hình học của nguyên lý biến phân | 2 | CHP1 |  |  |  |  | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Bài1.3: Các áp dụng đến lý thuyết điểm bất động | 3,4 |  |  |  |  |  |  |  |\n| Bài 1.4: Nguyên lý biến phân trong hữu hạn chiều | 4,5 |  |  |  |  |  |  |  |\n| Chương 2: Các Kỹ Thuật Biến Phân trong Lý Thuyết Dưới Vi Phân |  |  | 15 |  |  | 10 |  |  |\n| Bài 2.1: Dưới vi phân Fréchet và nón pháp tuyến | 6,7 | CHP2 |  |  |  |  | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Bài 2.2: Định lý giá trị trung bình và áp dụng | 8,9 |  |  |  |  |  |  |  |\n| Chương 3: Kỹ Thuật Biến Phân trong Giải Tích Lồi |  |  | 15 |  |  | 10 |  |  |\n| Bài 3.1: Các khái niệm cơ bản | 10 |  |  |  |  |  | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Bài 3.2: Định lý Sandwich và quy tắc tính toán | 11,12 | CHP3, CH4 |  |  |  |  |  |  |\n| Bài 3.3: Các bài toán lồi chấp nhận được | 13,14 |  |  |  |  |  |  |  |\n| Ôn tập | 15 |  | 10 |  |  | 4 |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Jonathan M. Borwein Qiji J. Zhu | 2005 | Techniques of<br>Variational Analysis | Springer | Thư viện trường ĐH KHTN TP HCM |  |\n| 2 | Mordukhovich, B.S. | 1998 | Variational analysis and generalized differentiation:<br>volume I: basic theory,. | Springer | Thư viện trường ĐH KHTN TP HCM |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70%",
+      "Dự lớp thực hành tối thiểu: Không",
+      "Dự lớp bài tập tối thiểu: Không",
+      "Dự lớp thảo luận tối thiểu: Không",
+      "Yêu cầu khác: Không",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Phương pháp biên phân trong tối ưu |  |  |  | x |  |  |  |  | x | x | x |"
+    ]
+  }
+}

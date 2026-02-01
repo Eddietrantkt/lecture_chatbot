@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Hoàng Văn Hà.",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Xác suất – Thống kê, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Xác suất – Thống kê, F12, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10404.",
+      "Tên học phần: Lý thuyết thống kê.",
+      "Tên học phần bằng tiếng Anh: Mathematical Statistics.",
+      "Số tín chỉ: 3.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 3.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này: có,",
+      "Giải tích 1A, Vi tích phân 1A",
+      "Lý thuyết độ đo và xác suất (áp dụng với khóa 2022 trở về trước),",
+      "Xác suất (khóa 2023 trở đi).",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Xác suất – Thống kê."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần trang bị các kiến thức về thống kê mô tả, ước lượng tham số, kiểm định giả thuyết và hồi quy tuyến tính đơn. Sinh viên cần biết các kiến thức về giải tích cơ bản và xác suất để có thể theo học được học phần này."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên sẽ vận dụng các kiến thức về thống kê mô tả, ước lượng, kiểm định giả thuyết và hồi quy tuyến tính đơn để trực qua hóa dữ liệu, ước lượng được các tham số của phân phối, thực hiện các suy diễn thống kê thông qua kiểm định giả thuyết, đánh giá mô hình và dự báo.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Trực quan hóa dữ liệu và phân phối mẫu | 4/6 |  |\n| MH1.2 | Ước lượng các tham số thống kê | 4/6 |  |\n| MH1.3 | Kiểm định giả thuyết thống kê | 4/6 |  |\n| MH1.4 | Vận dụng kiến thức về hồi quy để đánh giá mô hình và dự báo | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Phân tích dữ liệu | 3/5 |  |\n| MH2.2 | Sử dụng phần mềm thống kê | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng được các kiến thức về thống kê mô tả để trực quan hóa và phân tích dữ liệu. | I, T, U | MH1.1 |  |\n| 2 | CHP2 | Ước lượng được các tham số thống kê bằng các phương pháp ước lượng điểm và khoảng tin cậy. | I, T, U | MH1.2 |  |\n| 3 | CHP3 | Thiết lập được quy trình kiểm định một giả thuyết và đánh giá kết quả. | I, T, U | MH1.3, MH2.1 |  |\n| 4 | CHP4 | Xây dựng được mô hình hồi quy tuyến tính đơn và thực hiện dự báo. | I, T, U | MH14, MH2.1, MH3 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Sử dụng được phần mềm R để trực quan hóa và phân tích dữ liệu. | I, T, U | MH2.1, MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 40% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 25% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X | X |  | X | ĐG1.2 | 10% | Sửa bài tập trên lớp |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 5% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 60% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Thống kê mô tả<br>Tổng thể, mẫu. Các đặc trưng mẫu.<br>Mẫu ngẫu nhiên. Phương pháp chọn mẫu ngẫu nhiên đơn giản.<br>Mô tả dữ liệu định lượng: độ đo trung tâm, độ đo sự biến thiên.<br>Mô tả dữ liệu bằng đồ thị: histogram, stem & leaf, boxplot. <br>Phân phối mẫu. | 1 – 2 | CHP1, CHP5 | 6 | 0 | 2 | 6 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Ước lượng điểm<br>2.1. Giới thiệu.<br>2.2.\tCác phương pháp ước lượng: moment, hợp lý cực đại, Bayes. <br>2.3.\tCác tiêu chuẩn ước lượng: không chệch, vững, hiệu quả. <br>2.4.\tTrung bình bình phương sai số. | 3-4 | CHP2 | 6 | 0 | 2 | 6 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: Khoảng tin cậy<br>3.1. \tGiới thiệu ước lượng khoảng, khoảng tin cậy (KTC).<br>3.2.\tKTC cho kỳ vọng.<br>3.3. \tKTC cho tỷ lệ.<br>3.4. KTC cho phương sai (tự đọc).<br>3.5. Sai số/độ chính xác của KTC. Xác định cỡ mẫu. | 5 | CHP2, CHP5 | 3 | 0 | 1 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 4: Kiểm định giả thuyết thống kê<br>4.1. \tGiới thiệu bài toán kiểm định giả thuyết (KĐGT). Các khái niệm: giả thuyết, đối thuyết, miền bác bỏ, thống kê kiểm định, … <br>4.2. \tCác loại sai lầm trong KĐGT.<br>4.3. \tP – giá trị (p-value). <br>4.4. Độ mạnh (power) của kiểm định. Bổ đề Neyman – Pearson.<br>4.5. Kiểm định tỷ lệ hợp lý. <br>4.6. KĐGT cho 1 mẫu: kỳ vọng, tỷ lệ, phương sai (tự đọc). <br>4.7. KĐGT cho 2 mẫu độc lập: so sánh 2 kỳ vọng, so sánh 2 tỷ lệ, so sánh 2 phương sai (tự đọc). <br>4.8. So sánh cặp. <br>4.9. KĐGT về tính độc lập. | 6, 7, 8 | CHP3, CHP5 | 9 | 0 | 3 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 5: Hồi quy tuyến tính đơn<br>5.1.\tGiới thiệu về phân tích hồi quy. Mô hình hồi quy tuyến tính đơn.<br>5.2. Ước lượng các hệ số hồi quy: phương pháp bình phương bé nhất (BPBN). <br>5.3. Tính chất của các ước lượng BPBN.<br>5.4. Đánh giá mô hình hồi quy: hệ số R2.<br>5.5. Phân tích thặng dư.<br>5.6. Khoảng tin cậy và kiểm định giả thuyết cho các hệ số hồi quy.<br>5.7. Hệ số tương quan. | 9 - 10 | CHP4, CHP5 | 6 | 0 | 2 |  | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Đặng Đức Trọng (chủ biên), Đinh Ngọc Thanh | 2016 | Lý thuyết thống kê | NXB Đại học Quốc gia TP. HCM | Giáo trình chính |  |\n| 2 | Montgomery, Douglas C., and George C. Runger | 2020 | Applied statistics and probability for engineers | John Wiley & Sons | Tài liệu tham khảo |  |\n| 3 | Đinh Ngọc Thanh (chủ biên), Đặng Đức Trọng, Nguyễn Văn Thìn, Phan Phúc Doãn, Nguyễn Thị Hồng Nhung, Nguyễn Thị Nhàn | 2016 | Bài tập và thực hành lý thuyết thống kê | NXB Đại học Quốc gia TP. HCM | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Lý thuyết thống kê |  |  | X |  |  | X |  |  | X | X | X |"
+    ]
+  }
+}

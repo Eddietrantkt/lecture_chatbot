@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Thị Yến Ngọc",
+      "Chức danh, học hàm, học vị: Giảng viên, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Cơ học, khoa Toán - Tin học, Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM",
+      "Thời gian và địa điểm làm việc: Văn phòng Bô môn Cơ học, Khoa Toán tin học",
+      "Địa chỉ liên hệ: Văn phòng Bô môn Cơ học, Khoa Toán tin học",
+      "Điện thoại: 0973474555, \tEmail: ntyngoc@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10435",
+      "Tên học phần: Cơ học chất lỏng",
+      "Tên học phần bằng tiếng Anh: Fluid mechanics",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60 tiết",
+      "Số tiết thực hành:",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: có",
+      "Cơ học lý thuyết",
+      "Các học phần học trước học phần này: không",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có): không",
+      "Bộ môn phụ trách học phần: Cơ học"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Môn Cơ học chất lỏng là môn chính trong 3 hướng nghiên cứu chính của cơ học (cơ học vật thể rắn, cơ học chất lỏng và dao động). Trong môn học này sinh viên được áp dụng các kết quả của toán lý thuyết (phương trình vi phân thường, phương trình đạo hàm riêng, lý thuyết hàm biến phức) để nghiên cứu các vấn đề của cơ học chất lỏng.  Môn học giúp sinh viên hiểu rõ hơn về cơ học chất lỏng thông qua các phân tích toán học và vật lý."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Cung cấp các kiến thức cơ bản về cơ học chất lỏng. Giúp sinh viên biết cách đặt bài toán và giải một số bài toán cơ học chất lỏng.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Hiểu các khái niệm cơ bản về cơ học chất lỏng thông qua các phân tích toán học và vật lý. | 4/6 |  |\n| MH1.2 | Biết cách đặt bài toán toán học mô tả các hiện tượng cơ học chất lỏng, phân tích và giải một số bài toán cơ học chất lỏng. | 4/6 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Tự giác, tích cực, chăm chỉ, năng động | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm được các khái niệm nền tảng, định luật cơ bản của cơ học chất lỏng | I,T,U | MH1.1 | CCT1.4 |\n| 2 | CHP2 | Phân tích ý nghĩa vật lý và toán học của bài toán cơ học chất lỏng. Giải quyết một số bài toán cơ bản trong câc trường hợp nhất định. | I,T,U | MH1.2 | CCT1.4 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 3 | CHP3 | Tự giác, tích cực, chăm chỉ, năng động |  | MH3.1 | CCT3.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  | X |  | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  | X |  | ĐG1.5 | 20% |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  | X |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  | X | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: Giới thiệu một sô đặc tính cơ bản trong cơ học chất lưu | 1-2 | CHP1<br>CHP3 | 6 |  | 2 |  | 16 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 1.1: Một số đặc tính của chất lưu | 1 |  |  |  |  |  |  |  |  |  |\n| Bài 1.2: Phân tích thứ nguyên và đơn vị | 1 |  |  |  |  |  |  |  |  |  |\n| Bài 1.3: Phân tích ứng xử của chất lưu | 1 |  |  |  |  |  |  |  |  |  |\n| Bài 1.4: Độ nhớt | 1 |  |  |  |  |  |  |  |  |  |\n| Bài 1.5: Ứng suất bề mặt | 2 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 2 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 2: Thủy tĩnh học | 3-5 | CHP1<br>CHP3 | 8 |  | 4 |  | 24 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 2.1: Áp suất trong chất lưu tĩnh | 3 |  |  |  |  |  |  |  |  |  |\n| Bài 2.2: Áp lực của chất lưu lên bề mặt vật rắn | 3 |  |  |  |  |  |  |  |  |  |\n| Bài 2.3: Áp lực của chất lưu lên các vật nhúng trong chất lưu | 4 |  |  |  |  |  |  |  |  |  |\n| Bài 2.4: Chất lưu phân lớp | 4 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 5 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 3 Sự bảo toàn khối lượng | 6-7 | CHP1<br>CHP3 | 6 |  | 2 |  | 16 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 3.1: Động học chất lưu | 6 |  |  |  |  |  |  |  |  |  |\n| Bài 3.2: Tính nén được của chất lưu | 6 |  |  |  |  |  |  |  |  |  |\n| Bài 3.3: Nguyên lý bảo toàn khối lượng | 6 |  |  |  |  |  |  |  |  |  |\n| Bài 3.4: Các thể hiện của nguyên lý bảo toàn khối lượng | 7 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 7 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 4: Dòng chảy không nhớt | 8-10 | CHP2<br>CHP3 | 8 |  | 4 |  | 24 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 4.1: Tính nhớt của chất lỏng | 8 |  |  |  |  |  |  |  |  |  |\n| Bài 4.2: Phương trình Euler | 8 |  |  |  |  |  |  |  |  |  |\n| Bài 4.3: Phương trình Bernoulli | 9 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 10 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 5: Sự bảo toàn động lượng | 11-12 | CHP1<br>CHP3 | 5 |  | 3 |  | 16 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 5.1: Định lý Reynolds | 11 |  |  |  |  |  |  |  |  |  |\n| Bài 5.2: Động lượng | 11 |  |  |  |  |  |  |  |  |  |\n| Bài 5.3: Áp dụng định lý động lượng | 11 |  |  |  |  |  |  |  |  |  |\n| Bài 5.4: Mô men động lượng | 11 |  |  |  |  |  |  |  |  |  |\n| Bài 5.5: Áp dụng định lý mô men động lượng | 12 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 12 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 6: Dòng chảy nhớt | 13-14 | CHP2<br>CHP3 | 8 |  |  |  | 16 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 6.1: Phương trình Navier-Stokes | 13 |  |  |  |  |  |  |  |  |  |\n| Bài 6.2: Điều kiện biên, điều kiện đầu | 13 |  |  |  |  |  |  |  |  |  |\n| Bài 6.3: Áp dụng của phương trình Navier-Stokes | 14 |  |  |  |  |  |  |  |  |  |\n| Chương 7: Sự bảo toàn năng lượng | 15 | CHP1<br>CHP3 | 4 |  |  |  | 8 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 7.1: Nguyên lý bảo toàn năng lượng | 15 |  |  |  |  |  |  |  |  |  |\n| Bài 7.2: Định luật thứ nhất nhiệt động lực học | 15 |  |  |  |  |  |  |  |  |  |\n| Bài 7.3: Định luật thứ hai nhiệt động lực học | 15 |  |  |  |  |  |  |  |  |  |\n| Tổng cộng số tiết | 60 |  | 45 |  | 15 |  | 120 |  |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Trịnh Anh Ngọc | 2018 | Bài giảng “Cơ học chất lỏng lý thuyết”, |  | Giáo trình chính | Bộ môn Cơ học |\n| 2 | Munson, Young, Okiishi, and Huebsch | 2009 | Fundamentals of Fluid Mechanics |  | Tài liệu tham khảo | Internet |\n| 3 | Fay J.A. | 1998 | Introduction to fluid mechanics |  | Tài liệu tham khảo | Internet |\n| 4 | I.G. Currie | 2012 | Fundamental Mechanics of Fluids |  | Tài liệu tham khảo | Internet |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70%",
+      "Dự lớp thực hành tối thiểu: không có",
+      "Dự lớp bài tập tối thiểu: không có",
+      "Dự lớp thảo luận tối thiểu: không có",
+      "Yêu cầu khác: không có",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Cơ vật chất lỏng |  |  |  | X |  |  |  |  |  | X |  |"
+    ]
+  }
+}

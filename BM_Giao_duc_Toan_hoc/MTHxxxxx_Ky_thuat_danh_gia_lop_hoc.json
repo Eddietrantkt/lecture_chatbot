@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên:",
+      "Chức danh, học hàm, học vị:",
+      "Đơn vị công tác: Khoa Toán tin học",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ:",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail)"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10125",
+      "Tên học phần: KỸ THUẬT ĐÁNH GIÁ LỚP HỌC",
+      "Tên học phần bằng tiếng Anh: CLASSROOM ASSESSMENT TECHNIQUES",
+      "Số tín chỉ: 1 (1LT, 1TH)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 15",
+      "Số tiết thực hành: 30",
+      "Số tiết bài tập: 0",
+      "Khác:",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này:",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có): khái quát kiến thức về lý luận dạy học và phương pháp giảng dạy; kỹ năng tự học, làm việc nhóm, thuyết trình; tích cực trong học tập, trung thực trong học tập và thi cử.",
+      "Bộ môn phụ trách học phần: …"
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Mô tả khái quát được vai trò, các yêu cầu của hoạt động đánh giá, các phương pháp kiểm tra và đánh gián trong giảng dạy. Nhận biết được mối quan hệ giữa các cơ sở lý thuyết và các hệ thống bài tập. Lựa chọn linh hoạt các phương pháp giảng dạy & đánh giá vào quá trình tổ chức và điều khiển lớp học. Hình thành phương pháp tiếp cận khoa học đến kiến thức chuyên ngành, nhận định các vấn đề giáo dục thực tiễn và phương pháp cải thiện chất lượng giảng dạy. Ý thức được vai trò, trách nhiệm của người học và người giáo viên tương lai.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nhận biết được vai trò của giảng dạy và đánh giá | 4/6 |  |\n| MH1.2 | Khái quát được các kỹ thuật và công cụ đánh giá | 3/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Xây dựng được các Rubric đánh giá phù hợp | 3/5 |  |\n| MH2.2 | Biên soạn được đề kiểm tra tương thích với chuẩn đầu ra môn học | 3/5 |  |\n| MH3.1 | Vận dụng linh hoạt các phương pháp giảng dạy để tổ chức lớp | 3/5 |  |\n| MH3.2 | Vận dụng linh hoạt các phương pháp giảng dạy để tổ chức lớp | 3/5 |  |\n| MH4.2 | Hình thành phương pháp tiếp cận khoa học đến kiến thức chuyên ngành | 3/5 |  |\n| MH4.2 | Nhận định được các vấn đề giáo dục thực tiễn và phương pháp cải thiện chất lượng giảng dạy | 3/5 |  |\n| MH5.1 | Phát triển được kỹ năng hợp tác | 3/5 |  |\n| MH5.2 | Hình thành và phát triển kỹ năng thuyết trình, viết báo cáo khoa học | 3/5 |  |\n| MH5.3 | Khái quát được các vấn đề liên quan tới việc xây dựng động cơ học tập, phát triển khả năng tiếp nhận kiến thức | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH6.1 | Đi học đúng giờ | 3/5 |  |\n| MH6.2 | Sẵn sàng chia sẽ ý kiến cá nhân | 3/5 |  |\n| MH6.3 | Tham gia đầy đủ các hoạt động của lớp | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Mô tả tổng quan về phương pháp kiểm tra và đánh giá | I, T, U | MH1.1<br>MH1.2 | CCT1.4 |\n| 2 | CHP2 | Nhận biết được mối quan hệ giữa các cơ sở lý thuyết và các hệ thống bài tập | I, T, U | MH2.1<br>MH2.2 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP3 | Lựa chọn linh hoạt các phương pháp giảng dạy & đánh giá vào quá trình tổ chức và điều khiển lớp học | I, T, U | MH3.1<br>MH3.2 | CCT2.2 |\n| 4 | CHP4 | Hình thành phương pháp tiếp cận khoa học đến kiến thức chuyên ngành, nhận định các vấn đề giáo dục thực tiễn và phương pháp cải thiện chất lượng giảng dạy | I, T, U | MH4.1<br>MH4.2 | CCT2.3 |\n| 5 | CHP5 | Phát triển kỹ năng tự học, học hợp tác, giao tiếp sư phạm, phát triển khả năng tiếp nhận kiến thức. | I, T, U | MH5.1<br>MH5.2<br>MH5.3 | CCT2.1 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 6 | CHP6 | Ý thức được vai trò, trách nhiệm của người học và người giáo viên tương lai | I, T, U | MH6.1<br>MH6.2<br>MH6.3 | CCT3.1<br>CCT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 55% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  | X | ĐG1.3 | 15% |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  | X | ĐG1.4 | 15% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  | X | ĐG1.5 | 25% |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  | X | ĐG2 | 45% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Khái quát chung |  |  |  |  |  |  |  | ĐG1,<br>ĐG2 |\n| Bài 1.1: Khái niệm | 1 |  | 1 |  |  | 1 | Thuyết trình |  |\n| Bài 1.2: Đặc điểm của đánh giá lớp học | 1 |  | 1 |  |  | 2 | Hỏi đáp |  |\n| Bài 1.3: Vai trò của đánh giá trong giảng dạy | 1 |  | 1 |  |  | 4 | Làm việc nhóm |  |\n| Bài 1.4: Các nguyên tắc trong đánh giá | 1 |  | 1 |  |  | 2 |  |  |\n| Bài 1.5: Các hình thức đánh giá | 1 |  | 1 |  |  | 2 |  |  |\n| Chương 2: Các kỹ thuật đánh giá |  |  |  |  |  |  | Thảo luận, hỏi đáp | ĐG1,<br>ĐG2 |\n| Bài 2.1: Phân loại | 2 |  | 1 |  |  | 2 |  |  |\n| Bài 2.2: Các đặc trưng cơ bản | 2 |  | 1 |  |  | 2 |  |  |\n| Bài 2.3: Cách tổ chức | 2 |  | 1 |  |  | 2 |  |  |\n| Bài 2.4: Bài tập ứng dụng | 2 |  |  | 2 |  | 2 |  |  |\n| Chương 3: Rubric – công cụ hỗ trợ đánh giá hiệu quả |  |  |  |  |  |  | Động não, lớp học đảo ngược | ĐG1,<br>ĐG2 |\n| Bài 3.1: Khái niệm | 3 |  | 2 |  |  | 2 |  |  |\n| Bài 3.2: Cấu trúc của Rubric | 3 |  | 2 |  |  | 2 |  |  |\n| Bài 3.3: Cách xây dựng Rubric | 3 |  | 1 |  |  | 5 |  |  |\n| Bài 3.4: Thực hành xây dựng Rubric | 4, 5 |  |  | 10 |  | 8 |  |  |\n| Chương 4: Tổ chức đánh giá trong giảng dạy |  |  |  |  |  |  | Thảo luận, hỏi đáp | ĐG1,<br>ĐG2 |\n| Bài 4.1: Khái quát đề kiểm tra và xây dựng ma trận đề | 6 |  | 2 | 3 |  | 5 |  |  |\n| Bài 4.2: Biên soạn đề kiểm tra trên LaTeX và gán ID câu hỏi theo ma trận. | 7 |  |  | 5 |  | 10 |  |  |\n| Bài 4.3: Tìm hiểu các trang web/ứng dụng hỗ trợ việc đánh giá hoặc liên quan đến xây dựng ngân hàng câu hỏi, tạo đề thi. | 8 |  |  | 5 |  | 5 |  |  |\n| Bài 4.4: Ứng dụng đánh giá | 9 |  |  | 5 |  | 5 |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Thomas A. Angelo & K. Patricia Cross | 1993 | Classroom Assessment Techniques: A Handbook for College Teachers, Jossey-Bass |  | Giáo trình chính |  |\n| 2 | Linda Suskie | 2009 | Assessing Student Learning |  | Giáo trình chính |  |\n| 3 | Barbara Gross David | 2009 | Tools for Teaching |  | Tài liệu tham khảo |  |\n| 4 | Mensa | 2007 | Keep Your Brain Fit |  | Tài liệu tham khảo |  |\n| 5 | National Research Council, National Academies Press | 2000 | How People Learn: Brain, Mind, Experience and School |  | Tài liệu tham khảo |  |\n| 6 | Robert S. Feldman | 2003 | Power Learning |  | Tài liệu tham khảo |  |\n| 7 | Steve Frankland | 2000 | Enhancing Teaching and Learning through Assessment |  |  |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: vắng 1 buổi trừ 0.5 điểm, vắng 2 buổi cấm thi.",
+      "Dự lớp thực hành tối thiểu: tham gia đầy đủ",
+      "Dự lớp bài tập tối thiểu: tham gia đầy đủ",
+      "Dự lớp thảo luận tối thiểu: tham gia đầy đủ",
+      "Yêu cầu khác: …",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày   tháng 08  năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Kỹ thuật đánh giá lớp học |  |  |  | x |  |  | x |  | x | x | x |"
+    ]
+  }
+}

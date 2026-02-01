@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "Thông tin về giảng viên": [
+      "Họ và tên: Lê Văn Luyện",
+      "Chức danh, học hàm, học vị: Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Đại số, Khoa Toán-Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG-HCM",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh",
+      "Điện thoại, email: lvluyen@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH00084",
+      "Tên học phần: Đại số đại cương",
+      "Tên học phần bằng tiếng Anh: Abstract Algebra Practice",
+      "Số tín chỉ: 1",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 0",
+      "Số tiết thực hành: 30",
+      "Số tiết bài tập: 0",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [x]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: không",
+      "Học phần song hành: không",
+      "Bộ môn phụ trách học phần: Bộ môn Đại số"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần trang bị kiến thức cơ bản về các cấu trúc đại số trừu tượng, về suy luận và tính toán hình thức, giúp sinh viên có cái nhìn tổng quan về các cấu trúc đại số cụ thể đã biết."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên được trang bị các cấu trúc đại số cơ bản như: phép toán hai ngôi, nhóm, vành, trường và vành đa thức. Các khái niệm được đặc biệt chú ý là: Nhóm xyclic, nhóm các số nguyên môđulô n, nhóm hoán vị, nhóm con, nhóm con chuẩn tắc, nhóm thương, đồng cấu nhóm, Định lý đẳng cấu thứ nhất, vành, vành con, iđêan, trường, vành đa thức trên trường, đặc biệt là trên trường số hữu tỷ, trường số thực, trường số phức và trường có đặc số nguyên tố.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm vững các khái niệm cơ bản về các cấu trúc đại số trừu tượng | 2/6 |  |\n| MH1.2 | Vận dụng các kiến thức cơ bản về các cấu trúc đại số trừu tượng để giải toán. | 3/6 |  |\n| MH1.3 | Nắm vững các kiến thức nâng cao về nhóm, vành và trường | 3/6 |  |\n| MH1.4 | Vận dụng các kiến thức nâng cao về nhóm, vành và trường để giải toán. | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Hiểu và sử dụng được các kỹ năng suy luận toán học cơ bản để phân tích và giải toán. | 2/5 |  |\n| MH2.2 | Sử dụng thành thạo các kỹ năng suy luận toán học để phân tích và giải toán. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần chủ động, sáng tạo, hợp tác, tự thích nghi và tự điều chỉnh. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung<br>CĐR học phần | Mức độ giảng dạy<br>(I, T, U)* | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm vững các khái niệm cơ bản về các cấu trúc đại số trừu tượng | I, T, U | MH1.1 |  |\n| 2 | CHP2 | Vận dụng các kiến thức cơ bản về các cấu trúc đại số trừu tượng để giải toán. | I, T, U | MH1.2<br>MT2.1 |  |\n| 3 | CHP3 | Nắm vững các kiến thức nâng cao về nhóm, vành và trường | I, T, U | MH1.3, MH2.1, MT3.1 |  |\n| 4 | CHP4 | Vận dụng các kiến thức nâng cao về nhóm, vành và trường để giải toán. | I, T, U | MH1.4, MH2.1, MH3.1 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Có khả năng đọc, hiểu tài liệu, kỹ năng làm việc nhóm, kỹ năng tư duy logic để phân tích và giải toán. | I, T, U | MH2.1, MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 30% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 10% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phương pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1. Nhóm | 1 – 5 |  | 15 |  |  | 15 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1. Phép toán hai ngôi, nhóm, nửa nhóm, vị nhóm. Cấp của một phần tử trong nhóm. Nhóm các số nguyên môđulô n. |  | CHP1, CHP2 | 4 |  |  | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2. Nhóm con. Định lý Lagrange. Nhóm con xyclic. Nhóm con sinh bởi một tập hợp |  | CHP1, CHP2, CHP5 | 4 |  |  | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3. Nhóm con chuẩn tắc. Nhóm thương. Đồng cấu nhóm. Định lý đẳng cấu thứ nhất |  | CHP2-5 | 5 |  |  | 5 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4. Nhóm hoán vị và nhóm thay phiên |  | CHP2-5 | 2 |  |  | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2. Vành, miền nguyên và trường | 6-8 |  | 7 |  |  | 7 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1. Vành |  | CHP1-2 | 2 |  |  | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2. Vành con, iđêan, vành thương. Đồng cấu vành |  | CHP2-5 | 3 |  |  | 5 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3. Miền nguyên và trường |  | CHP2-5 | 3 |  |  | 5 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3. Vành đa thức một ẩn | 8-10 |  | 8 |  |  | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1. Vành đa thức một ẩn trên trường: Định nghĩa và các tính chất cơ bản |  | CHP1-2 | 2 |  |  | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2. Thuật chia Euclid. Sơ đồ Horner. Khai triển Taylor. Đa thức nội suy Lagrange |  | CHP2-5 | 2 |  |  | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3. Sự chia hết, ước chung, bội chung của các đa thức trên trường |  | CHP2-5 | 2 |  |  | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4. Đa thức bất khả quy. Tiêu chuẩn Eisenstein |  | CHP2-5 | 2 |  |  | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên<br>Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Nguyễn Viết Đông, Trần Ngọc Hội | 2005 | Đại số đại cương | NXB<br>ĐHQG-HCM | Giáo trình chính |  |\n| 2 | Mỵ Vinh Quang | 1999 | Đại số đại cương | NXB Giáo dục | Tài liệu<br>tham khảo |  |\n| 3 | Alexander Hulpke | 2011 | Abstract Algebra in GAP |  | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: 70% số tiết học.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

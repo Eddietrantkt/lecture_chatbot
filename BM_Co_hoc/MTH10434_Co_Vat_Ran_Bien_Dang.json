@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: BÙI XUÂN THẮNG",
+      "Chức danh, học hàm, học vị: Giảng viên, Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Cơ học, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc: Văn phòng Bộ môn Cơ học, khoa Toán – Tin học.",
+      "Địa chỉ liên hệ: Văn phòng Bộ môn Cơ học, khoa Toán – Tin học.",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail): không có."
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10434",
+      "Tên học phần: CƠ HỌC VẬT RẮN BIẾN DẠNG.",
+      "Tên học phần bằng tiếng Anh: MECHANICS OF DEFORMABLE SOLIDS.",
+      "Số tín chỉ: 04.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60.",
+      "Số tiết thực hành: .",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không hoặc có, nếu có thì điền các thông tin sau",
+      "Không.",
+      "Các học phần học trước học phần này: không hoặc có, nếu có thì điền các thông tin sau",
+      "Cơ học môi trường liên tục.",
+      "Học phần song hành: không hoặc có, nếu có thì điền các thông tin sau",
+      "Không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: BM Cơ học"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Môn học là học phần tiếp nối môn Cơ học môi trường liên tục và song song với Cơ học chất lỏng, một hướng nghiên cứu khác của Cơ học liên quan đến môi trường liên tục.",
+      "Môn học được mô tả là phần mở đầu cho hướng nghiên cứu về ứng xử của vật rắn biến dạng trong đó đi sâu vào hai hướng nghiên cứu về ứng xử của vật thể rắn biến dạng bao gồm: đàn hồi tuyến tính và biến dạng dẻo. Sau khi học xong môn học, sinh viên có thể tiếp cận các hướng nghiên cứu liên quan đến ứng xử của vật rắn. Các tính toán số cho các bài toán đơn giản cũng sẽ được trình bày trong môn học để sinh viên có thể tiếp cận với các hướng nghiên cứu mới trên thế giới."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Có kiến thức chuyên sâu về các nghiên cứu trong lĩnh vực Cơ học vật rắn biến dạng, cụ thể là ứng xử đàn hồi và ứng xử dẻo.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Thiết lập được hệ phương trình ứng xử đàn hồi tuyến tính của vật rắn đẳng hướng thuần nhất. | 4/6 |  |\n| MH1.2 | Thiết lập được hệ phương trình ứng xử đàn hồi tuyến tính của vật rắn bất đẳng hướng và không thuần nhất. | 4/6 |  |\n| MH 1.3 | Phân biệt được các mô hình dẻo của vật rắn biến dạng. Hiểu các đặc trưng của biến dạng dẻo. | 4/6 |  |\n| MH 1.4 | Thiết lập được hệ phương trình ứng xử dẻo của vật rắn biến dạng. | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Xây dựng được hệ phương trình ứng xử đàn hồi tuyến tính cho các bài toán một chiều và hai chiều cụ thể. Vận dụng kiến thức toán học để giải giải tích các bài toán này. | 3/5 |  |\n| MH2.2 | Xây dựng hệ phương trình mô tả ứng xử dẻo cho một số bài toán đơn giản nhất. Vận dụng kiến thức toán học để giải giải tích các bài toán này. | 3/5 |  |\n| MH2.3 | Sử dụng thành thạo phần mềm máy tính để tính toán mô phỏng một số đàn hồi tuyến tính cơ bản một chiều và hai chiều. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tinh thần chủ động, cộng tác, thích nghi và tự điều chỉnh. | 3/5 |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng các kiến thức về cơ học môi trường liên tục và định luật Hooke tổng quát để thiết lập hệ phương trình ứng xử đàn hồi tuyến tính của vật rắn đẳng hướng thuần nhất. | I, T, U | MH1.1; | CCT1.4; |\n| 2 | CHP2 | Vận dụng các kiến thức về cơ học môi trường liên tục và định luật Hooke tổng quát để thiết lập được hệ phương trình ứng xử đàn hồi tuyến tính của vật rắn bất đẳng hướng và không thuần nhất. | I, T, U | MH 1.2 | CCT1.4; |\n| 3 | CHP3 | Phân biệt được các mô hình dẻo của vật rắn biến dạng: cứng-dẻo lý tưởng, đàn-dẻo lý tưởng, dẻo tái bền. Các đại lượng đặc trưng cho biến dạng dẻo và các điều kiện chảy dẻo. | T, U | MH 1.3 | CCT1.4; |\n| 4 | CHP4 | Thiết lập được hệ phương trình ứng xử dẻo của vật rắn biến dạng: hệ phương trình mô tả từ biến dạng đàn hồi đến biến dạng dẻo, phương trình trạng thái dẻo và điều kiện chảy dẻo. | I, T | MH 1.4 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Xây dựng được hệ phương trình ứng xử đàn hồi tuyến tính cho các bài toán một chiều và hai chiều cụ thể. Vận dụng kiến thức toán học để giải giải tích các bài toán này. | I, T, U | MH2.1 | CCT1.4 |\n| 6 | CHP6 | Xây dựng hệ phương trình mô tả ứng xử dẻo cho một số bài toán đơn giản nhất. Vận dụng kiến thức toán học để giải giải tích các bài toán này. | I, T | MH2.2 | CCT1.4 |\n| 7 | CHP7 | Sử dụng thành thạo phần mềm máy tính để tính toán mô phỏng một số đàn hồi tuyến tính cơ bản một chiều và hai chiều. | T, U | MH2.3 | CCT2.1 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 8 | CHP8 | Tham gia tích cực vào các hoạt động sửa bài tập, trao đổi và thảo luận nhóm. | I | MH3.1 | CCT3.1 |\n|  |  | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n| .. | .. |  |  |  |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% |  |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  | x | ĐG1.2 | 20% | Giải bài tập |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  | x | ĐG1.5 | 20% | Thuyết trình |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  | x | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  | x | ĐG2 | 50% | Đồ án cuối kỳ. |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: Đàn hồi tuyến tính | 1-8 | CHP1 CHP2 CHP5 CHP7 | 20 |  | 6 | 6 | 64 |  | Thuyết trình; thảo luận | ĐG1.6 |\n| Bài 1.1: Năng lượng biến dạng và các nguyên lý liên quan | 1-2 |  | 5 |  | 3 |  | 16 |  |  |  |\n| Bài 1.2: Bài toán phẳng | 3-4 |  | 5 |  | 3 |  | 16 |  |  | ĐG1.2 |\n| Bài 1.3: Đàn hồi bất đẳng hướng. | 5-6 |  | 5 |  |  | 3 | 16 |  |  | ĐG1.2 |\n| Bài 1.4: Đàn hồi không thuần nhất | 7-8 |  | 5 |  |  | 3 | 16 |  |  | ĐG1.5 |\n| Chương 2: Lý thuyết dẻo | 9-15 | CHP3 CHP4 CHP6<br>CHP8 | 18 |  | 2 | 8 | 56 |  | Thuyết trình; thảo luận | ĐG1.6 |\n| Bài 2.1: Các phương trình trạng thái dẻo | 9-10 |  | 6 |  | 2 |  | 16 |  |  | ĐG1.5 |\n| Bài 2.2: Các phương trình cân bằng đàn hồi dẻo | 11-12 |  | 6 |  |  | 4 | 20 |  |  | ĐG1.5 |\n| Bài 2.3: Những bài toán đơn giản nhất. | 13-15 |  | 6 |  |  | 4 | 20 |  |  | ĐG1.2 |\n| Tổng cộng số tiết | 60 |  | 38 |  | 8 | 14 | 120 | … |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Martin H. Sadd | 2009 | Elasticity: Theory, Applications, and Numerics | Academic Press | Giáo trình chính | …. |\n| 2 | Đặng Đình Áng, Trịnh Anh Ngọc, Ngô Thành Phong | 2003 | Nhập môn cơ học | NXB ĐHQG-HCM | Tài liệu tham khảo | Thư viện trường ĐH. Khoa Học Tự Nhiên Tp. HCM hay ĐH Quốc Gia Tp. HCM |\n| 3 | Martin H. Sadd | 2019 | Continuum Mechanics Modeling of Material Behavior | Academic Press | Tài liệu tham khảo | …. |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% tiết.",
+      "Dự lớp thực hành tối thiểu:….",
+      "Dự lớp bài tập tối thiểu:….",
+      "Dự lớp thảo luận tối thiểu:…",
+      "Yêu cầu khác:….",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Cơ vật rắn biến dạng |  |  |  | X |  | X |  |  |  | X |  |"
+    ]
+  }
+}

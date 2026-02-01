@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Lê Đức Hưng",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Giải tích, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Giải tích, E201A, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần:": [
+      "Mã học phần:    MTH10413.",
+      "Tên học phần:   Phương trình toán lý.",
+      "Tên học phần bằng tiếng Anh:   Equations of mathematical physics.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [x]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này: Giải tích 1A, Vi tích phân 1A, Đại số tuyến tính 1A, Vi tích phân 2A, Phương trình vi phân, Giải tích 3A",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần trang bị kiến thức về những phương trình trong việc mô phỏng những hiện tượng tự nhiên như sự chuyển động của sóng cơ học, sự phân bố của nhiệt độ trong vật, và trạng thái cân bằng. Môn học song song giới thiệu các phương pháp tìm nghiệm cổ điển của những phương trình toán lý này như phương pháp tách biến Fourier, phương pháp biến đổi Fourier, và phương pháp biến đổi Laplace. Do đó, học phần Phương trình toán lý cung cấp kiến thức liên ngành cho chương trình đào tạo Cử nhân ngành Toán học và ngành Toán ứng dụng."
+    ],
+    "Mục tiêu của học phần:": [
+      "Mục tiêu chung: Giới thiệu các phương trình toán lý cơ bản và khái niệm nghiệm cổ điển. Sau đó, trình bày phương pháp tách biến Fourier, phương pháp biến đổi Fourier, và phương pháp biến đổi Laplace với những điều kiện biên Dirichlet, Neumann, và Robin.  Học phần này nhằm phát triển tư duy và hoàn thiện kỹ năng tính toán cho sinh viên bắt đầu giai đoạn chuyên ngành.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Có kiến thức về các dạng phương trình toán-lý cơ bản | 3/6 |  |\n| MH1.2 | Biết cách vận dụng phương pháp tách biến Fourier để tìm nghiệm dạng chuỗi | 4/6 |  |\n| MH1.3 | Biết cách vận dụng phương pháp biến đổi Fourier để tìm nghiệm của phương trình | 4/6 |  |\n| MH1.4 | Biết cách vận dụng phương pháp biến đổi Laplace để tìm nghiệm của phương trình | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Biết tìm nghiệm dạng chuỗi sử dụng phương pháp tách biến Fourier | 3/5 |  |\n| MH2.2 | Biết tìm nghiệm của phương trình đạo hàm riêng qua phép biến đổi Fourier | 3/5 |  |\n| MH2.3 | Biết tìm nghiệm của phương trình đạo hàm riêng qua phép biến đổi Laplace | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tư duy độc lập, sáng tạo, giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần:": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Mô tả các phương trình toán lý cơ bản như phương trình sóng, phương trình nhiệt, và phương trình Laplace. | I | MH1.1 | CCT1.2; CCT1.3 |\n| 2 | CHP2 | Vận dụng phương pháp tách biến Fourier để tìm nghiệm cổ điển dạng chuỗi của những phương trình toán lý thuần nhất và không thuần nhất cùng với các điều kiện biên khác nhau. Hiểu và giải thích rõ ràng các bước trong phương pháp tách biến. | T | MH1.2 | CCT1.3; CCT1.4 |\n| 3 | CHP3 | Xây dựng và khái quát hóa phương pháp tách biến Fourier tìm nghiệm cổ điển cho những phương trình vi phân và đạo hàm riêng thuần nhất và không thuần nhất với các điều kiện biên khác nhau. | U | MH1.2 | CCT1.4 |\n| 4 | CHP4 | Tìm biến đổi Fourier của một hàm và vận dụng để tìm nghiệm của phương trình đạo hàm riêng. | I, T | MH1.3 | CCT1.3; CCT1.4 |\n| 5 | CHP5 | Tìm biến đổi Laplace của một hàm và vận dụng để tìm nghiệm của phương trình đạo hàm riêng. | I, T | MH1.4 | CCT1.3; CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 6 | CHP6 | Thành thạo trong việc tìm nghiệm dạng chuỗi Fourier của những phương trình toán-lý thuần nhất và không thuần nhất với những điều kiện biên khác nhau. | T, U | MH2.1 | CCT2.1; CCT2.2 |\n| 7 | CHP7 | Thành thạo trong việc tìm nghiệm bằng phương pháp biến đổi Fourier cho những phương trình đạo hàm riêng. | T, U | MH2.2 | CCT2.1; CCT2.2 |\n| 8 | CHP8 | Thành thạo trong việc tìm nghiệm bằng phương pháp biến đổi Laplce cho những phương trình đạo hàm riêng. | T, U | MH2.3 | CCT2.1; CCT2.2 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 9 | CHP9 | Làm việc độc lập và làm việc theo nhóm, chịu trách nhiệm cá nhân và trách nhiệm với nhóm. |  | MH3.1 | CCT3.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần:": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 25% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  | X |  | ĐG1.6 | 5% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của học phần: Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học * | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học * | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Số tiết | Phương pháp dạy học * | Bài đánh giá |\n| Chương 1: Phương trình vi phân tuyến tính cấp hai với hệ số hằng<br>1.1. Các bài toán dao động.<br>1.2. Tính duy nhất nghiệm của bài toán Cauchy.<br>1.3. Cách giải phương trình vi phân tuyến tính cấp hai với hệ số hằng.<br>1.4. Cách giải phương trình vi phân tuyến tính cấp hai với hệ số hằng liên quan đến các bài toán dao động. | 1 – 2 | CHP1;<br>CHP9; | 5 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.1;<br>ĐG1.2;<br>ĐG2 |\n| Chương 2: Các phương trình toán lý<br>2.1. Mở đầu, các ví dụ.<br>2.2. Phương trình đạo hàm riêng tuyến tính; các tính chất của nghiệm.<br>2.3. Phân loại phương trình đạo hàm riêng tuyến tính cấp hai theo hai biến độc lập.<br>2.4. Thiết lập các bài toán cơ bản cho các phương trình đạo hàm riêng tuyến tính cấp hai. | 2 | CHP1;<br>CHP9; | 3 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.1; ĐG1.2 |\n| Chương 3: Phương trình sóng<br>3.1. Thiết lập phương trình sóng.<br>3.2. Nghiệm của bài toán Cauchy (Bài toán giá trị ban đầu) phương trình sóng cho dây vô hạn. Công thức D’Alembert.<br>3.3. Bài toán đặt chỉnh.  Ví dụ của Hadamard về bài toán không chỉnh.<br>3.4. Dao động tự do của một sợi dây cố định tại hai đầu.  Phương pháp tách biến Fourier. <br>3.5. Khai triển Chuỗi Fourier.<br>3.6. Dao động cưỡng bức của một sợi dây cố định tại hai đầu.<br>3.7. Dao động cưỡng bức của một sợi dây không cố định tại hai đầu.<br>3.8. Dao động cưỡng bức của một sợi dây có gắn lò xo ở hai đầu.<br>3.9. Sơ đồ tổng quát của phương pháp tách biến Fourier.<br>3.10. Tính duy nhất của nghiệm của bài toán hỗn hợp.<br>3.11. Dao động của một màng tròn. | 3 – 8 | CHP2;<br>CHP3;<br>CHP6;<br>CHP9 | 24 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.1;<br>ĐG1.2; |\n| Chương 4: Phương trình nhiệt<br>4.1. Thiết lập phương trình nhiệt.<br>4.2. Nghiệm của bài toán Cauchy phương tình nhiệt.<br>4.3. Truyền nhiệt trong thanh hữu hạn. Phương pháp tách biến Fourier.<br>4.4. Truyền nhiệt trong thanh hữu hạn với các loại điều kiện biên Dirichlet không thuần nhất, Robin không thuần nhất, Robin - Dirichlet không thuần nhất. | 9 | CHP2;<br>CHP3;<br>CHP6;<br>CHP9 | 4 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.2;<br>ĐG2 |\n| Chương 5: Phương trình Laplace<br>5.1. Thiết lập bài toán biên<br>5.2. Nghiệm cơ bản của phương trình Laplace<br>5.3. Công thức Green<br>5.4. Tính chất của hàm điều hòa<br>5.5. Bài toán Dirichlet cho phương trình Laplace trong miền hình tròn. Phương pháp tách biến Fourier. Ví dụ về phương pháp tách biến Fourier cho hàm ba biến.<br>5.6. Tích phân Poisson.<br>5.7. Bài toán Dirichlet cho phương trình Laplace trong miền hình chữ nhật. Phương pháp tách biến Fourier. | 10 – 11 | CHP2;<br>CHP3;<br>CHP6;<br>CHP9 | 6 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.2;<br>ĐG2 |\n| Chương 6: Phương pháp biến đổi Fourier cho phương trình đạo hàm riêng<br>6.1. Giới thiệu phương pháp biến đổi Fourier.<br>6.2. Áp dụng phương pháp biến đổi Fourier để tìm nghiệm của các phương trình toán lý. | 11 – 13 | CHP4;<br>CHP7;<br>CHP9 | 10 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.2;<br>ĐG2 |\n| Chương 7: Phương pháp biến đổi Laplace cho phương trình đạo hàm riêng<br>7.1. Giới thiệu phương pháp biến đổi Laplace.<br>7.2. Áp dụng phương pháp biến đổi Laplace để tìm nghiệm của các phương trình toán lý. | 14 – 15 | CHP5;<br>CHP8;<br>CHP9 | 8 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1.2;<br>ĐG2 |\n| Tổng cộng số tiết |  |  | 60 | 0 | 0 | 0 |  |  |"
+    ],
+    "Tài liệu học tập:": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Nguyễn Thành Long | 2010 | Bài giảng phương trình toán lý |  | Giáo trình chính | Upload trên Moodle |\n| 2 | Nguyễn Công Tâm | 2002 | Phương trình vật lý-toán nâng cao |  | Tài liệu tham khảo | …. |\n| 3 | L. C. Evans | 1998 | Partial differential equations |  | Giáo trình chính | …. |\n| 4 | David Colton | 1988 | Partial differential equations, an introduction |  | Tài liệu tham khảo | …. |\n| 5 | R. Kent Nagle, Edward B. Saff | 1993 | Fundamentals of differential equations and boundary value problems |  | Tài liệu tham khảo | …. |"
+    ],
+    "Quy định của môn học:": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 44 tiết",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác:",
+      "Một phần lớn thời gian là giờ bài tập dành cho sinh viên làm toán và thảo luận. Sinh viên được chờ đợi là chuẩn bị và chủ động tham gia đóng góp trong giờ bài tập.",
+      "Môn học cần người học học tập một cách chuyên cần, nghiêm túc. Các bài kiểm tra quá trình có tính điểm nhưng có thể không báo trước để thúc đẩy sự chuyên cần.",
+      "Trong giờ học sinh viên cần giữ kỉ luật và trật tự trong lớp học, không làm việc không liên quan tới lớp học.",
+      "Sinh viên cần truy cập trang quản lý môn học Moodle .",
+      "Các thông báo gấp có thể được gởi tới địa chỉ email của sinh viên do Trường cấp. Sinh viên chịu trách nhiệm nhận kịp thời các thông báo và tài liệu gởi ở hai địa chỉ trên.",
+      "Không có sự phân biệt sinh viên học lại với sinh viên học lần đầu. Sinh viên có vấn đề với thời khóa biểu phải liên hệ trước để được giải quyết. Các điểm bị thiếu không phép được cho bằng 0.",
+      "Không thể làm lại bài kiểm tra bị thiếu.",
+      "Bài thi Cuối kỳ là bắt buộc.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Phương trình toán lý |  | X | X | X |  | X | X |  |  | X |  |"
+    ]
+  }
+}

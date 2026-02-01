@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Văn Thìn (A).",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Đại số, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Đại số, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10422.",
+      "Tên học phần: Trường và Lý thuyết Galois",
+      "Tên học phần bằng tiếng Anh: Fields and Galois Theory",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:",
+      "Các học phần tiên quyết: Đại số hiện đại.",
+      "Các học phần học trước học phần này: có,",
+      "Đại số đại cương.",
+      "Đại số hiện đại.",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):",
+      "Bộ môn phụ trách học phần: Bộ môn đại số."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên hiểu rõ và vận dụng được các kiến thức về mở rộng hữu hạn, mở rộng đại số, trường phân rã, mở rộng chuẩn tắc, tách được, thuần túy không tách được, tương ứng Galois để giải quyết các bài toán liên quan tới kiến thức. Vận dụng được Định lý  căn bản của thuyết Galois và các kỹ thuật trong việc chứng minh Định lý căn bản của Đại số trong việc nghiên cứu khoa học. Hiểu và nắm vững  điều kiện để một phương trình đại số giải được bằng căn thức.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Hiểu và vận dụng được để giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng hữu hạn và mở rộng đại số. | 4/6 |  |\n| MH1.2 | Hiểu và vận dụng được để giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng chuẩn tắc và mở rộng tách được. | 4/6 |  |\n| MH1.3 | Hiểu và vận dụng được để giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng Galois. | 4/6 |  |\n| MH1.4 | Hiểu và vận dụng được để giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng thuần túy không tách được. | 4/6 |  |\n| MH1.5 | Hiểu và vận dụng được để giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng căn. | 4/6 |  |\n| MH1.6 | Hiểu được một số ứng dụng của thuyết Galois vào những vấn đề khác nhau của toán học hiện đại. | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Đọc hiểu tài liệu tiếng Anh liên quan đến các bài giảng. | 3/5 |  |\n| MH2.2 | Tham gia thảo luận, tranh luận theo nhóm trên chủ đề môn học. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy nghiên cứu khoa học. Có năng lực làm việc theo nhóm. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng hữu hạn và mở rộng đại số. | T, U | MH1.1,<br>MH2.1,<br>MH2.2, MH3 |  |\n| 2 | CHP2 | Giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng chuẩn tắc và mở rộng tách được. | T, U | MH1.2,<br>MH2.1,<br>MH2.2,<br>MH3 |  |\n| 3 | CHP3 | Giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng Galois. | T, U | MH1.3,<br>MH2.1,<br>MH2.2,<br>MH3 |  |\n| 4 | CHP4 | Giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng thuần túy không tách được. | T, U | MH1.4,<br>MH2.1,<br>MH2.2,<br>MH3 |  |\n| 5 | CHP5 | Giải các bài toán cơ bản và một số bài toán nâng cao về mở rộng căn. | T, U | MH1.5,<br>MH2.1,<br>MH2.2,<br>MH3 |  |\n| 6 | CHP6 | Hiểu được một số ứng dụng của thuyết Galois vào những vấn đề khác nhau của toán học hiện đại. | I,T | MH1.6, MH3 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 7 | CHP7 | Đọc hiểu tài liệu tiếng Anh liên quan đến các bài giảng. | I, T | MH2.1 |  |\n| 8 | CHP8 | Tham gia thảo luận, tranh luận theo nhóm trên chủ đề môn học. | I, T | MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 25% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 20% | Giải bài tập |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 5% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần: Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Mở rộng hữu hạn và mở rộng đại số<br>Bậc của mở rộng hữu hạn.<br>Mở rộng đại số.<br>Đa thức tối tiểu.<br>Nhóm Galois và trường con cố định. <br>Trường phân rã.<br>Trường đóng đại số.<br>Sự duy nhất của trường phân rã. | 1, 2, 3, 4 | CHP1, CHP7, <br>CHP8 | 16 | 0 | 0 | 16 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Mở rộng chuẩn tắc và mở rộng tách được<br>2.1. Mở rộng chuẩn tắc.<br>2.2. Mở rộng tách được.<br>2.3. Tính chất đạo hàm của đa thức<br>2.4. Bao chuẩn tắc. <br>2.5. Mối tương quan giữa mở rộng tách được và bao chuẩn tắc.<br>2.6. Mở rộng Galois. | 5, 6, 7, 8 | CHP2, CHP3, CHP7, <br>CHP8 | 16 | 0 | 0 | 16 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: Mở rộng thuần túy không tách được<br>3.1. \tMở rộng thuần túy không tách được.<br>3.2.\tBao tách được và bao thuần túy không tách được.<br>3.3. \tBậc tách được và bậc thuần túy không tách được. | 9, 10 | CHP3, CHP4,<br>CHP7, CHP8 | 8 | 0 | 0 | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 4: Định lý căn bản của thuyết Galois<br>4.1. Định lý căn bản của thuyết Galois. <br>4.2. \tĐịnh lý Natural Irrationlities.<br>4.3. Định lý về phần tử nguyên thủy. <br>4.4. Minh họa sự tương quan giữa trường con trung gian với nhóm con của nhóm Galois | 11, 12 | CHP1, CHP3,<br>CHP5, CHP6 | 8 | 0 | 0 | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 5: Một số ứng dụng của thuyết Glois<br>5.1. Định lý căn bản của đại số.<br>5.2. Các đa thức bậc nhỏ.<br>5.3. Các số siêu việt <br>5.4. Dựng hình bằng compa và thước kẻ.<br>5.5. Sự giải được bằng căn thức.<br>5.6. Minh hoa đa thức bậc 5 không giải được bằng căn thức. | 13, 14, 15 | CHP5, CHP6, CHP7, CHP8 | 12 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Bùi Xuân Hải | 2013 | Trường và lý thuyết Galois | NXB Đại Học Quốc Gia TPHCM | Giáo trình chính | Thư viện |\n| 2 | Ngô Việt Trung | 2005 | Lý thuyết Galois | NXB Đại Học Quốc Gia Hà Nội | Tài liệu tham khảo | Thư viện |\n| 3 | I. S. Luthar, <br>I. B. S. Passi | 2004 | Field Theory | Alpha Scienence International Ltd. Harrow,U.K. | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày 25  tháng 07 năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

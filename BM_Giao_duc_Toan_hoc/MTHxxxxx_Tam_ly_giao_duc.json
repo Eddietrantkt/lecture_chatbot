@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: TRẦN HƯƠNG THẢO",
+      "Chức danh, học hàm, học vị: Thạc sĩ",
+      "Đơn vị công tác: Bộ môn Giáo dục Toán học, Khoa Toán tin học, trường Đh KHTN ĐHQG Tp.HCM",
+      "Thời gian và địa điểm làm việc: 227 Nguyễn Văn Cừ, Quận 5, Tp HCM",
+      "Phường Linh Trung, Tp Thủ Đức, Tp HCM",
+      "Địa chỉ liên hệ: F207, 227 Nguyễn Văn Cừ, Quận 5, Tp HCM",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: TTH151",
+      "Tên học phần: Tâm lý học Giáo dục",
+      "Tên học phần bằng tiếng Anh: Education Psychology",
+      "Số tín chỉ: 2TC (1LT + 1TH)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 30 tiết",
+      "Số tiết thực hành: 60 tiết",
+      "Số tiết bài tập: …",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô): (sử dụng  [x]  để chèn)",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: Giáo dục học",
+      "Các học phần học trước học phần này: Tâm lý đại cương/ Tâm lý học lứa tuổi",
+      "Học phần song hành: …",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giáo dục Toán học"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Môn học hướng đến việc nghiên cứu những vấn đề về tâm lý lứa tuổi theo từng bậc học khác nhau và tâm lý học sư phạm. Ở tâm lý học Sư phạm đặc biệt chú trọng đến giáo dục đạo đức, điều khiển quá trình dạy học, xác định những điều kiện để đảm bảo phát triển trí tuệ trong quá trình dạy học, hoạt động dạy và học bằng các tác động vào các động cơ học tập của học sinh, mô tả sự hình thành và trau dồi nhân cách của giáo viên cũng như quá trình phát tương tác giữa thầy và trò trong môi trường sư phạm."
+    ],
+    "Mục tiêu của học phần": [
+      "[MT1] Hiểu rõ các kiến thức TLHLT & TLH GD",
+      "[MT2] Vận dụng kiến thức đã học vào thực tế",
+      "[MT3] Tăng cường các khả năng cá nhân phục vụ cho nghề giáo",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Khái quát được các đặc trưng của TLHGD | 4/6 |  |\n| MH1.2 | Ứng dụng được kiến thức TLHGD vào các hoạt động sư phạm giả lập và một nhóm nhỏ thực tiễn | 6/6 |  |\n| MH1.3 | Nhận biết được trách nhiệm của nghề giáo và bồi dưỡng bản thân phù hợp với nghề | 6/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Phân loại được các nội dung cần soạn giảng phù hợp với mức độ phát triển trí tuệ của học sinh | 3/5 |  |\n| MH2.2 | Tạo ra tương tác tốt với từng đối tượng học sinh trong quá trình giảng dạy | 4/5 |  |\n| MH2.3 | Đưa ra những lập luận logic, chuẩn xác khi phân tích và giải quyết vấn đề | 5/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Định hướng và xây dựng được kế hoạch cho nghề nghiệp tương lai | 4/5 |  |\n| MH3.2 | Rèn luyện khả năng làm việc độc lập, học tập và nghiên cứu trọn đời | 5/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP 1 | Hiểu rõ về động cơ học tập và có ứng dụng vào công tác giáo dục | I, T, U | MH1.1<br>MH1.2 | CCT1.4 |  |\n| 2 | CHP 2 | Vận dụng lý thuyết TLGD để soạn giáo án, tạo ra tương tác tốt với học sinh trong quá trình giảng dạy | I, T, U | MH1.1<br>MH1.2<br>MH1.3 | CCT1.4 |  |\n| 3 | CHP 3 | Vận dụng lý thuyết TLGD để cải biến bản thân và phục vụ quá trình giáo dục nhân cách học sinh | I, T, U | MH1.3 | CCT1.4 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 4 | CHP  4 | Ứng dụng nội dung lý thuyết đã học vào thực tiễn | I, T, U | MH2.1<br>MH2.2<br>MH2.3<br>MH2.4 | CCT2.4 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 5 | CHP5 | Có tinh thần chủ động và sáng tạo trong công việc |  | MH3.1<br>MH3.2 | CCT3.1 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  | X | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  | X | ĐG1.4 | 20% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  | X | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  | X | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Phương pháp dạy học* | Bài đánh giá | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học |  |  |  |  |  |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Thảo luận/<br>khác | Số tiết |  |  |  |  |  |\n| Tổng quan TLGD và những lưu ý đặc biệt dành riêng cho chuyên ngành Giáo dục Toán học <br>TLH Dạy học<br>Hoạt động dạy học <br>Hoạt động học | 1 | CHP 1 | 5 |  |  |  |  | Phương pháp dạy học tích cực/lấy người học làm trung tâm | Phương pháp dạy học tích cực/lấy người học làm trung tâm | ĐG1.2 | ĐG1.2 |  |\n| Sự hình thành khái niệm, kỹ năng, kỹ xảo <br>SV tập soạn bài giảng theo hướng dẫn | 2 | CHP 1<br>CHP 2 | 2 | 3 |  |  |  | Phương pháp dạy học tích cực/lấy người học làm trung tâm | Phương pháp dạy học tích cực/lấy người học làm trung tâm | ĐG1.2 | ĐG1.2 |  |\n| Dạy học và sự phát triển trí tuệ<br>SV tập soạn bài giảng theo hướng dẫn | 3 | CHP 1<br>CHP 2 | 2 | 3 |  |  |  | Phương pháp dạy học tích cực/lấy người học làm trung tâm | Phương pháp dạy học tích cực/lấy người học làm trung tâm | ĐG1.2 | ĐG1.2 |  |\n| TLH Giáo Dục<br>Đạo đức và hành vi đạo đức<br>Cấu trúc tâm lý của hành vi đạo đức<br>Nhân cách là chủ thể của hành vi đạo đức<br>Vấn đề giáo dục đạo đức cho học sinh | 4 | CHP 1 | 2 | 3 |  |  |  | Phương pháp dạy học tích cực/lấy người học làm trung tâm | Phương pháp dạy học tích cực/lấy người học làm trung tâm |  |  |  |\n| TLH Nhân cách giáo viên<br>Xác định phong cách cá nhân, điểm yếu, điểm mạnh | 5 | CHP 1<br>CHP 3 | 4 | 1 |  |  |  | Phương pháp dạy học tích cực/lấy người học làm trung tâm | Phương pháp dạy học tích cực/lấy người học làm trung tâm |  |  |  |\n| SV thực hành giảng dạy trên lớp theo giáo án soạn giảng dựa trên TLLT và TLGD | 6-8 | CHP 1<br>CHP 2 |  | 15 |  |  |  | Đóng vai | Đóng vai | ĐG1.4 | ĐG1.4 |  |\n| SV thực hành xử lý tình huống GD giả lập | 9 | CHP 3 |  | 5 |  |  |  | Đóng vai | Đóng vai | ĐG1.4 | ĐG1.4 |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Nguyễn Thị Tứ | 2019 | Tâm lý học giáo dục | ĐH Sư Phạm TP. HCM | Giáo trình chính | Nhà sách ĐHGD TpHCM |\n| 2 | Nguyễn Hiến Lê | 2003 | Săn sóc sự học của con em | ĐH Sư Phạm TP. HCM | Tài liệu tham khảo | Thư viện ĐHGD TpHCM |\n| 3 | Trần Hương Thảo, Vũ Đỗ Huy Cường | 2021 | Tác động của Toán học đến nhận thức của học sinh các trường THPT chuyên ban tại TpHCM | VJES | Tài liệu tham khảo | http://vjes.vnies.edu.vn/<br>sites/default/files/<br>baiso9_05_2021.pdf |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 75%",
+      "Dự lớp thực hành tối thiểu: 75%",
+      "Dự lớp bài tập tối thiểu: không có",
+      "Dự lớp thảo luận tối thiểu: không có",
+      "Yêu cầu khác: không có",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Tâm lý học sư phạm |  |  |  | X |  |  |  |  | X | X |  |"
+    ]
+  }
+}

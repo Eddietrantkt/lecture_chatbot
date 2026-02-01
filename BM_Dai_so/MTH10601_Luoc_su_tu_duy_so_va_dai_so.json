@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Mai Hoàng Biên",
+      "Chức danh, học hàm, học vị: Phó giáo sư, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Đại số, Khoa Toán – Tin học",
+      "Thời gian, địa điểm làm việc: Sáng thứ 5, 9:00-12:00, hàng tuần tại bộ môn Đại số hoặc theo hẹn.",
+      "Địa chỉ liên hệ: Bộ môn Đại số, phòng F210, 227 Nguyễn Văn Cừ, Quận 5, TP. HCM",
+      "Điện thoại, email: mhbien@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail): Đỗ Thị Cát Trâm",
+      "Thông tin chung về môn học",
+      "Mã môn học: MTH10601",
+      "Tên môn học (tiếng Việt): Lược sử tư duy số và Đại số",
+      "Tên môn học (tiếng Anh): A brief history of numbers and algebra",
+      "Số tín chỉ: 3",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45",
+      "Số tiết thực hành: 0…",
+      "Số tiết bài tập: 0",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các môn học tiên quyết: Không",
+      "Các học phần tiên quyết: Không",
+      "Các học phần học trước học phần này: Không",
+      "Học phần song hành: Không",
+      "Các yêu cầu khác (nếu có): Không",
+      "Bộ môn phụ trách môn học: Bộ môn Đại số",
+      "Mục tiêu của môn học",
+      "Mục tiêu chung: Trang bị cho sinh viên một cái nhìn tổng thể về lịch sử số và đại số.",
+      "Mục tiêu cụ thể/ chuẩn đầu ra môn học:",
+      "Kiến thức: Người học sẽ nắm được quá trình lịch sử phát triển của những con số và đại số một cách khái quát. Trang bị kiến thức cơ bản về một số phần mềm hiện nay tiện ích cho việc nghiên cứu và giảng dạy toán. Đưa ra những thông tin hữu ích cho sinh viên để làm việc hoặc học tiếp sau khi ra trường.",
+      "Kỹ năng: Trong môn học này, sinh viên sẽ được trang bị 2 kỹ năng chính. Một là, hiểu được sự phát triển của những con số và đại số từ quá khứ và suy đoán tiếp theo. Hai là, ứng dụng một phần mềm toán học cụ thể vào một công việc cụ thể.",
+      "Mô tả vắn tắt nội dung môn học: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo): Môn Lược sử Số và Đại số là môn tự chọn của bộ môn Đại số. Tuy nhiên nó dành cho mọi đối tượng sinh viên ham thích lịch sử toán học, về lịch sử lý thuyết số và đại số. Nó giúp cho sinh viên có cái nhìn tổng thể theo chiều dài lịch sử về những con số khi học các môn học khác. Hơn thế nữa, môn học giới thiệu một số cơ sở dữ liệu liên quan tới toán học một cách chung chung.",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Nắm được các ý chính lịch sử toán học | 2/6 |  |\n| MH1.2 | Nắm được các ý chính về lịch sử về các con số | 3/6 |  |\n| MH1.3 | Nắm được các thông tin về toán học trên thế giới cũng như ở Việt Nam hiện nay | 3/6 |  |\n| M1.4 | Nắm được một số công cụ chính liên quan tới toán học | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Trình bày được và tóm tắt các ý chính của lịch sử | 2/6 |  |\n| MH2.2 | Tìm kiếm các tài liệu liên quan tới các cơ sở dữ liệu | 3/6 |  |\n| MH2.3 | Biết về một số phần mềm hỗ trợ trong toán học và xử dụng một cách cơ bản | 4/6 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần học tập tự giác, tôn trọng lịch sử toán học và các hướng nghiên cứu | 3/6 |  |\n| MH3.2 | Biết tự giác cập nhật thông tin mới trong toán học | 3/6 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Có thể hiểu biết các mạch chính của lịch sử toán học thế giới | I, T, U | MH1.1, M1.2, M1.3 và MH2.1 |  |\n| 2 | CHP2 | Có một hiểu biết nhất định về đặc trưng toán học số vùng trên thế giới | I, T, U | MH1.1, MH1.2, MH1.4 và MH2.2 |  |\n| 3 | CHP3 | Có hiểu biết về lịch sử các con số | I, T, U | MH1.4 và MH2.3 |  |\n| 4 | CHP4 | Có hiểu biết về lịch sử hình thành hướng Đại số trong toán học | I, T, U | MH1.4, MH2.3, MH3.1 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Biết tra cứu và khai thác các cơ sở dữ liệu trong toán học |  | MH1.4, MH2.4, MH3.1 và MH3.2 |  |"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  | X | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | x | x |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SVtự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1. Lược sử toán học cổ đại<br>1.1. Ngôn ngữ và mục đích<br>   1.2. Một số nền văn minh cổ đại<br>   1.3. Một số nhà toán học cổ đại lớn ảnh hưởng lớn đến nhân loại | 1 |  | 4 | 0 | 0 | 4 | Thuyết giảng |  |\n| Chương 2.  Lược sử các con số <br>  2.1. Mục đích của số<br>  2.2. Hệ thống số, độ đo và phép đếm trong lịch sử<br>   2.3. Lược sử phát triển hệ thống các con số<br>2.4. Giai thoại về các con số<br>   2.5. Hành trình chinh phụ cái vô hạn của loài người.<br>   2.6. Một số nhà toán học tiêu biểu nghiên cứu về các con số | 2,3 |  | 8 | 0 | 0 | 4 | Thuyết giảng và sinh viên báo cáo | GD91 và GĐ2 |\n| Chương 3: Lược sử đại số <br>   3.1. Lược số đại số cổ điển<br>   3.2. Logic học, máy tính và sự giới hạn tư duy<br>3.3. Lược sử đại số trừu tượng<br>3.4. Từ đại số tới hình học, cơ học, giải tích,...<br>3.5. Từ đại số tới các ngành khác | 4,5,6,7 |  | 16 | 0 | 0 | 16 | Thuyết giảng và sinh viên báo cáo | GĐ1 và GĐ2 |\n| Chương 4: Cơ sở dữ liệu toán học <br> 4.1.Mathscinet, zbmath, Referativny Zhurnal<br>\t4.2. Tạp chí toán học<br>\t4.3. Một số hội toán học<br>     4.4. Những trường đại học và viện nghiên cứu toán ở Việt Nam<br>    4.5. Một số hội nghị toán học thường niên ở Việt Nam<br>    4.6. Vài nét chính của lịch sử toán học Việt Nam qua các con số thống kê | 8, 9 |  | 8 | 0 | 0 | 8 | Thuyết giảng và thực hành trên lớp | GĐ1 và GĐ2 |\n| Chương 5: Sơ lược một số phần mềm toán học 5.1. Phần mềm soạn thảo văn bản Latex<br>5.2. MAPLE, MATLAB<br>5.3. GAP<br>5.4. Một số phần mềm khác | 10 |  | 4 | 0 | 0 | 4 | Thuyết giảng và thực hành trên lớp | GĐ1 và GĐ2 |\n| Ôn tập | 11 |  | 5 | 0 | 0 | 0 | Sửa bài tập thực hành |  |"
+    ],
+    "Tài liệu học tập": [
+      "Tất cả các tài liệu liệt kê dưới đây đều có thể tìm được trong bộ môn Đại số.",
+      "| STT | Tên tài liệu | Tác giả | Năm xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- |\n| 1 | A history of abstract algebra | Israel Kleiner | Springer, 2007 | Tài liệu tham khảo | Bộ môn Đại số |\n| 2 | Lịch sử toán học | Nguyễn Cang | NXB Trẻ, 1999 | Tài liệu tham khảo |  |\n| 3 | Numbers:<br>computers, philosophers,<br>and the search for meaning | John Tabak | Facts on file, 2004 | Tài liệu tham khảo | Bộ môn Đại số |\n| 4 | A brief history of mathematical thought | L. Heaton | Oxford Uni. Press, 2017 | Tài liệu tham khảo chính | Bộ môn Đại số |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 80%",
+      "Dự lớp thực hành tối thiểu: …",
+      "Dự lớp bài tập tối thiểu: …",
+      "Dự lớp thảo luận tối thiểu: …",
+      "Yêu cầu khác: …",
+      "TP.HCM, ngày ….tháng….năm"
+    ]
+  }
+}

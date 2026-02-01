@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Huỳnh Quang Vũ",
+      "Chức danh, học hàm, học vị: Giảng viên, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Giải tích, Khoa Toán - Tin học",
+      "Thời gian và địa điểm làm việc: Phòng E201, 227 Nguyễn Văn Cừ, Quận 5",
+      "Địa chỉ liên hệ: Khoa Toán - Tin học,  227 Nguyễn Văn Cừ, Quận 5",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10417",
+      "Tên học phần: Tôpô",
+      "Tên học phần bằng tiếng Anh: Topology",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 4",
+      "Số tiết thực hành: …",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức:",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: MTH00010 Giải tích 1A, MTH00012 Giải tích 2A, MTH10403 Giải tích hàm",
+      "Các học phần học trước học phần này:",
+      "Học phần song hành: …",
+      "Các yêu cầu khác:………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích"
+    ],
+    "Mô tả vắn tắt nội dung học phần:": [
+      "Nội dung của môn học này gồm tôpô đại cương, còn gọi là tôpô tập điểm, liên quan tới tính liên tục, gồm: không gian tôpô, ánh xạ liên tục, đồng phôi, sự liên thông, sự tách, sự hội tụ, sự compắc, tôpô tích, định lý Tikhonov, compắc hóa Alexandroff, định lý Urysohn, không gian các hàm liên tục, tôpô thương, …",
+      "Môn học bổ ích và cần thiết cho các lĩnh vực toán sử dụng cấu trúc liên tục, trước hết cho các lĩnh vực như Giải tích và Hình học, sau đó là các lĩnh vực như Đại số, Tối ưu và các lĩnh vực giao thoa. Gần đây một số nội dung của Tôpô đã có ứng dụng vào tin học và tính toán, do đó môn học cũng bổ ích cho một số lĩnh vực ứng dụng. Ngoài kiến thức, môn học này là nơi phù hợp để rèn luyện tư duy toán học trừu tượng, tổng quát và chính xác cao, hữu ích cho nhiều lĩnh vực.",
+      "Môn học thích hợp cho sinh viên năm 3 chuyên ngành Giải tích và sinh viên năm 4 các chuyên ngành khác. Trước khi học môn này sinh viên cần đạt được trình độ trong môn Giải tích hàm. Sau môn học này sinh viên có thể học tiếp các môn như Tôpô đại số, Tôpô vi phân, Hình học vi phân, Giải tích phi tuyến, Đại số đồng điều."
+    ],
+    "Mục tiêu của học phần": [
+      "Môn học nhằm cung cấp cho sinh viên đại học nhóm ngành Toán học nói chung và chuyên ngành Giải tích nói riêng các khái niệm, ngôn ngữ, phương pháp và kết quả cơ bản của Tôpô đại cương về cấu trúc liên tục được dùng phổ biến trong toán học, cùng trình độ tư duy và kỹ năng lý luận toán học tương ứng.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Những khái niệm và kết quả căn bản của Tôpô đại cương phục vụ cho Giải tích và các lĩnh vực toán học khác, bao gồm các khái niệm tổng quát cao về tính liên tục của ánh xạ, liên thông, compắc, tách, hội tụ, không gian tích. | biết, hiểu, vận dụng, phân tích (4/6) |  |\n| MH1.2 | Những khái niệm và công cụ nâng cao hơn của Tôpô đại cương và cơ sở cho lĩnh vực Hình học Tôpô, bao gồm khái niệm bất biến tôpô, compắc hóa, không gian hàm, xây dựng tôpô theo nhu cầu, tôpô thương, và một số đề tài khác | biết,  hiểu, vận dụng, phân tích (4/6); đánh giá, sáng tạo đối với sinh viên giỏi (6/6) |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Làm việc với một số lý luận tổng quát, trừu tượng, chính xác cao | phối hợp (4/5) |  |\n| MH2.2 | Giải quyết vấn đề không có sẵn lời giải | làm chính xác, phối hợp (4/5) |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Thấy được vai trò và hiệu quả của Tôpô, từ đó có thái độ học tập tích cực, chủ động, tự giác, nghiêm túc | tiếp nhận, điều chỉnh, hấp thụ (3/5) |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1.1 | Trình bày và vận dụng thuần thục được các khái niệm và kết quả chính về tính liên tục của ánh xạ, liên thông, compắc, tách, hội tụ, không gian tích trên không gian tôpô | I, T, U | MH1.1 | CCT1.4, 1.5, 2.3, 2.4, 3.1 |\n| 2 | CHP1.2 | Trình bày và vận dụng được một số khái niệm, ví dụ, kết quả lớn về bất biến tôpô, compắc hóa, không gian hàm, tôpô thương, và xây dựng tôpô theo nhu cầu | I, T, U | MH1.2 | CCT1.4, 1.5, 2.1, 2.3, 2.4, 3.1 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP2.1 | Giải thích, chi tiết hóa, phân tích tính đúng đắn, trình bày ý tưởng và kỹ thuật của một số chứng minh kết quả chính | I, T, U | MH2.1 | CCT2.1, 2.2, 2.3, 2.4, 3.1 |\n| 6 | CHP2.2 | Phối hợp các khái niệm, kết quả đã có để rút ra những mệnh đề mới | I, T, U | MH2.2 | CCT2.1, 2.2, 2.3, 2.4, 3.1 |"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 20% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 30% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 | 10% |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần": [
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Tập hợp vô hạn<br>Tập hợp<br>Lực lượng của Z, Q, R | 1 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Sự không tồn tại lực lượng cực đại<br>Tiên đề chọn | 2 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 2: Không gian tôpô<br>Tôpô | 2 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Cơ sở của tôpô | 3 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 3: Sự liên tục<br>Sự liên tục<br>Liên hệ với không gian mêtríc và không gian định chuẩn<br>Tôpô của không gian con | 3 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm | ĐG1.2 |\n| Đồng phôi | 4 | CHP1.1,  CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm | ĐG1.2 |\n| Chương 4: Sự liên thông<br>Liên thông, liên thông đường<br>Thành phần liên thông | 4 | CHP1.1,  CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm | ĐG1.2 |\n| Ánh xạ liên tục trên không gian liên thông, ví dụ không gian liên thông | 5 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 5: Sự hội tụ<br>Không gian Hausdorff, chính tắc, chuẩn tắc | 6 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Lưới<br>Sự hội tụ | 7 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 6: Không gian compắc<br>Không gian compắc<br>Sự compắc theo dãy trên không gian mêtríc và quan hệ với sự compắc trên không gian tôpô | 8 | CHP1.1, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Compắc hóa Alexandroff | 9 | CHP1.2, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Kiểm tra giữa kì<br>Chương 7: Không gian tích<br>Tôpô tích | 10 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.1 |\n| Định lí Tikhonov | 11 | CHP1.2, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 8: Hàm thực và không gian hàm<br>Bổ đề Urysohn<br>Tôpô compắc-mở | 12 | CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 9: Không gian thương<br>Tôpô thương<br>Các không gian hay gặp: mặt xuyến, mặt Mobius, mặt Klein, không gian xạ ảnh. | 13 | CHP1.1, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| 9.3 Tôpô cắt dán | 14 | CHP1.1, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Giới thiệu những đề tài khác. Ôn tập. | 15 | CHP1.1, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán, làm đề tài nhóm | ĐG1.5 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Huỳnh Quang Vũ | 2023 | Bài giảng Tôpô |  | Giáo trình chính | Bài giảng có ở https://sites.google.com/view/hqvu/teaching |\n| 2 | James R. Munkres | 2000 | Topology: A first course | Prentice-Hall | Tài liệu tham khảo | Thư viện Trường, Phòng Bộ môn Giải tích |\n| 3 | Colin Adams, Robert Fransoza | 2009 | Introduction to Topology: Pure and Applied | Pearson | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 48 tiết",
+      "Dự lớp thực hành tối thiểu: …",
+      "Dự lớp bài tập tối thiểu:",
+      "Dự lớp thảo luận tối thiểu: …",
+      "Yêu cầu khác: …",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Tôpô |  |  |  | X | X | X | X | X | X | X | X |"
+    ]
+  }
+}

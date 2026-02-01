@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên:",
+      "Chức danh, học hàm, học vị:",
+      "Đơn vị công tác: Bộ môn Giáo dục Toán học, khoa Toán-tin học,",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ:…",
+      "Điện thoại, email:…",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: …",
+      "Tên học phần: Ứng dụng công nghệ thông tin trong dạy học",
+      "Tên học phần bằng tiếng Anh: Technology in Education",
+      "Số tín chỉ: 3",
+      "Cấu trúc/cơ cấu học phần: 2LT+1TH",
+      "Số tiết lý thuyết: 30",
+      "Số tiết thực hành: 30",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: không",
+      "Học phần song hành: không",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần:  Giáo dục Toán học"
+    ],
+    "Mô tả vắn tắt nội dung học phần:": [
+      "Học phần cung cấp kiến thức tổng quan về các phần mềm, công nghệ sử dụng trong dạy học môn Toán: mô tả các nội dung Toán học, tạo ra các tài liệu học tập, tổ chức hoạt động dạy học."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Thông qua môn học này sinh viên có thể hiểu và vận dụng tích hợp công nghệ vào dạy học môn toán.\"",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Vận dụng các nguyên tắc khi ứng dụng công nghệ thông tin vào dạy học | 4/6 |  |\n| MH1.2 | Vận dụng hiểu biết về công nghệ trong việc thiết kế và tổ chức hoạt động dạy học | 3/6 |  |\n|  |  |  |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Thành thạo kỹ năng sử dụng phần mềm tính toán, mô phỏng, biểu diễn, thiết kế | 3/5 |  |\n| MH2.2 | Thành thạo tư duy hệ thống | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần chủ động sáng tạo | 3/5 |  |\n| Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |\n|  |  |  |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng các nguyên tắc  ứng dụng công nghệ thông tin trong dạy học môn toán hiệu quả | I,T,U | MH1.1 | CCT1.4; |\n| 2 | CHP2 | Sử dụng phần mềm tính toán, mô phỏng như Excel, R, Matlab, Python trong việc giải quyết bài toán | I,T,U | MH1.1 | CCT1.3; CCT1.4; |\n| 3 | CHP3 | Sử dụng phần mềm mô phỏng như Geogebra để xây dựng minh hoạ trực quan các nội dung toán học | I,T,U | MH1.1;<br>MH1.2 | CCT1.3; CCT1.4; |\n| 4 | CHP4 | Sử dụng phần mềm trình chiếu, tạo video, hiệu ứng để xây dựng các nội dung bài dạy | U | MH1.2 | CCT1.4; |\n| 5 | CHP5 | Hiểu và vận dụng công nghệ e-leaning, mô hình dạy học trực tuyến, các tài nguyên trực tuyến | I,T,U | MH1.1;<br>MH1.2 | CCT1.4; |\n| 6 | CHP6 | Nghiên cứu và áp dụng các xu hướng mới trong ứng dụng CNTT trong dạy học | I,T | MH1.2 | CCT1.2; CCT1.5; |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 7 | CHP7 | Thành thạo kỹ năng sử dụng phần mềm toán học, phần mềm geogebra, phần mềm thiết kế trong dạy học môn Toán | U | MH2.1 | CCT2.1 |\n| 8 | CHP8 | Thành thạo tư duy hệ thống | U | MH2.2 | CCT 2.4 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 9 | CHP9 | Có tinh thần chủ động sáng tạo |  | MH3.1; | CCT3.1 |\n|  |  | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) | Khác (nếu có) |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 | 60% |  |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  | X |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành | X |  |  | X | ĐG1.4 | 40% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm | X |  | X | X | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  | X | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  | X |  | ĐG2 | 40% |  |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp<br><br><br>LT/TH | Số tiết lên lớp<br><br><br>LT/TH | Phương pháp dạy học | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- |\n| Chương 1: CNTT trong dạy học môn toán: là gì, tại sao, như thế nào? | 1 | CHP1<br>CHP8<br>CHP9 | 4 |  | Thuyết trình | ĐG2 |\n| Chương 2: Phần mềm toán học |  |  |  |  |  | ĐG1 |\n| Bài 2.1 Phần mềm tính toán mô phỏng: Python, mathlab | 2,3 | CHP2 | 4 | 4 | học thông qua làm |  |\n| Bài 2.2  Phần mềm bảng tính Excel | 4,5 | CHP2 | 4 | 4 |  |  |\n| Bài 2.3 Ứng dụng của Geogbra, wolfram mathematica | 6,7 | CHP7 | 4 | 4 | Think-pair-share |  |\n| Bài 2.4: Ứng dụng CNTT trong việc Phát triển tư duy Toán học | 8 | CHP3 | 4 |  |  |  |\n| Chương 3: Ứng dụng CNTT trong thiết kế bài học và tổ chức lớp học |  |  |  |  |  | ĐG2 |\n| Bài 3.1 Thiết kế bài giảng: Powerpoint | 9,10 | CHP3<br>CHP4 | 2 | 6 | thuyết trình, bài tập nhóm |  |\n| Bài 3.2 Sử dụng video và hình ảnh minh hoạ | 11 | CHP3<br>CHP4 | 4 |  | phát hiện và giải quyết vấn đề |  |\n|  |  |  |  |  |  | ĐG1 |\n| Bài 3.3 Tạo bài tập, bài giảng tương tác trực tuyến | 12 | CHP1<br>CHP5 |  | 4 | Học thông qua làm |  |\n| Bài 3.4 Tổ chức và đánh giá sử dụng CNTT | 13 | CHP1 | 4 |  |  |  |\n| Trình bày dự án<br>Thực hành: Mô phỏng và minh hoạ nội dung toán học sử dụng phần mềm<br>(Giải tích, hình học, đại số, tổ hợp, xác suất thống kê, logic)<br>Cuối kỳ: Thiết kế slide bài giảng (1-2 tiết học) hoặc 1video (7-10 phút) có nội dung toán học trên |  |  |  | 8 | Học bằng trải nghiệm | ĐG1 |\n| Tổng cộng số tiết |  |  | 30 | 30 |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  | Giáo trình chính |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 60%",
+      "Dự lớp thực hành tối thiểu: 70%",
+      "Yêu cầu khác:….",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Tiếp cận tích hợp STEM trong giảng dạy Toán |  |  | x | x |  | x |  |  | x | x | x |"
+    ]
+  }
+}

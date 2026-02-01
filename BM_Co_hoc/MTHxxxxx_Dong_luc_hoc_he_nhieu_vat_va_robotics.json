@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Thị Yến Ngọc",
+      "Chức danh, học hàm, học vị: Giảng viên, Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Cơ học, khoa Toán - Tin học, Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM",
+      "Thời gian và địa điểm làm việc: Văn phòng Bô môn Cơ học, Khoa Toán tin học",
+      "Địa chỉ liên hệ: Văn phòng Bô môn Cơ học, Khoa Toán tin học",
+      "Điện thoại: 0973474555, \tEmail: ntyngoc@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail): không"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10524",
+      "Tên học phần: Động lực học hệ nhiều vật và robotics",
+      "Tên học phần bằng tiếng Anh: Dynamics of Multibody Systems and Robotics",
+      "Số tín chỉ: 3",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45 tiết",
+      "Số tiết thực hành:",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: có",
+      "Các học phần học trước học phần này: không",
+      "Học phần song hành: Cơ học lý thuyết",
+      "Các yêu cầu khác (nếu có): không",
+      "Bộ môn phụ trách học phần: Bô môn Cơ học"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Động lực học hệ nhiều vật đã được nghiên cứu và phát triển trong nhiều thập kỷ qua, đóng vai trò quan trọng trong thiết kế, tạo mẫu và mô phỏng các hệ thống cơ khí có khớp nối phức tạp. Trong môn học này sinh viên được áp dụng các kiến thức đã học (phương trình vi phân, đại số tuyến tính, cơ học lý thuyết) để nghiên cứu các vấn đề động lực học hệ nhiều vật và ứng dụng vào mô hình robot."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Cung cấp các kiến thức cơ bản về động học và động lực học hệ nhiều vật. Giúp sinh viên biết cách đặt bài toán, phân tích và giải một số bài toán hệ nhiều vật, cánh tay robot là một trường hợp ví dụ.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Kiến thức cơ bản về động lực học hệ nhiều vật. | 4/6 |  |\n| MH1.2 | Biết cách đặt bài toán, phân tích và giải một số bài toán hệ nhiều vật. | 4/6 |  |\n| MH1.3 | Thiết lập công thức chuyển động cho robot trong các bài toán cơ bản. | 4/6 |  |\n|  |  |  |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Tự giác, tích cực, chăm chỉ, năng động | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm được các nguyên lý, định luật của cơ học Newton, phương trình chuyển động của hệ nhiều vật. | I,T,U | MH1.1 | CCT1.4 |\n| 2 | CHP2 | Phân tích động lực học trong cơ chế robot | I,T,U | MH1.2<br>MH1.3 | CCT1.4 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 3 | CHP3 | Tự giác, tích cực, chăm chỉ, năng động |  | MH3.1 | CCT3.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  | X |  | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  | X |  | ĐG1.5 | 20% |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  | X |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  | X |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp ( chương và bài)": [
+      "| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | SV tự nghiên cứu, tự học | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Tên bài giảng của học phần<br>(Ghi chi tiết tên chương và bài giảng của <br>mỗi chương) | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/  thực tập | Bài tập | Thảo luận/khác | Số tiết | Ghi chú (nếu có) | Phương pháp dạy học (thuyết trình; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…) | Bài đánh giá |\n| Chương 1: Ôn tập kiến thức | 1 | CPH1 | 3 |  |  |  | 6 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 1.1: Động lực học chất điểm | 1 |  |  |  |  |  |  |  |  |  |\n| Bài 1.2: Động học vật thể rắn | 1 |  |  |  |  |  |  |  |  |  |\n| Chương 2: Robot | 2 | CPH2 | 3 |  |  |  | 6 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 2.1: Giới thiệu | 2 |  |  |  |  |  |  |  |  |  |\n| Bài 2.2: Các thành phần của robot | 2 |  |  |  |  |  |  |  |  |  |\n| Bài 2.3: Phân loại robot | 2 |  |  |  |  |  |  |  |  |  |\n| Bài 2.4: Động học và động lực học robot | 2 |  |  |  |  |  |  |  |  |  |\n| Chương 3: Động học hệ nhiều vật tổng quát | 3-6 | CPH1 CPH2<br>CPH3 | 6 |  | 6 |  | 18 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 3.1: Hệ nhiều vật có cấu trúc cây | 3 |  |  |  |  |  |  |  |  |  |\n| Bài 3.2: Phân vùng tọa độ suy rộng | 3 |  |  |  |  |  |  |  |  |  |\n| Bài 3.3: Ma trận biến đổi và đạo hàm của chúng cho vật thể rắn N-liên kết | 3 |  |  |  |  |  |  |  |  |  |\n| Bài 3.4: Vận tốc góc và vận tốc góc từng phần | 3 |  |  |  |  |  |  |  |  |  |\n| Bài 3.5: Gia tốc góc | 4 |  |  |  |  |  |  |  |  |  |\n| Bài 3.6: Tốc độ suy rộng | 4 |  |  |  |  |  |  |  |  |  |\n| Bài 3.7: Vận tốc khối tâm của vật thể rắn có liên kết tùy ý trong hệ có cấu trúc cây | 4 |  |  |  |  |  |  |  |  |  |\n| Bài 3.8: Gia tốc khối tâm của vật thể rắn có liên kết tùy ý trong hệ có cấu trúc | 5 |  |  |  |  |  |  |  |  |  |\n| Bài 3.9: Mô hình khớp nối | 5 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 6 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 4: Mô hình lực trong hệ nhiều vật | 7-9 | CPH1 CPH2 CPH3 | 6 |  | 3 |  | 18 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 4.1: Lực, mô men và hệ lực tương đương | 7 |  |  |  |  |  |  |  |  |  |\n| Bài 4.2: Lực hoạt động suy rộng | 7 |  |  |  |  |  |  |  |  |  |\n| Bài 4.3: Mô hình lò xo và bộ giảm chấn tại các khớp nối | 7 |  |  |  |  |  |  |  |  |  |\n| Bài 4.4: Lực tiếp xúc | 8 |  |  |  |  |  |  |  |  |  |\n| Bài 4.5: Lực hấp dẫn | 8 |  |  |  |  |  |  |  |  |  |\n| Bài 4.6: Lực quán tính suy rộng | 8 |  |  |  |  |  |  |  |  |  |\n| Bài 4.7: Các tính chất quán tính | 8 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 9 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 5: Phương trình chuyển động của hệ nhiều vật | 10-11 | CPH1 CPH2 CPH3 | 3 |  | 3 |  | 12 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 5.1: Phương trình chuyển động | 10 |  |  |  |  |  |  |  |  |  |\n| Bài 5.2: Đạo hàm của phương trình Kane thông qua nguyên lý công ảo | 10 |  |  |  |  |  |  |  |  |  |\n| Bài 5.3: Dạng tự động hóa của phương trình chuyển động | 10 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 11 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Chương 6: Phương trình Hamilton–Lagrange và Gibbs–Appel | 12-14 | CPH1 CPH2 CPH3 | 6 |  | 3 |  | 18 |  | Thuyết trình, thảo luận | ĐG1.6 |\n| Bài 6.1: Phương trình năng lượng | 12 |  |  |  |  |  |  |  |  |  |\n| Bài 6.2: Phương trình Lagrange | 12 |  |  |  |  |  |  |  |  |  |\n| Bài 6.3: Ứng dụng của phương trình Lagrange cho hệ nhiều vật | 12 |  |  |  |  |  |  |  |  |  |\n| Bài 6.4: Liên hệ giữa phương trình Kane và Lagrange | 13 |  |  |  |  |  |  |  |  |  |\n| Bài 6.5: Phương trình Gibbs-Appel | 13 |  |  |  |  |  |  |  |  |  |\n| Bài 6.6: Phương trình Hamilton | 13 |  |  |  |  |  |  |  |  |  |\n| Bài tập | 14 |  |  |  |  |  |  |  |  | ĐG1.2 |\n| Ôn tập | 15 |  | 3 |  |  |  | 6 |  |  |  |\n| Tổng cộng số tiết | 45 |  | 30 |  | 15 |  | 90 |  |  |  |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Farid M. L. Amirouche | 2006 | Fundamentals of multibody dynamics | Birkhäuser Basel | Giáo trình chính | Internet |\n| 2 | Ngô Thành Phong | 2006 | Cơ học lý thuyết | Đại học Quốc gia TP. HCM | Tài liệu tham khảo | Bộ môn Cơ học |\n| 3 | Jens Wittenburg | 2008 | Dynamics of Multibody Systems |  | Tài liệu tham khảo | Internet |\n| 4 | Jorge Angeles | 2014 | Fundamentals of Robotic Mechanical Systems |  | Tài liệu tham khảo | Internet |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70%",
+      "Dự lớp thực hành tối thiểu: không có",
+      "Dự lớp bài tập tối thiểu: không có",
+      "Dự lớp thảo luận tối thiểu: không có",
+      "Yêu cầu khác: không có",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | Thành phố Hồ Chí Minh, ngày …  tháng … năm…  <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Động lực học hệ nhiều vật và robot |  |  |  | X |  |  |  |  |  | X |  |"
+    ]
+  }
+}

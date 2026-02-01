@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Châu Thị Hiếu",
+      "Chức danh, học hàm, học vị: ThS",
+      "Thời gian, địa điểm làm việc: Bộ môn Giáo dục Toán học",
+      "Địa chỉ liên hệ: Bộ môn Giáo dục Toán học, F206, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email:",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần:": [
+      "Mã học phần: (……)",
+      "Tên học phần: Tiếp cận tích hợp STEM trong giảng dạy Toán",
+      "Tên học phần bằng tiếng Anh: Integrated STEM Approach in Teaching Mathematics",
+      "Số tín chỉ: 3 (2LT+1TH)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 30.",
+      "Số tiết thực hành: 30.",
+      "Số tiết bài tập: 00.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này: không.",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giáo dục Toán học."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu cụ thể",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1 | Khái quát những kiến thức nền tảng của giáo dục STEM. | 3/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Ứng dụng linh hoạt các nguyên lý, kiến thức cập nhật của Khoa học, Công nghệ, Kỹ thuật và Toán học vào quá trình thiết kế giảng dạy tích hợp theo định hướng giáo dục mới. | 3/5 |  |\n| MH2.2 | Tổ chức giảng dạy và đánh giá phù hợp với định hướng giáo dục mới. | 3/5 |  |\n| MH2.3 | Phát triển tư duy phản biện, sáng tạo, các kỹ năng STEM, làm việc nhóm và giải quyết vấn đề. | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Chủ động cập nhật kiến thức, bồi dưỡng kỹ năng nghề nghiệp thích nghi với sự thay đổi theo các tiêu chuẩn quốc gia hiện hành và tương lai, đồng thời thể hiện được ý thức trách nhiệm nghề nghiệp và tinh thần phục vụ cộng đồng. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Khái quát được những kiến thức nền tảng của giáo dục STEM | I, T | MH1 | CT1.4<br>CT1.5 |\n| 2 | CHP2 | Khái quát được những nét đặc trưng của giảng dạy tích hợp. | I, T, U | MH1 | CT1.4<br>CT1.5 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 3 | CHP3 | Ứng dụng linh hoạt các nguyên lý, kiến thức cập nhật của Khoa học, Công nghệ, Kỹ thuật và Toán học vào quá trình thiết kế giảng dạy tích hợp theo định hướng giáo dục mới. | I, T, U | MH2.1 | CT1.4<br>CT1.5 |\n| 4 | CHP4 | Tổ chức giảng dạy và đánh giá theo nội dung đã thiết kế. | T, U | MH2.2 | CT2.1<br>CT2.4 |\n| 5 | CHP5 | Đề xuất được các hoạt động giảng dạy tích hợp phù hợp với từng bối cảnh và điều kiện cụ thể. | T, U | MH2.2 | CT2.1<br>CT2.4 |\n| 6 | CHP6 | Phát triển kỹ năng STEM. | I, T, U | MH2.3 | CT2.1<br>CT2.4 |\n| 7 | CHP7 | Phát triển tư duy phản biện và tư duy sáng tạo trong giáo dục Toán học. | I, T, U | MH2.3 | CT2.1<br>CT2.4 |\n| 8 | CHP8 | Phát triển kỹ năng làm việc nhóm và giải quyết vấn đề. | I, T, U | MH2.3 | CT2.1<br>CT2.4 |\n|  |  | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 9 | CHP9 | Chủ động cập nhật kiến thức, bồi dưỡng kỹ năng nghề nghiệp thích nghi với sự thay đổi theo các tiêu chuẩn quốc gia hiện hành và tương lai. | I, T, U | MH3 | CT3.1 |\n| 10 | CHP10 | Thể hiện được ý thức trách nhiệm nghề nghiệp và tinh thần phục vụ cộng đồng. | I, T, U | MH3 | CT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.3) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Bài tập nhóm và cá nhân về các vấn đề, tình huống… |  |  |  | x | ĐG1.1 | 20% |  |\n| Đánh giá quá trình | Thiết kế BGTH, tổ chức giảng dạy và đánh giá. | x |  | x |  | ĐG1.2 | 20% |  |\n| Đánh giá quá trình | Dự án |  |  |  | x | ĐG1.3 | 20% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  |  | Viết + Trắc nghiệm | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Thang điểm đánh giá: theo thang điểm 10.": [
+      "Nội dung chi tiết môn học: Ghi chi tiết đến 2 cấp (chương, bài)",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Phần 1: Tổng quan về CT GDPT 2018 môn Toán và giáo dục STEM<br>1.1 Tổng quan về CT GDPT 2018 môn Toán <br>1.2 Tổng quan về giáo dục STEM<br>1.3 Một số ví dụ ứng dụng | 1-2 | CHP1<br>CHP2 | 5 | 5 | 0 | 10 | TGCĐ<br>KWL<br>Video<br>Thảo luận<br>LVN |  |\n| Phần 2: Tiếp cận tích hợp STEM trong giảng dạy Toán: từ lý thuyết đến thực hành<br>2.1 Khái quát về giảng dạy tích hợp theo định hướng giáo dục STEM <br>2.2 Giảng dạy Toán tích hợp Khoa học và Kỹ thuật (3 buổi)<br>2.3 Giảng dạy Toán tích hợp Công nghệ (2 buổi)<br>2.4 Giảng dạy Toán tích hợp Khoa học, Kỹ thuật và Công nghệ (2 buổi) | 3-9 | CHP3<br>CHP4<br>CHP5<br>CHP6<br>CHP7<br>CHP8<br>CHP9<br>CHP10 | 20 | 15 | 0 | 40 | TGCĐ<br>Hỏi đáp<br>Thảo luận<br>LVN<br>BTTH<br>Dự án | ĐG1.1<br>ĐG1.2 |\n| Phần 3: Tổ chức giảng dạy và đánh giá phù hợp với định hướng giáo dục mới <br>3.1 Tổ chức giảng dạy <br>3.2 Triển khai đánh giá | 10-11 | CHP4<br>CHP5<br>CHP6<br>CHP7<br>CHP8<br>CHP9 | 5 | 5 | 0 | 10 | LVN<br>TGCĐ<br>Gallery work | ĐG1.2 |\n| Báo cáo DA.<br>Ôn tập và tổng kết | 12 | CHP9<br>CHP10 |  | 5 | 0 |  | Pecha Kucha TGCĐ | ĐG1.3 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tài liệu | Tác giả | Năm xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- |\n| 1 | An Integrated Approach to Learning, Teaching and Assessment. | Professional Development Service for Teachers (PDST) | 2017 | Tài liệu tham khảo | …. |\n| 2 | Meeting Standards Through Integrated Curriculum. | Susan M. Drake<br>Rebecca C. Burns | 2004 | Tài liệu tham khảo | …. |\n| 3 | Chương trình giáo dục phổ thông 2018 môn Toán. | Bộ Giáo dục và Đào tạo | 2020 | Tài liệu tham khảo | …. |\n| 4 | STEM Road Map: A Framwork for Intergrated STEM Education. | Carla C. Johnson, Erin E. Peters Burton, Tamara J. Moore | 2016 | Tài liệu tham khảo | …. |\n| 5 | Service Learning in the Curriculum. | Meg. Stephenson | 2003 | Tài liệu tham khảo |  |\n| 6 | The Joy of Teaching | Peter Filene | 2005 | Tài liệu tham khảo | … |\n| 7 | What the best college teachers do | Ken Bain | 2004 | Tài liệu tham khảo | … |\n| 8 | Các tài liệu thuộc chuyên ngành S, T, E, M khác sẽ linh hoạt thay đổi theo các bài giảng tích hợp và hoạt thí nghiệm của các GV. | Cập nhật | Cập nhật | Tài liệu tham khảo | … |"
+    ],
+    "Quy định của môn học": [
+      "Dự lớp lý thuyết tối thiểu: Vắng/đi trễ 1 buổi có điểm danh – 0.5đ, vắng/đi trễ 2 buổi có điểm danh – 1đ, vắng/đi trễ từ 3 buổi trở lên có điểm danh sẽ RỚT môn học",
+      "Bài tập: tham gia đầy đủ, các bài tập nếu bị phát hiện sao chép sẽ bị RỚT môn học.",
+      "Thảo luận: tham gia đầy đủ",
+      "Yêu cầu khác:….",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Tiếp cận tích hợp STEM trong giảng dạy Toán |  |  |  | x | x | x |  |  | x | x | x |"
+    ]
+  }
+}

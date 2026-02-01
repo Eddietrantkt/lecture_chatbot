@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Lê Hoàng Anh.",
+      "Chức danh, học hàm, học vị: Phó Giáo Sư, Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Tối ưu và Hệ thống, Khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Tối ưu và Hệ Thống, F13, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10449.",
+      "Tên học phần: QUY HOẠCH TUYẾN TÍNH.",
+      "Tên học phần bằng tiếng Anh: LINEAR PROGRAMMING.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 3.",
+      "Số tiết thực hành: 1.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này: không.",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Tối ưu và Hệ thống."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Các khái niệm chính: Hàm mục tiêu, ràng buộc, ràng buộc dấu, từ vựng, nghiệm cơ sở, điểm cực biên, phương pháp đơn hình gốc, đối ngẫu",
+      "Lý thuyết chính:",
+      "Bài toán QHTT",
+      "Phương pháp đơn hình",
+      "Hiện tượng suy biến",
+      "Lý thuyết đối ngẫu",
+      "Đơn hình cải biên",
+      "Độ nhạy cảm"
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trang bị cho sinh viên công cụ giải QHTT, phân biệt các dạng bài toán QHTT, các phương pháp đơn hình gốc, đối ngẫu, tổng hợp. Cách thành lập các mô hình từ bài toán thực tế.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Lập mô hình quy hoạch tuyến tính từ bài toán thực tế | 4/6 |  |\n| MH1.2 | Phương pháp đơn hình | 4/6 |  |\n| MH1.3 | Hiện tượng suy biến | 4/6 |  |\n| MH1.4 | Lý thuyết đối ngẫu | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Lập trình | 3/5 |  |\n| MH2.2 | Sử dụng phần mềm liên quan giải bài toán quy hoạch tuyến tính | 3/5 |  |\n| MH2.3 | Làm việc nhóm | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng được các kiến thức về quy hoạch tuyến tính để mô hình hoá bài toán thực tế. | I, T, U | MH1.1 | CCT1.3, CCT1.4 |\n| 2 | CHP2 | Phân loại được bài toán quy hoạch tuyến tính | I, T, U | MH1.1,<br>NH1.2 | CCT1.3, CCT1.4 |\n| 3 | CHP3 | Sử dụng đúng thuật toán để giải bài toán quy hoạch tuyến tính | I, T, U | MH1.2, MH1.3 | CCT1.3, CCT1.4 |\n| 4 | CHP4 | So sánh bài toán gốc và bài toán đối ngẫu | I, T, U | MH1.4 | CCT1.3, CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Sử dụng được và phát triển các phần mềm liên quan để giải bài toán quy hoạch tuyến tính. | I, T, U | MH2.1, MH2.2 | CCT2.1,<br>CCT2.4 |\n| 6 | CHP6 | Giải quyết vẩn đề trong tình huống mới | I,T,U | MH2.3 | CCT2.1,<br>CCT2.4 |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| 7 | CHP7 | Thích ứng các vấn đề liên quan bài toán quy hoạch tuyến tính | I,T,U | MH3 | CCT3.1, CCT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 60% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 20% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 10% | Sửa bài tập trên lớp |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  | X | ĐG1.4 | 20% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 40% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: QHTT và cách giải đơn giản<br>Định nghĩa QHTT<br>Phương pháp hình học<br>Trường hợp không có nghiệm chấp nhận được | 1 – 3 | CHP1, CHP2 | 7 | 6 | 2 | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Phương pháp đơn hình<br>2.1. Đơn hình từ vựng<br>2.2.\tTìm từ vựng xuất phát<br>2.3.\tTrường hợp hàm mục tiêu không giới nội | 4-6 | CHP3, CHP5 | 8 | 12 | 2 | 10 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: Hiện tượng suy biến<br>3.1. Quy tắc xoay Bland<br>3.2.\tQuy tắc nhiễu<br>3.3. \tQuy tắc từ điển | 7-9 | CHP3, CHP5, CHP6 | 8 | 8 | 2 | 10 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 4: Lý thuyết đối ngẫu <br>4.1. \tĐịnh nghĩa bài toán đối ngẫu <br>4.2. \tCác định lý đối ngẫu<br>4.3. \tĐộ lệch bù <br>4.4. Thuật toán đơn hình đối ngẫu | 10-14 | CHP4, CHP5, CHP6 | 8 | 4 | 4 | 8 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Ôn tập | 15 | CHP1, CHP2,<br>CHP3,<br>CHP4 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Phan Quốc Khánh, Trần Thị Huệ Nương | 2003 | Quy hoạch tuyến tính | NXB Giáo dục | Giáo trình chính | Thư viện KHTN, quầy gíao trình |\n| 2 | V. Chvatal | 1983 | Linear Programming | W. H. Freeman | Tài liệu tham khảo | Thư viện KHTN |\n| 3 | Trustrum Kathleen | 1971 | Linear Programming | Kluwer Academic s Group | Tài liệu tham khảo | Thư viện KHTN |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: 70% số tiết học.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Quy hoạch tuyến tính |  |  | X | X |  | X |  |  | X | X | X |"
+    ]
+  }
+}

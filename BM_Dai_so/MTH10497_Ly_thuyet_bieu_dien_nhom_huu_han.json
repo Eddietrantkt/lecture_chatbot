@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Nguyễn Khánh Tùng",
+      "Chức danh, học hàm, học vị: Tiến sĩ",
+      "Đơn vị công tác: Bộ môn Đại số, Khoa Toán – Tin học, trường Đại học Khoa học tự nhiên, ĐHQG – HCM",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Đại số, Khoa Toán – Tin học, trường Đại học Khoa học tự nhiên, ĐHQG – HCM, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: nktung@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10497",
+      "Tên học phần: LÝ THUYẾT BIỂU DIỄN NHÓM HỮU HẠN",
+      "Tên học phần bằng tiếng Anh: REPRESENTATION THEORY OF FINITE GROUPS",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 60",
+      "Số tiết thực hành: 0",
+      "Số tiết bài tập: 0",
+      "Khác:….",
+      "Loại học phần thuộc khồi kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành: [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: Không",
+      "Các học phần học trước học phần này: Có",
+      "Đại số hiện đại.",
+      "Nhập môn Lý thuyết Vành.",
+      "Học phần song hành: Không",
+      "Các yêu cầu khác (nếu có): Không",
+      "Bộ môn phụ trách học phần: Bộ môn Đại số"
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Tiếng Việt: Giới thiệu về lý thuyết biểu diễn nhóm hữu hạn, về đặc trưng nhóm và ứng dụng vào lý thuyết nhóm trừu tương.",
+      "Tiếng Anh: To introduce to representations of finite groups, group characters and applications to abstract group theory."
+    ],
+    "Mục tiêu của học phần": [
+      "…",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MT1.1 | Nắm vững các khái niệm cơ bản về lý thuyết biểu diễn nhóm hữu hạn | 4/6 |  |\n| MT1.2 | Hiểu rõ về định nghĩa và tính chất của đặc trưng của nhóm hữu hạn | 4/6 |  |\n| MT1.3 | Hiểu và vận dụng được các tính chất của môđun và đặc trưng cảm sinh | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MT2.1 | Ứng dụng được vào lý thuyết nhóm trừu tượng | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MT3.1 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề. | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CĐR1 | Nắm được định nghĩa về biểu diễn nhóm, đồng cấu, mối liên hệ giữa biểu diễn và môđun, tính nửa đơn của đại số nhóm. | I, T, U | MT1.1 |  |\n| 2 | CĐR2 | Hiểu rõ định nghĩa về đặc trưng của nhóm, tích trong của các đặc trưng, bảng đặc trưng và các hệ thức trực giao. | I, T, U | MT1.2 |  |\n| 3 | CĐR3 | Hiểu rõ về định ngĩa và tính chất của đặc trưng thu hẹp. | I, T, U | MT1.3 |  |\n| 4 | CĐR4 | Hiểu biết tường tận về đặc trưng cảm sinh và mối liên hệ với đặc trưng thu hẹp | I, T, U | MT1.3 |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CĐR5 | Ứng dụng vào việc khảo sát tính đơn, tính giải được của nhóm trừu tượng | I, T, U | MT2.1 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  | X |  | ĐG1.1 | 50% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ |  |  | X |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| 1.1. Biểu diễn nhóm | 1-3 | CĐR1 | 2 | 0 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1.2. G-môđun và tính bất khả qui | 1-3 | CĐR1 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1.3. G-đồng cấu | 1-3 | CĐR1 | 1 | 0 | 0 | 1 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1.4. Định lý Maschke | 1-3 | CĐR1 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1.5. Bổ đề Schur | 1-3 | CĐR1 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1.6. Biểu diễn chính qui | 1-3 | CĐR1 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 1.7. Biểu diễn hoán vị | 1-3 | CĐR1 | 1 | 0 | 0 | 1 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.1. Đặc trưng và hàm lớp | 4-7 | CĐR2 | 1 | 0 | 0 | 1 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.2. Tính chất của đặc trưng | 4-7 | CĐR2 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.3. Đặc trưng chính qui | 4-7 | CĐR2 | 1 | 0 | 0 | 1 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.4. Đặc trưng hoán vị | 4-7 | CĐR2 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.5. Tích trong của các đặc trưng | 4-7 | CĐR2 | 2 | 0 | 0 | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.6. Số đặc trưng bất khả qui | 4-7 | CĐR2 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.7. Bảng đặc trưng và hệ thức trực giao | 4-7 | CĐR2 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 2.8. Đặc trưng nâng | 4-7 | CĐR2 | 1 | 0 | 0 | 1 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3.1. Đặc trưng thu hẹp | 7,8,9 | CĐR3 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3.2. Đặc trưng cảm sinh | 7,8,9 | CĐR4 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 3.3. Định lý thuận nghịch Frobenius | 7,8,9 | CĐR4 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4.1. Đặc trưng và cấu trúc nhóm | 10-12 | CĐR5 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4.2. Biểu diễn của nhóm đơn | 10-12 | CĐR5 | 3 | 0 | 0 | 3 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4.3. Định lý Burnside | 10-12 | CĐR5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| 4.4. Định lý Frobenius | 10-12 | CĐR5 | 4 | 0 | 0 | 4 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Gordon James and <br>Martin Liebeck | 1993 | Representations and Characters of Groups | Cambrigde University Press | Giáo trình chính |  |\n| 2 | Collins, M. J. | 1990 | Representations and Characters of Finite Groups | Cambrigde University Press | Tài liệu tham khảo |  |\n| 3 | Baker Andrew | 2007 | Representations  of Finite Groups |  | Tài liệu tham khảo |  |\n| 4 | Jacson, D. M. | 2004 | Notes on the Representations  <br>of Finite Group |  | Tài liệu tham khảo |  |\n| 5 | L. Martin Issacs | 1976 | Character theory of  Finite Groups | Academic Press, INC | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu:36 tiết",
+      "Dự lớp thực hành tối thiểu: Không",
+      "Dự lớp bài tập tối thiểu: 10 tiết",
+      "Dự lớp thảo luận tối thiểu: Không",
+      "Yêu cầu khác: Không",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

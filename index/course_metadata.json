@@ -1,0 +1,851 @@
+[
+  {
+    "course_code": "MTH10427",
+    "course_name": "Cơ học lý thuyết",
+    "course_name_en": "Theoretical mechanics",
+    "department": "Bộ môn Cơ học",
+    "lecturers": [
+      "Trịnh Anh Ngọc"
+    ],
+    "file_path": "BM_Co_hoc\\MTH10427_Co_hoc_ly_thuyet.json",
+    "file_name": "MTH10427_Co_hoc_ly_thuyet.json"
+  },
+  {
+    "course_code": "MTH10428.",
+    "course_name": "CƠ HỌC MÔI TRƯỜNG LIÊN TỤC.",
+    "course_name_en": "CONTINUUM MECHANICS",
+    "department": "BM Cơ học",
+    "lecturers": [
+      "BÙI XUÂN THẮNG."
+    ],
+    "file_path": "BM_Co_hoc\\MTH10428_Co_Hoc_Moi_Truong_Lien_Tuc.json",
+    "file_name": "MTH10428_Co_Hoc_Moi_Truong_Lien_Tuc.json"
+  },
+  {
+    "course_code": "MTH10429",
+    "course_name": "Phương pháp Phần tử hữu hạn",
+    "course_name_en": "Finite element method",
+    "department": "Bộ môn Cơ học",
+    "lecturers": [
+      "Vũ Đỗ Huy Cường"
+    ],
+    "file_path": "BM_Co_hoc\\MTH10429_Phuong_Phap_Phan_Tu_Huu_Han.json",
+    "file_name": "MTH10429_Phuong_Phap_Phan_Tu_Huu_Han.json"
+  },
+  {
+    "course_code": "MTH10434",
+    "course_name": "CƠ HỌC VẬT RẮN BIẾN DẠNG.",
+    "course_name_en": "MECHANICS OF DEFORMABLE SOLIDS.",
+    "department": "BM Cơ học",
+    "lecturers": [
+      "BÙI XUÂN THẮNG"
+    ],
+    "file_path": "BM_Co_hoc\\MTH10434_Co_Vat_Ran_Bien_Dang.json",
+    "file_name": "MTH10434_Co_Vat_Ran_Bien_Dang.json"
+  },
+  {
+    "course_code": "MTH10435",
+    "course_name": "Cơ học chất lỏng",
+    "course_name_en": "Fluid mechanics",
+    "department": "Cơ học",
+    "lecturers": [
+      "Nguyễn Thị Yến Ngọc"
+    ],
+    "file_path": "BM_Co_hoc\\MTH10435_Co_Hoc_Chat_Long.json",
+    "file_name": "MTH10435_Co_Hoc_Chat_Long.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Cơ học tính toán",
+    "course_name_en": "Computational Mechanics",
+    "department": "Bộ môn Cơ học",
+    "lecturers": [
+      "Vũ Đỗ Huy Cường"
+    ],
+    "file_path": "BM_Co_hoc\\MTHxxxxx_Co_Hoc_Tinh_Toan.json",
+    "file_name": "MTHxxxxx_Co_Hoc_Tinh_Toan.json"
+  },
+  {
+    "course_code": "MTH10526",
+    "course_name": "Dao động ngẫu nhiên",
+    "course_name_en": "Random vibration",
+    "department": "Bộ môn Cơ học",
+    "lecturers": [
+      "Lê Văn Chánh"
+    ],
+    "file_path": "BM_Co_hoc\\MTHxxxxx_Dao_Dong_Ngau_Nhien.json",
+    "file_name": "MTHxxxxx_Dao_Dong_Ngau_Nhien.json"
+  },
+  {
+    "course_code": "MTH10524",
+    "course_name": "Động lực học hệ nhiều vật và robotics",
+    "course_name_en": "Dynamics of Multibody Systems and Robotics",
+    "department": "Bô môn Cơ học",
+    "lecturers": [
+      "Nguyễn Thị Yến Ngọc"
+    ],
+    "file_path": "BM_Co_hoc\\MTHxxxxx_Dong_luc_hoc_he_nhieu_vat_va_robotics.json",
+    "file_name": "MTHxxxxx_Dong_luc_hoc_he_nhieu_vat_va_robotics.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Học máy cho cơ học",
+    "course_name_en": "Machine learning for mechanics",
+    "department": "Bộ môn Cơ học",
+    "lecturers": [
+      "Vũ Đỗ Huy Cường"
+    ],
+    "file_path": "BM_Co_hoc\\MTHxxxxx_Hoc_May_Cho_Co_Hoc.json",
+    "file_name": "MTHxxxxx_Hoc_May_Cho_Co_Hoc.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Tính toán mô phỏng",
+    "course_name_en": "Computing and Simulation",
+    "department": "Bộ môn Cơ học",
+    "lecturers": [
+      "Vũ Đỗ Huy Cường"
+    ],
+    "file_path": "BM_Co_hoc\\MTHxxxxx_Tinh_Toan_Mo_Phong.json",
+    "file_name": "MTHxxxxx_Tinh_Toan_Mo_Phong.json"
+  },
+  {
+    "course_code": "MTH00031",
+    "course_name": "Đại số đại cương",
+    "course_name_en": "Abstract Algebra",
+    "department": "Bộ môn Đại số",
+    "lecturers": [],
+    "file_path": "BM_Dai_so\\MTH00031_Dai_so_dai_cuong.json",
+    "file_name": "MTH00031_Dai_so_dai_cuong.json"
+  },
+  {
+    "course_code": "MTH00034.",
+    "course_name": "Đại Số Tuyến Tính 1A.",
+    "course_name_en": "Linear Algebra 1A.",
+    "department": "Bộ môn Đại số.",
+    "lecturers": [
+      "Nguyễn Hữu Trí Nhật."
+    ],
+    "file_path": "BM_Dai_so\\MTH00034_Dai_so_tuyen_tinh_1A.json",
+    "file_name": "MTH00034_Dai_so_tuyen_tinh_1A.json"
+  },
+  {
+    "course_code": "MTH00043",
+    "course_name": "Toán rời rạc 1A",
+    "course_name_en": "Discrete Mathematics 1A",
+    "department": "Bộ môn Đại số",
+    "lecturers": [],
+    "file_path": "BM_Dai_so\\MTH00043_Toan_roi_rac_1A.json",
+    "file_name": "MTH00043_Toan_roi_rac_1A.json"
+  },
+  {
+    "course_code": "MTH00084",
+    "course_name": "Đại số đại cương",
+    "course_name_en": "Abstract Algebra Practice",
+    "department": "Bộ môn Đại số",
+    "lecturers": [],
+    "file_path": "BM_Dai_so\\MTH00084_Thuc_hanh_Dai_so_dai_cuong.json",
+    "file_name": "MTH00084_Thuc_hanh_Dai_so_dai_cuong.json"
+  },
+  {
+    "course_code": "MTH00088",
+    "course_name": "Thực hành Đại Số Tuyến Tính 1A.",
+    "course_name_en": "Linear Algebra Practice 1A.",
+    "department": "Bộ môn Đại số.",
+    "lecturers": [
+      "Lê Văn Luyện."
+    ],
+    "file_path": "BM_Dai_so\\MTH00088_Thuc_hanh_Dai_so_tuyen_tinh_1A.json",
+    "file_name": "MTH00088_Thuc_hanh_Dai_so_tuyen_tinh_1A.json"
+  },
+  {
+    "course_code": "MTH10421",
+    "course_name": "Đại số hiện đại",
+    "course_name_en": "Modern Algebra",
+    "department": "Bộ môn Đại số",
+    "lecturers": [],
+    "file_path": "BM_Dai_so\\MTH10421_Dai_so_hien_dai.json",
+    "file_name": "MTH10421_Dai_so_hien_dai.json"
+  },
+  {
+    "course_code": "MTH10422.",
+    "course_name": "Trường và Lý thuyết Galois",
+    "course_name_en": "Fields and Galois Theory",
+    "department": "Bộ môn đại số.",
+    "lecturers": [
+      "Nguyễn Văn Thìn (A)."
+    ],
+    "file_path": "BM_Dai_so\\MTH10422_Ly_thuyet_truong_va_Galois.json",
+    "file_name": "MTH10422_Ly_thuyet_truong_va_Galois.json"
+  },
+  {
+    "course_code": "MTH10497",
+    "course_name": "LÝ THUYẾT BIỂU DIỄN NHÓM HỮU HẠN",
+    "course_name_en": "REPRESENTATION THEORY OF FINITE GROUPS",
+    "department": "Bộ môn Đại số",
+    "lecturers": [
+      "Nguyễn Khánh Tùng"
+    ],
+    "file_path": "BM_Dai_so\\MTH10497_Ly_thuyet_bieu_dien_nhom_huu_han.json",
+    "file_name": "MTH10497_Ly_thuyet_bieu_dien_nhom_huu_han.json"
+  },
+  {
+    "course_code": "MTH10505",
+    "course_name": "Đại số phân bậc",
+    "course_name_en": "Graded Algebra",
+    "department": "Bộ môn Đại số",
+    "lecturers": [],
+    "file_path": "BM_Dai_so\\MTH10505_Dai_so_phan_bac.json",
+    "file_name": "MTH10505_Dai_so_phan_bac.json"
+  },
+  {
+    "course_code": "MTH10596.",
+    "course_name": "Lý Thuyết Nhóm.",
+    "course_name_en": "Group Theory.",
+    "department": "Bộ môn đại số.",
+    "lecturers": [
+      "Nguyễn Văn Thìn (A)."
+    ],
+    "file_path": "BM_Dai_so\\MTH10509_Ly_thuyet_nhom.json",
+    "file_name": "MTH10509_Ly_thuyet_nhom.json"
+  },
+  {
+    "course_code": "MTH10601",
+    "course_name": "",
+    "course_name_en": "",
+    "department": "",
+    "lecturers": [
+      "Mai Hoàng Biên"
+    ],
+    "file_path": "BM_Dai_so\\MTH10601_Luoc_su_tu_duy_so_va_dai_so.json",
+    "file_name": "MTH10601_Luoc_su_tu_duy_so_va_dai_so.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "",
+    "course_name_en": "",
+    "department": "",
+    "lecturers": [
+      "Mai Hoàng Biên"
+    ],
+    "file_path": "BM_Dai_so\\MTHxxxxx_Dai_so_nhom.json",
+    "file_name": "MTHxxxxx_Dai_so_nhom.json"
+  },
+  {
+    "course_code": "MTH???",
+    "course_name": "Đại số tuyến tính 2A",
+    "course_name_en": "Linear Algebra 2A.",
+    "department": "Bộ môn Đại số.",
+    "lecturers": [
+      "Bùi Anh Tuấn."
+    ],
+    "file_path": "BM_Dai_so\\MTHxxxxx_Dai_so_tuyen_tinh_2A.json",
+    "file_name": "MTHxxxxx_Dai_so_tuyen_tinh_2A.json"
+  },
+  {
+    "course_code": "MTH",
+    "course_name": "Lý thuyết số.",
+    "course_name_en": "Number Theory.",
+    "department": "Bộ môn đại số.",
+    "lecturers": [
+      "Nguyễn Văn Thìn (A)."
+    ],
+    "file_path": "BM_Dai_so\\MTHxxxxx_Ly_thuyet_so.json",
+    "file_name": "MTHxxxxx_Ly_thuyet_so.json"
+  },
+  {
+    "course_code": "?????",
+    "course_name": "LÝ THUYẾT TỔ HỢP",
+    "course_name_en": "ENUMERATIVE COMBINATORICS",
+    "department": "Bộ môn Đại số.",
+    "lecturers": [
+      "NGUYỄN ANH THI"
+    ],
+    "file_path": "BM_Dai_so\\MTHxxxxx_Ly_thuyet_to_hop.json",
+    "file_name": "MTHxxxxx_Ly_thuyet_to_hop.json"
+  },
+  {
+    "course_code": "MTH???",
+    "course_name": "Lý Thuyết Vành Và Môđun.",
+    "course_name_en": "Rings And Modules.",
+    "department": "Bộ môn đại số.",
+    "lecturers": [
+      "Nguyễn Văn Thìn (A)."
+    ],
+    "file_path": "BM_Dai_so\\MTHxxxxx_Ly_thuyet_vanh_va_modun.json",
+    "file_name": "MTHxxxxx_Ly_thuyet_vanh_va_modun.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "",
+    "course_name_en": "",
+    "department": "",
+    "lecturers": [
+      "Mai Hoàng Biên"
+    ],
+    "file_path": "BM_Dai_so\\MTHxxxxx_Nhom_tuyen_tinh.json",
+    "file_name": "MTHxxxxx_Nhom_tuyen_tinh.json"
+  },
+  {
+    "course_code": "MTH00010.",
+    "course_name": "Giải tích 1A.",
+    "course_name_en": "Analysis 1A.",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Lý Kim Hà."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH00010_Giai_tich_1A_moi.json",
+    "file_name": "MTH00010_Giai_tich_1A_moi.json"
+  },
+  {
+    "course_code": "MTH00011.",
+    "course_name": "Vi tích phân 1A.",
+    "course_name_en": "Differential and Integral Calculus 1A.",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Lý Kim Hà."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH00011_Vi_tich_phan_1A_moi.json",
+    "file_name": "MTH00011_Vi_tich_phan_1A_moi.json"
+  },
+  {
+    "course_code": "MTH00013.",
+    "course_name": "Vi tích phân 2A",
+    "course_name_en": "Differential and Integral Calculus 2A",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Nguyễn Thị Hoài Thương."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH00013_Vi_tich_phan_2A.json",
+    "file_name": "MTH00013_Vi_tich_phan_2A.json"
+  },
+  {
+    "course_code": "MTH00014",
+    "course_name": "Giải tích 3A",
+    "course_name_en": "Analysis 3A",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Huỳnh Quang Vũ"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH00014_Giai_tich_3A.json",
+    "file_name": "MTH00014_Giai_tich_3A.json"
+  },
+  {
+    "course_code": "MTH00087",
+    "course_name": "THỰC HÀNH PHẦN MỀM TÍNH TOÁN",
+    "course_name_en": "COMPUTATIONAL SOFTWARE LABORATORY",
+    "department": "…",
+    "lecturers": [
+      "Lê Ánh Hạ, Ông Thanh Hải, Nguyễn Thị Hoài Thương, Phan Thị Mỹ Duyên"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH00087_Thuc_hanh_phan_mem_tinh_toan.json",
+    "file_name": "MTH00087_Thuc_hanh_phan_mem_tinh_toan.json"
+  },
+  {
+    "course_code": "MTH10403.",
+    "course_name": "Giải tích hàm.",
+    "course_name_en": "Functional Analysis.",
+    "department": "Bộ môn Giải Tích.",
+    "lecturers": [
+      "Bùi Lê Trọng Thanh."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10403_Giai_tich_ham.json",
+    "file_name": "MTH10403_Giai_tich_ham.json"
+  },
+  {
+    "course_code": "MTH10408.",
+    "course_name": "Giải tích thực.",
+    "course_name_en": "Real Analysis.",
+    "department": "Bộ môn Giải Tích.",
+    "lecturers": [
+      "Bùi Lê Trọng Thanh."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10408_Giai_tich_thuc.json",
+    "file_name": "MTH10408_Giai_tich_thuc.json"
+  },
+  {
+    "course_code": "MTH10410.",
+    "course_name": "Giải tích số",
+    "course_name_en": "Numerical analysis",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Nguyễn Thị Hoài Thương."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10410_Giai_tich_so.json",
+    "file_name": "MTH10410_Giai_tich_so.json"
+  },
+  {
+    "course_code": "MTH10412",
+    "course_name": "Hàm Biến Phức",
+    "course_name_en": "Functions of One complex variable",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Lý Kim Hà"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10412_Ham_Bien_Phuc.json",
+    "file_name": "MTH10412_Ham_Bien_Phuc.json"
+  },
+  {
+    "course_code": "MTH10413",
+    "course_name": "",
+    "course_name_en": "",
+    "department": "",
+    "lecturers": [
+      "Lê Đức Hưng"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10413_Phuong_trinh_toan_ly.json",
+    "file_name": "MTH10413_Phuong_trinh_toan_ly.json"
+  },
+  {
+    "course_code": "MTH10462.",
+    "course_name": "Lý thuyết độ đo và tích phân.",
+    "course_name_en": "Measure Theory and Integration.",
+    "department": "Bộ môn Giải Tích.",
+    "lecturers": [
+      "Bùi Lê Trọng Thanh."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10462_Ly_thuyet_do_do_va_tich_phan.json",
+    "file_name": "MTH10462_Ly_thuyet_do_do_va_tich_phan.json"
+  },
+  {
+    "course_code": "MTH10533",
+    "course_name": "Giải tích số cho phương trình vi phân",
+    "course_name_en": "Numerical analysis of Ordinary Differential Equations",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Phan Thị Mỹ Duyên"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10533_Phuong_phap_so_cho_phuong_trinh_vi_phan.json",
+    "file_name": "MTH10533_Phuong_phap_so_cho_phuong_trinh_vi_phan.json"
+  },
+  {
+    "course_code": "MTH10604",
+    "course_name": "Phương pháp số trong tối ưu",
+    "course_name_en": "Numerical optimization",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Nguyễn Đăng Khoa."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTH10604_Phuong_phap_so_trong_toi_uu.json",
+    "file_name": "MTH10604_Phuong_phap_so_trong_toi_uu.json"
+  },
+  {
+    "course_code": "MTH10438.",
+    "course_name": "Chuyên đề giải tích số.",
+    "course_name_en": "Topics in numerical analysis.",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Ông Thanh Hải, Lê Ánh Hạ, Phan Thị Mỹ Duyên, Nguyễn Thị Hoài Thương."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTHxxxxx_Chuyen_de_giai_tich_so.json",
+    "file_name": "MTHxxxxx_Chuyen_de_giai_tich_so.json"
+  },
+  {
+    "course_code": "MTH00012.",
+    "course_name": "Giải tích 2A",
+    "course_name_en": "Analysis 2A",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Ông Thanh Hải."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTHxxxxx_Giai_tich_2A.json",
+    "file_name": "MTHxxxxx_Giai_tich_2A.json"
+  },
+  {
+    "course_code": "MTHxxxxx.",
+    "course_name": "Giải tích số cho phương trình đạo hàm riêng.",
+    "course_name_en": "Numerical analysis for partial differential equations",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Ông Thanh Hải."
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTHxxxxx_Giai_tich_so_cho_Phuong_trinh_dao_ham_rieng.json",
+    "file_name": "MTHxxxxx_Giai_tich_so_cho_Phuong_trinh_dao_ham_rieng.json"
+  },
+  {
+    "course_code": "MTH00015",
+    "course_name": "Phương trình vi phân",
+    "course_name_en": "Ordinary Differential Equations",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Phan Thị Mỹ Duyên"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTHxxxxx_Phuong_trinh_vi_phan.json",
+    "file_name": "MTHxxxxx_Phuong_trinh_vi_phan.json"
+  },
+  {
+    "course_code": "MTH10417",
+    "course_name": "Tôpô",
+    "course_name_en": "Topology",
+    "department": "Bộ môn Giải tích",
+    "lecturers": [
+      "Huỳnh Quang Vũ"
+    ],
+    "file_path": "BM_Giai_tich_Giai_tich_so\\MTHxxxxx_Topo.json",
+    "file_name": "MTHxxxxx_Topo.json"
+  },
+  {
+    "course_code": "MTH10103",
+    "course_name": "CHẤT LƯỢNG VÀ QUẢN LÝ CHẤT LƯỢNG",
+    "course_name_en": "QUALITY AND QUALITY MANAGEMENT",
+    "department": "…",
+    "lecturers": [
+      "Đinh Thị Kim Liên"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Chat_luong_va_quan_ly_chat_luong.json",
+    "file_name": "MTHxxxxx_Chat_luong_va_quan_ly_chat_luong.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Dạy Toán bằng Tiếng Anh",
+    "course_name_en": "Teaching Mathematics in English",
+    "department": "Giáo dục Toán học",
+    "lecturers": [
+      "Tạ Thị Nguyệt Nga"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Day_Toan_bang_Tieng_Anh.json",
+    "file_name": "MTHxxxxx_Day_Toan_bang_Tieng_Anh.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Giải Toán sơ cấp",
+    "course_name_en": "Solving Elemantary Mathematics",
+    "department": "Giáo dục Toán học",
+    "lecturers": [
+      "Trần Nam Dũng"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Giai_toan_so_cap.json",
+    "file_name": "MTHxxxxx_Giai_toan_so_cap.json"
+  },
+  {
+    "course_code": "MTH10125",
+    "course_name": "KỸ THUẬT ĐÁNH GIÁ LỚP HỌC",
+    "course_name_en": "CLASSROOM ASSESSMENT TECHNIQUES",
+    "department": "…",
+    "lecturers": [],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Ky_thuat_danh_gia_lop_hoc.json",
+    "file_name": "MTHxxxxx_Ky_thuat_danh_gia_lop_hoc.json"
+  },
+  {
+    "course_code": "MTH10105",
+    "course_name": "Lý luận dạy học",
+    "course_name_en": "Didactics of teaching",
+    "department": "Bộ môn Giáo dục Toán học.",
+    "lecturers": [
+      "Bế Phương Thảo"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Ly_luan_day_hoc.json",
+    "file_name": "MTHxxxxx_Ly_luan_day_hoc.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Mô hình hoá toán học",
+    "course_name_en": "Mathematical Modeling",
+    "department": "Giáo dục Toán học",
+    "lecturers": [
+      "Tạ Thị Nguyệt Nga"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Mo_hinh_hoa_Toan_hoc.json",
+    "file_name": "MTHxxxxx_Mo_hinh_hoa_Toan_hoc.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Phương pháp giảng dạy môn Toán",
+    "course_name_en": "Methods of Teaching Mathematics",
+    "department": "Giáo dục Toán học",
+    "lecturers": [
+      "Tạ Thị Nguyệt Nga"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Phuong_phap_giang_day_Mon_Toan.json",
+    "file_name": "MTHxxxxx_Phuong_phap_giang_day_Mon_Toan.json"
+  },
+  {
+    "course_code": "TTH151",
+    "course_name": "Tâm lý học Giáo dục",
+    "course_name_en": "Education Psychology",
+    "department": "Bộ môn Giáo dục Toán học",
+    "lecturers": [
+      "TRẦN HƯƠNG THẢO"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Tam_ly_giao_duc.json",
+    "file_name": "MTHxxxxx_Tam_ly_giao_duc.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "",
+    "course_name_en": "",
+    "department": "",
+    "lecturers": [
+      "Châu Thị Hiếu"
+    ],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Tiep_cap_tich_hop_STEM_trong_GD_Toan_hoc.json",
+    "file_name": "MTHxxxxx_Tiep_cap_tich_hop_STEM_trong_GD_Toan_hoc.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Ứng dụng công nghệ thông tin trong dạy học",
+    "course_name_en": "Technology in Education",
+    "department": "Giáo dục Toán học",
+    "lecturers": [],
+    "file_path": "BM_Giao_duc_Toan_hoc\\MTHxxxxx_Ung_dung_CNTT_trong_day_hoc.json",
+    "file_name": "MTHxxxxx_Ung_dung_CNTT_trong_day_hoc.json"
+  },
+  {
+    "course_code": "MTH10446.",
+    "course_name": "VẬN TRÙ HỌC.",
+    "course_name_en": "OPERATIONS RESEARCH.",
+    "department": "Tối ưu và hệ thống",
+    "lecturers": [
+      "Nguyễn Văn Thuỳ."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10446_VanTruHoc.json",
+    "file_name": "MTH10446_VanTruHoc.json"
+  },
+  {
+    "course_code": "MTH10447.",
+    "course_name": "LÝ THUYẾT QUY HOẠCH PHI TUYẾN.",
+    "course_name_en": "NONLINEAR PROGRAMMING.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Lê Hoàng Anh."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10447_LyThuyetQuyHoachPhiTuyen.json",
+    "file_name": "MTH10447_LyThuyetQuyHoachPhiTuyen.json"
+  },
+  {
+    "course_code": "MTH10449.",
+    "course_name": "QUY HOẠCH TUYẾN TÍNH.",
+    "course_name_en": "LINEAR PROGRAMMING.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Lê Hoàng Anh."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10449_QuyHoachTuyenTinh.json",
+    "file_name": "MTH10449_QuyHoachTuyenTinh.json"
+  },
+  {
+    "course_code": "MTH10450",
+    "course_name": "Thuật Toán Tối Ưu",
+    "course_name_en": "Numerical Method in Optimization",
+    "department": "Tối ưu và Hệ thống",
+    "lecturers": [
+      "Võ Sĩ Trọng Long"
+    ],
+    "file_path": "BM_Toi_uu\\MTH10450_ThuatToanToiUu.json",
+    "file_name": "MTH10450_ThuatToanToiUu.json"
+  },
+  {
+    "course_code": "MTH10538.",
+    "course_name": "Tối ưu hoá ứng dụng.",
+    "course_name_en": "Applied Optimization.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Lê Hoàng Anh."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10538_ToiUuHoaUngDung.json",
+    "file_name": "MTH10538_ToiUuHoaUngDung.json"
+  },
+  {
+    "course_code": "MTH10539",
+    "course_name": "QUY HOẠCH TUYẾN TÍNH NÂNG CAO",
+    "course_name_en": "Advanced linear programming",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Mạnh Trường Giang"
+    ],
+    "file_path": "BM_Toi_uu\\MTH10539_Quy_Hoach_Tuyen_Tinh_Nang_Cao.json",
+    "file_name": "MTH10539_Quy_Hoach_Tuyen_Tinh_Nang_Cao.json"
+  },
+  {
+    "course_code": "MTH10540.",
+    "course_name": "LÝ THUYẾT VÀ THUẬT TOÁN TỐI ƯU KHÔNG TRƠN.",
+    "course_name_en": "NONSMOOTH OPTIMIZATION: THEORY and NUMERICAL METHODS.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Lê Hoàng Anh."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10540_LyThuyetvaThuatToanToiUuKhongTron.json",
+    "file_name": "MTH10540_LyThuyetvaThuatToanToiUuKhongTron.json"
+  },
+  {
+    "course_code": "MTH10541.",
+    "course_name": "LÝ THUYẾT TRÒ CHƠI.",
+    "course_name_en": "GAME THEORY.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Văn Thuỳ."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10541_LyThuyetTroChoi.json",
+    "file_name": "MTH10541_LyThuyetTroChoi.json"
+  },
+  {
+    "course_code": "MTH10543",
+    "course_name": "Cơ Sở Giải Tích Lồi và Quy Hoạch Lồi",
+    "course_name_en": "Introduction to Convex Analysis and Convex Programming",
+    "department": "Tối ưu và Hệ thống",
+    "lecturers": [
+      "Võ Sĩ Trọng Long"
+    ],
+    "file_path": "BM_Toi_uu\\MTH10543_CoSoGiaiTichLoiVaQuyHoachLoi.json",
+    "file_name": "MTH10543_CoSoGiaiTichLoiVaQuyHoachLoi.json"
+  },
+  {
+    "course_code": "MTH10544.",
+    "course_name": "ĐIỀU KIỆN TỐI ƯU KHÔNG TRƠN.",
+    "course_name_en": "OPTIMALITY CONDITIONS IN NONSMOOTH OPTIMIZATION.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Lê Hoàng Anh."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10544_DieuKienToiUuKhongTron.json",
+    "file_name": "MTH10544_DieuKienToiUuKhongTron.json"
+  },
+  {
+    "course_code": "MTH10545.",
+    "course_name": "Điều khiển tối ưu.",
+    "course_name_en": "Optimal control.",
+    "department": "Bộ môn Tối ưu và hệ thống.",
+    "lecturers": [
+      "Cao Nghi Thục."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10545_DieuKhienToiUu.json",
+    "file_name": "MTH10545_DieuKhienToiUu.json"
+  },
+  {
+    "course_code": "MTH10553",
+    "course_name": "Tối Ưu Đa Mục Tiêu",
+    "course_name_en": "Multiobjective Optimization",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [
+      "Nguyễn Mạnh Trường Giang"
+    ],
+    "file_path": "BM_Toi_uu\\MTH10553_Toi_Uu_Da_Muc_Tieu.json",
+    "file_name": "MTH10553_Toi_Uu_Da_Muc_Tieu.json"
+  },
+  {
+    "course_code": "MTH10614",
+    "course_name": "Phương Pháp Biến Phân Trong Tối Ưu",
+    "course_name_en": "Variational Methods in Optimization",
+    "department": "Tối ưu và Hệ thống",
+    "lecturers": [
+      "Võ Sĩ Trọng Long"
+    ],
+    "file_path": "BM_Toi_uu\\MTH10614_PhuongPhapBienPhanTrongToiUu.json",
+    "file_name": "MTH10614_PhuongPhapBienPhanTrongToiUu.json"
+  },
+  {
+    "course_code": "MTH10615.",
+    "course_name": "Mô hình tối ưu trong kinh tế",
+    "course_name_en": "Optimization madels in economics",
+    "department": "Bộ môn Tối ưu và hệ thống.",
+    "lecturers": [
+      "Cao Nghi Thục."
+    ],
+    "file_path": "BM_Toi_uu\\MTH10615_Mo_hinh_toi_uu_trong_kinh_te.json",
+    "file_name": "MTH10615_Mo_hinh_toi_uu_trong_kinh_te.json"
+  },
+  {
+    "course_code": "MTH10616.",
+    "course_name": "Seminar Tối ưu.",
+    "course_name_en": "Seminar on Optimization.",
+    "department": "Bộ môn Tối ưu và Hệ thống.",
+    "lecturers": [],
+    "file_path": "BM_Toi_uu\\MTH10616_SeminarToiUu.json",
+    "file_name": "MTH10616_SeminarToiUu.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Toán rời rạc 2A",
+    "course_name_en": "Discrete Mathematics",
+    "department": "…",
+    "lecturers": [
+      "Hà Văn Thảo"
+    ],
+    "file_path": "BM_Ung_dung_Tin_hoc\\MTHxxxxx_Toan_roi_rac_2A.json",
+    "file_name": "MTHxxxxx_Toan_roi_rac_2A.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Xử Lý Ngôn Ngữ Tự Nhiên",
+    "course_name_en": "Natural Language Processing",
+    "department": "Bộ môn Ứng dụng Tin học",
+    "lecturers": [],
+    "file_path": "BM_Ung_dung_Tin_hoc\\MTHxxxxx_Xu_Li_Ngon_Ngu_tu_nhien.json",
+    "file_name": "MTHxxxxx_Xu_Li_Ngon_Ngu_tu_nhien.json"
+  },
+  {
+    "course_code": "MTH00042",
+    "course_name": "Xác suất",
+    "course_name_en": "Probability",
+    "department": "Xác suất Thống kê",
+    "lecturers": [
+      "Đặng Đức Trọng"
+    ],
+    "file_path": "BM_Xac_suat_thong_ke\\MTH00042_Xac_suat.json",
+    "file_name": "MTH00042_Xac_suat.json"
+  },
+  {
+    "course_code": "MTH10404.",
+    "course_name": "Lý thuyết thống kê.",
+    "course_name_en": "Mathematical Statistics.",
+    "department": "Bộ môn Xác suất – Thống kê.",
+    "lecturers": [
+      "Hoàng Văn Hà."
+    ],
+    "file_path": "BM_Xac_suat_thong_ke\\MTH10404_Ly_thuyet_thong_ke_doi_co_cau.json",
+    "file_name": "MTH10404_Ly_thuyet_thong_ke_doi_co_cau.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Mô hình Bayes 1",
+    "course_name_en": "Bayesian Models 1",
+    "department": "Bộ môn Xác suất-Thống kê, khoa Toán-Tin học",
+    "lecturers": [],
+    "file_path": "BM_Xac_suat_thong_ke\\MTHxxxxx_Lap_trinh_Bayes.json",
+    "file_name": "MTHxxxxx_Lap_trinh_Bayes.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Máy học thống kê",
+    "course_name_en": "Statistical learning",
+    "department": "Xác suất Thống kê",
+    "lecturers": [
+      "Đặng Đức Trọng"
+    ],
+    "file_path": "BM_Xac_suat_thong_ke\\MTHxxxxx_May_hoc_thong_ke.json",
+    "file_name": "MTHxxxxx_May_hoc_thong_ke.json"
+  },
+  {
+    "course_code": "MTHxxxxx.",
+    "course_name": "Phân tích dữ liệu sống sót.",
+    "course_name_en": "Survival Analysis.",
+    "department": "Bộ môn Xác suất - Thống kê.",
+    "lecturers": [
+      "Nguyễn Tiến Đạt."
+    ],
+    "file_path": "BM_Xac_suat_thong_ke\\MTHxxxxx_Phan_tich_du_lieu_song_sot.json",
+    "file_name": "MTHxxxxx_Phan_tich_du_lieu_song_sot.json"
+  },
+  {
+    "course_code": "MTHxxxxx.",
+    "course_name": "Thực hành thống kê.",
+    "course_name_en": "R practice for Statistics.",
+    "department": "Bộ môn Xác suất – Thống kê.",
+    "lecturers": [
+      "Hoàng Văn Hà."
+    ],
+    "file_path": "BM_Xac_suat_thong_ke\\MTHxxxxx_Thuc_hanh_thong_ke.json",
+    "file_name": "MTHxxxxx_Thuc_hanh_thong_ke.json"
+  },
+  {
+    "course_code": "MTHxxxxx",
+    "course_name": "Xác suất cho bảo hiểm",
+    "course_name_en": "Probability for Actuarial Science",
+    "department": "Xác suất Thống kê",
+    "lecturers": [
+      "Nguyễn Văn Thìn"
+    ],
+    "file_path": "BM_Xac_suat_thong_ke\\MTHxxxxx_Xac_suat_cho_bao_hiem.json",
+    "file_name": "MTHxxxxx_Xac_suat_cho_bao_hiem.json"
+  }
+]

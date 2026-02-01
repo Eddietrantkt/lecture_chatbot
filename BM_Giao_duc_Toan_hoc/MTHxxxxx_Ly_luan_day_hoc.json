@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Bế Phương Thảo",
+      "Chức danh, học hàm, học vị: Thạc sĩ",
+      "Đơn vị công tác: Bộ môn Giáo dục Toán học, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: phuongthao.qst@gmail.com",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10105",
+      "Tên học phần: Lý luận dạy học",
+      "Tên học phần bằng tiếng Anh: Didactics of teaching",
+      "Số tín chỉ: 2 (01LT + 01TH)",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 15",
+      "Số tiết thực hành: 30",
+      "Số tiết bài tập: 0",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô): (sử dụng  [x]  để chèn)",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: Không có.",
+      "Các học phần học trước học phần này: Không có.",
+      "Học phần song hành: Không có.",
+      "Các yêu cầu khác (nếu có): Không có.",
+      "Bộ môn phụ trách học phần: Bộ môn Giáo dục Toán học."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Lý luận dạy học trình bày các khái niệm cơ bản trong quá trình truyền thụ và lĩnh hội kiến thức nói chung, đặc biệt là trong khung cảnh nhà trường, đồng thời mô tả và giải thích những hiện tượng liên quan đến mối liên hệ giữa việc dạy và việc học của học viên."
+    ],
+    "Mục tiêu của học phần": [
+      "Là học phần bắt buộc cho sinh viên chuyên ngành Sư phạm Toán, Lý luận dạy học trang bị cho sinh viên kiến thức quan trọng trong giảng dạy như những khái niệm cơ bản trong việc truyền đạt và lĩnh hội kiến thức nói chung, đặc biệt là trong khung cảnh nhà trường, các phương pháp và kỹ thuật giảng dạy hiệu quả. Ngoài ra, học phần tích hợp kiến thức Toán, một số khái niệm và thuật ngữ nhằm trang bị kỹ năng.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Một số vấn đề, nội dung cơ bản của môn học. | 5/6 |  |\n| MH1.2 | Các nguyên tắc dạy học. | 5/6 |  |\n| MH1.3 | Các nguyên tắc truyền đạt kiến thức. | 5/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Xử lí một số tình huống trong dạy học. | 3/5 |  |\n| MH2.2 | Thiết kế tình huống dạy học. | 4/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Có tinh thần chủ động, năng lực giải quyết vấn đề, thích nghi và tự điều chỉnh. | 4/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nhận định về một số vấn đề cơ bản của Lý luận dạy học. | I, T, U | MH1.1 | CCT1.4 |\n| 2 | CHP2 | Trình bày được các nguyên tắc dạy học cơ bản. | I, T, U | MH1.2 | CCT1.4 |\n| 3 | CHP3 | Trình bày được các nguyên tắc truyền đạt kiến thức. | I, T, U | MH1.3 | CCT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 4 | CHP4 | Vận dụng các nguyên tắc dạy học cơ bản để phân tích và xử lí một số tình huống trong dạy học. |  | MH1.1<br>MH1.2<br>MH1.3<br>MH2.1 | CCT2.2 |\n| 5 | CHP5 | Thiết kế một số tình huống, môi trường mới trong học tập nhằm giúp cho việc dạy học đạt hiệu quả hơn. |  | MH1.2<br>MH1.3<br>MH2.2 | CCT2.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên |  |  |  |  | ĐG1.2 |  |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành | X |  | X | X | ĐG1.4 | 20% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm | X |  | X | X | ĐG1.5 | 30% |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Phần 1. Các khái niệm căn bản<br>1.1. Lý thuyết về sự học<br>1.2. Những vấn đề cơ bản của lý luận dạy học | 1-3 |  | 3 | 6 | 0 | 0 | Thuyết giảng chủ động, bài tập | ĐG1 |\n| Phần 2. Hệ thống các nguyên tắc dạy học<br>2.1. Tính khoa học và tính giáo dục<br>2.2. Lý luận và thực tiễn<br>2.3. Cụ thể và trừu tượng<br>2.4. Vững chắc và mềm dẻo<br>2.5. Vừa sức chung và vừa sức riêng<br>2.6. Người dạy và người học<br>2.7. Siêu nhận thức | 4-11 |  | 7 | 14 | 0 | 9 | Thuyết giảng chủ động<br>Tổ chức học tập theo nhóm | ĐG1, ĐG2 |\n| Phần 3. Các nguyên tắc truyền đạt kiến thức<br>3.1. Nội dung, phương pháp, phương tiện dạy học<br>3.2. Sự thuyết trình, truyền đạt kiến thức<br>3.3. Tổ chức hình thức dạy học<br>3.4. Kiểm tra và đánh giá kết quả học tập | 12-13 |  | 4 | 0 | 0 | 2 | Thuyết giảng chủ động | ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Đặng Đức Trọng, Đỗ Thị Bích Trâm | 2014 | Lý Luận Dạy học | NXB Đại học Quốc gia TP. HCM | Giáo trình chính |  |\n| 2 | Bessot,A.,Comiti,C.,Chau,L.T.H.,Tien,L.V. | 2007 | Những yếu tố cơ bản của Didactic Toán | NXB Đại học Quốc gia TP. HCM | Tài liệu tham khảo |  |\n| 3 | Marzano, R. J., Marzano, J. S. and Pickering, D. J. | 2011 | Quản lí hiệu quả lớp học | NXB Giáo dục<br>Việt Nam | Tài liệu tham khảo |  |\n| 4 | Thái Duy Tuyên | 2010 | Phương pháp dạy học, truyền thống và đổi mới | NXB Giáo dục<br>Việt Nam | Tài liệu tham khảo |  |\n| 5 | Nguyễn Hữu Châu | 2005 | Những vấn đề cơ bản về chương trình và quá trình dạy học | NXB Giáo dục Việt Nam | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70%",
+      "Dự lớp thực hành tối thiểu: 70%",
+      "Dự lớp bài tập tối thiểu: Không",
+      "Dự lớp thảo luận tối thiểu: Không",
+      "Yêu cầu khác: Không",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Lý luận dạy học |  |  |  | X |  | X | X |  |  | X | X |"
+    ]
+  }
+}

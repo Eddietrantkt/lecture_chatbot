@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Lý Kim Hà",
+      "Chức danh, học hàm, học vị: Giảng viên cao cấp, Phó giáo sư, tiến sĩ",
+      "Đơn vị công tác: Bộ môn Giải tích, Khoa Toán - Tin học",
+      "Thời gian và địa điểm làm việc: Phòng E201A, 227 Nguyễn Văn Cừ, Quận 5",
+      "Địa chỉ liên hệ: Khoa Toán - Tin học,  227 Nguyễn Văn Cừ, Quận 5",
+      "Điện thoại, email: lkha@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):…"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10412",
+      "Tên học phần: Hàm Biến Phức",
+      "Tên học phần bằng tiếng Anh: Functions of One complex variable",
+      "Số tín chỉ: 4",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 4",
+      "Số tiết thực hành: …",
+      "Số tiết bài tập:",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức:",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [ ]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết:",
+      "Các học phần học trước học phần này: Vi tích phân 2A, Giải tích 2A, Giải tích 3A",
+      "Học phần song hành: …",
+      "Các yêu cầu khác:………………",
+      "Bộ môn phụ trách học phần: Bộ môn Giải tích"
+    ],
+    "Mô tả vắn tắt nội dung học phần:": [
+      "Nội dung của môn học này gồm Số phức (đại số, hình học và topo trên mặt phẳng phức), hàm chỉnh hình 1 biến phức (định nghĩa, ví dụ, tính chất,...), Lý thuyết tích phân Cauchy trên mặt phẳng phức và các hệ quả của Công thức tích phân Cauchy, Lý thuyết chuỗi số phức (miền hội tụ) và chuỗi hàm phức (Chuỗi Taylor, chuỗi Laurentz), Lý thuyết thặng dư Cauchy và ứng dụng trong tính toán các tích phân thực (tích phân Riemann, tích phân suy rộng, tích phân giá trị chính Cauchy), một nhập môn về phương trình Cauchy-Riemann một chiều (nếu còn thời gian).",
+      "Môn học bổ ích và cần thiết cho các lĩnh vực toán sử dụng cấu trúc số và hàm một biến phức cơ bản, trước hết cho các lĩnh vực như Giải tích và Hình học, sau đó là các lĩnh vực như Đại số, Cơ học.",
+      "Môn học thích hợp cho sinh viên năm 2 ngành Toán học, Toán ứng dụng và Toán tin học. Trước khi học môn này sinh viên cần đạt được kiến thức tối thiểu trong phép tính vi tích phân hàm hai biến thực, Giải tích vector hàm hai biến thực. Đây là môn cơ sở ngành Toán học, sinh viên học xong có thể học được rất nhiều môn cần dùng đến hàm phức một biến."
+    ],
+    "Mục tiêu của học phần": [
+      "Phân tích về định tính, định lượng của hàm phức một biến bằng các phương pháp: khai triển chuỗi, tích phân Cauchy, hình học của hàm và kỹ thuật phương trình đạo hàm riêng.",
+      "Giải thích những định lý quan trọng phân biệt giải tích phức với giải tích thực.",
+      "Áp dụng phương pháp giải tích phức trong các lĩnh vực khác và tính toán vài tích phân thực cơ bản.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Định nghĩa và biểu diễn hình học của các hàm phức cơ bản | biết, hiểu, vận dụng, phân tích (4/6) |  |\n| MH1.2 | Hiểu đạo hàm phức, tích phân phức, các tính chất liên quan. phân biệt với hàm thực | biết,  hiểu, vận dụng, phân tích (4/6); |  |\n| MH1.3 | Hiểu và áp dụng được phép tính thặng dư | biết, hiểu, vận dụng, phân tích (4/6) |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Làm việc với một số lý luận tổng quát, trừu tượng, chính xác cao | phối hợp (4/5) |  |\n| MH2.2 | Giải quyết vấn đề không có sẵn lời giải | làm chính xác, phối hợp (4/5) |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3.1 | Thấy được vai trò và hiệu quả của Hàm biến phức, từ đó có thái độ học tập tích cực, chủ động, tự giác, nghiêm túc | tiếp nhận, điều chỉnh, hấp thụ (3/5) |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1.1 | Trình bày và vận dụng thuần thục được các khái niệm và kết quả chính của vài hàm phức cơ bản | I, T, U | MH1.1 | CCT1.4, 1.5, 2.3, 2.4, 3.1 |\n| 2 | CHP1.2 | Trình bày và vận dụng thuần thục được các khái niệm và kết quả chính liên quan đến đạo hàm phức | I, T, U | MH1.1, MH1.2 | CCT1.4, 1.5, 2.1, 2.3, 2.4, 3.1 |\n| 3 | CHP1.3 | Trình bày và vận dụng thuần thục được các khái niệm và kết quả chính liên quan đến tích phân phức | I, T, U | MH1.1, MH1.3 | CCT1.4, 1.5, 2.3, 2.4, 3.1 |\n| 4 | CHP1.4 | Trình bày và vận dụng thuần thục được các khái niệm và kết quả chính liên quan đến thặng dư | I, T, U | MH1.1,.MH1.2, MH1.3, MH1.4 | CCT1.4, 1.5, 2.1, 2.3, 2.4, 3.1 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP2.1 | Giải thích, chi tiết hóa, phân tích tính đúng đắn, trình bày ý tưởng và kỹ thuật của một số chứng minh kết quả chính | I, T, U | MH2.1 | CCT2.1, 2.2, 2.3, 2.4, 3.1 |\n| 6 | CHP2.2 | Phối hợp các khái niệm, kết quả đã có để rút ra những mệnh đề mới | I, T, U | MH2.2 | CCT2.1, 2.2, 2.3, 2.4, 3.1 |"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 20% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  |  | ĐG1.2 | 30% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần |  |  |  |  | ĐG1.6 |  |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần": [
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Mặt phẳng phức<br>Các phép toán, kết quả cơ bản<br>Biểu diễn Euler.<br>Hàm bình phương<br>Hàm căn bậc hai | 1 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Hàm mũ phức<br>Hàm Logarit phức<br>Hàm lương giác và hàm hyperbolic phức | 2 | CHP1.1, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chương 3: Sự liên tục<br>Sự liên tục<br>Liên hệ với không gian mêtríc và không gian định chuẩn<br>Tôpô của không gian con | 3 | CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm | ĐG1.2 |\n| Sự liên tục của hàm phức<br>Nhánh cắt<br>Đạo hàm phức. <br>Hệ thức Cauchy-Riemann | 4 | CHP1.2,  CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm | ĐG1.2 |\n| Tính khả vi phức của vài hàm phức cơ bản<br>Áp dụng của hệ thức Cauchy-Riemann: mô phỏng Định lý ánh xạ mở cho hàm chỉnh hình | 4 | CHP1.2,  CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm | ĐG1.2 |\n| Jacobi phức<br>Định lý ánh xạ ngược.<br>Hàm điều hòa – hàm chỉnh chình. | 5 | CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Ánh xạ bảo giác.<br>Tính bảo giác và khả vi phức<br>Tính bảo giác của vài hàm chỉnh hình cơ bản | 6 | CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG 1.1,  ĐG1.2 |\n| Tích phân Cauchy cho hàm phức biến thực.<br>Bất đẳng thức ML loại 1<br>Tích phân Cauchy cho hàm phức trên đường cong<br>Bất đẳng thức ML | 7 | CHP1.3, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Nguyên hàm phức. <br>Định lý tích phân Cauchy trên miền đơn liên, đa liên.<br>Công thức tích phân Cauchy | 8 | CHP1.3, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Công thức tích phân Cauchy cho đạo hàm cấp cao.<br>Tính trơn vô cùng từ khả vi cấp một.<br>Ước lương Cauchy.<br>Áp dụng tính tích phân suy rộng loại 1. | 9 | CHP1.3, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Các định lý cơ bản từ Công thức tích phân Cauchy:<br>Định lý giá trị trung bình cho hàm điều hòa<br>Định lý Liouville cho hàm chỉnh hình<br>Định lý cơ bản trong đại số<br>Đinh lỳ giá trị lớn nhất | 10 | CHP1.3, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Định lý Morera<br>Định lý Goursat<br>Công thức Pompeiu cho hàm phức khả vi thực<br>Giới thiệu về phương trình Cauchy-Riemann một chiều.<br>Biểu diễn nghiệm | 11 | CHP1.3, CHP1.2 CHP1.3, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chuỗi số phức. <br>Chuỗi lũy thừa-Bán kính hội tụ.<br>Khai triển Taylor<br>Kỹ thuật khai triển Taylor.<br>Định lý đồng nhất trên hình trỏn | 12 | CHP1.3, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Chuỗi Laurent.<br>Phân loại các điểm kỳ dị.<br>Tính chất hàm tại các điểm kỳ dị<br>Kỳ dị và không điểm | 13 | CHP1.3, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Giới thiệu thặng dư. <br>Tính thặng dư tại các cực điểm.<br>Định lý thặng dư Cauchy. | 14 | CHP1.4, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán | ĐG1.2 |\n| Áp dụng phép tình thặng dư để tính vài tích phân biến thực. Tích phân giá trị chính Cauchy | 15 | CHP1.4, CHP1.2, CHP2.1, CHP2.2 | 4 |  |  | 4 | thuyết giảng, làm việc theo nhóm, làm việc trên bài toán, làm đề tài nhóm | ĐG1.2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Theodore Gamelin | 2001 | Complex Analysis | Springer | Giáo trình chính |  |\n| 2 | Dennis G. Zill and Patrick D. Shanahan | 2003 | A first course in complex analysis with applications | Jones and Bartlett Publishers | Giáo trình chính |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 48 tiết",
+      "Dự lớp thực hành tối thiểu: …",
+      "Dự lớp bài tập tối thiểu:",
+      "Dự lớp thảo luận tối thiểu: …",
+      "Yêu cầu khác: …",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Hàm Biến Phức |  |  |  | X | X | X | X | X | X | X | X |"
+    ]
+  }
+}

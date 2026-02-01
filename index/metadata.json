@@ -1,0 +1,6 @@
+{
+  "num_chunks": 2205,
+  "embedding_dim": 768,
+  "embedding_model": "dangvantuan/vietnamese-embedding",
+  "total_vectors": 2205
+}

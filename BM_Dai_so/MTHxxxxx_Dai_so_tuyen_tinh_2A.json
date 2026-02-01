@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Bùi Anh Tuấn.",
+      "Chức danh, học hàm, học vị: Tiến sĩ.",
+      "Đơn vị công tác: Bộ môn Đại số - Lý thuyết số, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Đại số, F210, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: batuan@hcmus.edu.vn",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH???",
+      "Tên học phần: Đại số tuyến tính 2A",
+      "Tên học phần bằng tiếng Anh: Linear Algebra 2A.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 45.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 30.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương:  [ ]",
+      "Kiến thức cơ sở ngành:  [x]",
+      "Kiến thức chuyên ngành:  [ ]",
+      "Kiến thức bổ trợ:  [ ]",
+      "Khóa luận tốt nghiệp:  [ ]",
+      "Đồ án/dự án/seminar tốt nghiệp:  [ ]",
+      "Khác:….",
+      "Các học phần tiên quyết: không",
+      "Các học phần học trước học phần này: có,",
+      "Đại số tuyến tính 1A",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Đại số."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Học phần trang bị các kiến thức về nâng cao về Đại số tuyến tính sau khi đã trang bị cho sinh viên các kiến thức cơ bản ở Đại số tuyến tính 1. Nội dung chính trong học phần này bao gồm các phương pháp đưa ma trận trở về dạng chính tắc Jordan, không gian Euclide, dạng toàn phương và phương pháp phân tích suy biến (SVD)."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này sinh viên sẽ nắm được phương pháp chung, thuật toán chung để đưa một ma trận về dạng chính tắc Jordan; nắm vững được các kiến thức về không gian Euclide, phương pháp đưa dạng toàn phương trở về dạng chính tắc và phương pháp phân tích suy biến.",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Dạng chính tắc Jordan | 4/6 |  |\n| MH1.2 | Không gian Euclide | 4/6 |  |\n| MH1.3 | Dạng toàn phương | 4/6 |  |\n| MH1.4 | Phân tích suy biến | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Tư duy logic | 3/5 |  |\n| MH2.2 | Tính toán chính xác | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Vận dụng được các phương pháp để đưa ma trận về dạng chính tắc Jordan. | I, T, U | MH1.1, MH2.1,<br>MH2.2 |  |\n| 2 | CHP2 | Vận dụng được các kiến thức về tích vô hướng, quá trình Gram-Schmidt để tìm hình chiếu vuông góc, khoảng cách của véc tơ xuống không gian con. | I, T, U | MH1.2,<br>MH2.1,<br>MH2.2 |  |\n| 3 | CHP3 | Vận dụng được các phương pháp để đưa dạng toàn phương trở về dạng chính tắc. | I, T, U | MH1.3, MH2.1,<br>MH2.2 |  |\n| 4 | CHP4 | Vận dụng được phương pháp phân tích suy biến. | I, T, U | MH1.4, MH2.1, MH3, |  |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Tư duy logic và kĩ năng tính toán chính xác | I, T, U | MH2.1, MH2.2 |  |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ |  |  |  |  | ĐG1.1 |  |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | x |  |  |  | ĐG1.2 | 10% |  |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm bài tập | x |  |  |  | ĐG1.4 | 30% |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: DẠNG CHÍNH TẮC JORDAN<br>1. Sự tam giác hóa<br>2. Đa thức triệt tiêu. Định lý Hamilton - Calley<br>3. Đa thức tối tiểu<br>4. Dạng tam giác khối<br>5. Dạng chính tắc Jordan | 1 – 4 | CHP1, CHP5 | 16 | 0 | 12 | 16 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: KHÔNG GIAN EUCLID <br>1. Tích vô hướng và không gian Euclid<br>2. Sự trực giao. Quá trình trực giao hóa Gram-Schmidt<br>3. Cơ sở trực giao và cơ sở trực chuẩn<br>4. Khoảng cách từ một véctơ đến một không gian con<br>5. Toán tử trực giao<br>6. Toán tử đối xứng | 5-7 | CHP2,<br>CHP5 | 12 | 0 | 8 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: DẠNG TOÀN PHUƠNG<br>1. Định nghĩa dạng song tuyến tính<br>2. Ma trận biểu diễn dạng song tuyến tính. Sự thay đổi cơ sở<br>3. Dạng toàn phương<br>4. Ma trận biểu diễn dạng toàn phương. Sự thay đổi cơ sở<br>5. Dạng chính tắc của dạng toàn phương. Phương pháp Lagrange<br>6. Dạng toàn phương thực. Luật quán tính và tiêu chuẩn Sylvester<br>7. Đưa dạng toàn phương thực về dạng chính tắc bằng các toán tử trực giao<br>8. Phương pháp phân tích suy biến (SVD) | 8-11 | CHP3,<br>CHP4, CHP5 | 17 | 0 | 10 | 17 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Bùi Xuân Hải (Chủ biên), Trần Nam Dũng, Trịnh Thanh Đèo, Thái Minh Đường, Trần Ngọc Hội | 2002 | Đại số tuyến tính | NXB Đại học Quốc gia TP. HCM | Giáo trình chính |  |\n| 2 | Ngô Việt Trung | 2001 | Giáo trình Đại số tuyến tính | NXB Đại học Quốc gia Hà Nội | Tài liệu tham khảo |  |\n| 3 | Đinh Ngọc Thanh (chủ biên), Đặng Đức Trọng, Nguyễn Văn Thìn, Phan Phúc Doãn, Nguyễn Thị Hồng Nhung, Nguyễn Thị Nhàn | 2004 | Bài tập và thực hành lý thuyết thống kê | NXB Đại học Quốc gia Hà Nội | Tài liệu tham khảo |  |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |"
+    ]
+  }
+}

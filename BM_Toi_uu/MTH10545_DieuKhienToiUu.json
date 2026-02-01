@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "Thông tin về giảng viên:": [
+      "Họ và tên: Cao Nghi Thục.",
+      "Chức danh, học hàm, học vị: Thạc sĩ.",
+      "Đơn vị công tác: Bộ môn Tối ưu và hệ thống, khoa Toán – Tin học, Trường Đại học Khoa học tự nhiên, ĐHQG – HCM.",
+      "Thời gian và địa điểm làm việc:",
+      "Địa chỉ liên hệ: Bộ môn Tối ưu và hệ thống, F13, 227 Nguyễn Văn Cừ, Q.5, TP. Hồ Chí Minh.",
+      "Điện thoại, email: .",
+      "Thông tin về trợ giảng (nếu có) (họ và tên, địa chỉ liên hệ, điện thoại, e-mail):"
+    ],
+    "Thông tin chung về học phần": [
+      "Mã học phần: MTH10545.",
+      "Tên học phần: Điều khiển tối ưu.",
+      "Tên học phần bằng tiếng Anh: Optimal control.",
+      "Số tín chỉ: 4.",
+      "Cấu trúc/cơ cấu học phần:",
+      "Số tiết lý thuyết: 4.",
+      "Số tiết thực hành: 0.",
+      "Số tiết bài tập: 0.",
+      "Khác:….",
+      "Loại học phần thuộc khối kiến thức (check vào các ô):",
+      "Kiến thức đại cương: □",
+      "Kiến thức cơ sở ngành: □",
+      "Kiến thức chuyên ngành:  [x]",
+      "Kiến thức bổ trợ: □",
+      "Khóa luận tốt nghiệp: □",
+      "Đồ án/dự án/seminar tốt nghiệp: □",
+      "Khác:….",
+      "Các học phần tiên quyết: không.",
+      "Các học phần học trước học phần này:",
+      "Học phần song hành: không.",
+      "Các yêu cầu khác (nếu có):………………",
+      "Bộ môn phụ trách học phần: Bộ môn Tối ưu và hệ thống."
+    ],
+    "Mô tả vắn tắt nội dung học phần: (trình bày ngắn gọn vai trò, vị trí học phần/môn học, kiến thức sẽ trang bị cho sinh viên, quan hệ với các học phần/môn học khác trong chương trình đào tạo)": [
+      "Trang bị cho sinh viên kiến thức về phép tính biến phân, cực trị, bài toán điều khiển tối ưu, nguyên lý cực đại Pontryagin, những tính chất về sự tồn tại và liên tục của bài toán điều khiển tối ưu, ….  Sinh viên cần biết các kiến thức về giải tích cơ bản và đại số để có thể theo học được học phần này."
+    ],
+    "Mục tiêu của học phần": [
+      "Mục tiêu chung: Trong học phần này, sinh viên có thể vận dụng các mô hình và các phương pháp toán học để giải các bài toán điều khiển đặc biệt là các bài toán thực tế trong lĩnh vực khoa học công nghệ,…",
+      "Mục tiêu cụ thể:",
+      "| Ký hiệu mục tiêu của học phần (MH) | Mô tả/nội dung mục tiêu học phần | Mức độ năng lực đạt được (theo thang đánh giá Bloom) | Ghi chú |\n| --- | --- | --- | --- |\n| KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| MH1.1 | Giới thiệu tổng quan về bài toán tối ưu và điều khiển tối ưu | 4/6 |  |\n| MH1.2 | Nắm được các khái niệm nửa liên tục, liên tục, hàm lồi, tựa lồi | 4/6 |  |\n| MH1.3 | Nắm được các định lý về sự tồn tại nghiệm của bài toán tối ưu | 4/6 |  |\n| MH1.4 | Áp dụng các định lý về sự tồn tại nghiệm vào bài toán điều khiển tối ưu | 4/6 |  |\n| KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| MH2.1 | Giải các bài toán thực tế | 3/5 |  |\n| MH2.2 | Sử dụng tài liệu tiếng Anh | 3/5 |  |\n| THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ | THÁI ĐỘ |\n| MH3 | Có tư duy độc lập, sáng tạo và năng lực giải quyết vấn đề | 3/5 |  |"
+    ],
+    "Chuẩn đầu ra (CĐR) của học phần": [
+      "| Thứ tự các CĐR | Ký hiệu CĐR học phần (CHP) | Mô tả/nội dung CĐR học phần | Mức độ giảng dạy<br>(I, T, U) * | Liên kết giữa CĐR học phần và mục tiêu học phần | Liên kết giữa CĐR học phần và CĐR chương trình đào tạo |\n| --- | --- | --- | --- | --- | --- |\n|  |  | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC | KIẾN THỨC |\n| 1 | CHP1 | Nắm được mô hình bài toán tối ưu và điều khiển tối ưu | I, T, U | MH1.1 | CTT1.4 |\n| 2 | CHP2 | Nắm được các khái niệm liên quan đến mô hình bài toán như tính liên tục, nửa liên tục, hàm lồi, tập lồi | I, T, U | MH1.2 | CTT1.4 |\n| 3 | CHP3 | Nắm được các định lý về sự tồn tại nghiệm và chứng minh sự tồn tại nghiệm của bài toán | I, T, U | MH1.3, MH2.1 | CTT1.4 |\n| 4 | CHP4 | Tìm nghiệm tối ưu cho các bài toán điều khiển tối ưu | I, T, U | MH14, MH2.1, MH3 | CTT1.4 |\n|  |  | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG | KỸ NĂNG |\n| 5 | CHP5 | Giải các bài toán thực tế | I, T, U | MH2.1, MH2.2 | CTT2.4, CTT3.1, CTT4.1 |",
+      "(*) I (Introduce): giới thiệu; T (Teach): dạy; U (Utilize): sử dụng"
+    ],
+    "Hình thức, phương pháp và trọng số đánh giá kết quả học phần": [
+      "| Hình thức đánh giá | Nội dung chi tiết | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Phương pháp đánh giá (đánh dấu X) | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Hình thức đánh giá | Nội dung chi tiết | Viết | Trắc nghiệm | Vấn đáp | Khác | Ký hiệu bài đánh giá | Trọng số đánh giá | Ghi chú |\n| Đánh giá quá trình | Tổng điểm quá trình |  |  |  |  | ĐG1 (tổng điểm từ ĐG1.1 đến ĐG1.6) | 50% | Quy định từ 40% đến 60% |\n| Đánh giá quá trình | Điểm kiểm tra giữa kỳ | X |  |  |  | ĐG1.1 | 20% |  |\n| Đánh giá quá trình | Điểm kiểm tra thường xuyên | X |  |  | X | ĐG1.2 | 20% | Sửa bài tập trên lớp |\n| Đánh giá quá trình | Điểm thảo luận |  |  |  |  | ĐG1.3 |  |  |\n| Đánh giá quá trình | Điểm thực hành |  |  |  |  | ĐG1.4 |  |  |\n| Đánh giá quá trình | Điểm báo cáo nhóm |  |  |  |  | ĐG1.5 |  |  |\n| Đánh giá quá trình | Điểm chuyên cần | X |  |  |  | ĐG1.6 | 10% |  |\n| Đánh giá tổng kết | Thi cuối học kỳ | X |  |  |  | ĐG2 | 50% | Quy định tối thiểu 40% |"
+    ],
+    "Kế hoạch giảng dạy chi tiết của  học phần : Ghi chi tiết đến 2 cấp (chương và bài)": [
+      "(*) Phướng pháp dạy học: thuyết giảng chủ động; bài tập/thực hành; thảo luận; các phương pháp dạy học tích cực/lấy người học làm trung tâm…",
+      "| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Hoạt động dạy và học | Phương pháp dạy học* | Bài đánh giá |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Số tiết lên lớp | Số tiết lên lớp | Số tiết lên lớp | SV tự nghiên cứu, tự học | Phương pháp dạy học* | Bài đánh giá |\n| Tên bài giảng của học phần | Tuần thứ | Liên kết với CĐR học phần | Lý thuyết | Thực hành/<br>Thực tập | Bài tập | Số tiết | Phương pháp dạy học* | Bài đánh giá |\n| Chương 1: Giới thiệu bài toán điều khiển tối ưu <br>Giới thiệu bài toán.<br>Phân loại: Meyer, Lagrange, Bolza.<br>Mục đích nghiên cứu. | 1 – 2 | CHP1, CHP5 | 8 | 0 | 0 | 2 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 2: Các định lý về sự tồn tại nghiệm của bài toán<br>2.1. Đặt vấn đề.<br>2.2. Giới thiệu một số khái niệm về tính liên tục của hàm số: nửa liên tục trên, nửa liên tục dưới, nửa liên tục trên yếu, nửa liên tục dưới yếu,... <br>2.3.\tGiới thiệu tập lồi, hàm lồi,… <br>2.4.\tCác định lý về sự tồn tại nghiệm.<br>2.5. Áp dụng vào bài toán điều khiển tối ưu<br>2.6. Bài tập | 3-11 | CHP2 | 36 | 0 | 0 | 14 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |\n| Chương 3: Nguyên lý cực đại Pontriagin<br>3.1. \tBài toán max.<br>3.2.\tBài toán min.<br>3.3. \tBài toán điều khiển tối ưu toàn phương.<br>3.4   Bài tập | 12-15 | CHP2, CHP5 | 16 | 0 | 0 | 12 | Thuyết giảng chủ động, bài tập | ĐG1, ĐG2 |"
+    ],
+    "Tài liệu học tập": [
+      "| STT | Tên tác giả | Năm xuất bản | Tên giáo trình | Tên Nhà xuất bản | Giáo trình chính/Tài liệu tham khảo/Khác | Nơi có thể có tài liệu/trang web |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | Vũ Ngọc Phát | 2001 | Nhập môn Lý thuyết điều khiển Toán học | NXB Đại học Quốc gia Hà Nội | Giáo trình chính | Thư viện ĐH KHTN |\n| 2 | McCausland Ian | 1969 | Introduction to optimal control |  | Tài liệu tham khảo | Thư viện ĐH KHTN |\n| 3 | Johannes Jahn | 2004 | Vector OPtimization | Springer | Giáo trình chính | Thư viện ĐH KHTN |"
+    ],
+    "Quy định của môn học": [
+      "Sinh viên phải tham gia lớp học như sau:",
+      "Dự lớp lý thuyết tối thiểu: 70% số tiết học.",
+      "Dự lớp thực hành tối thiểu: không.",
+      "Dự lớp bài tập tối thiểu: không.",
+      "Dự lớp thảo luận tối thiểu: không.",
+      "Yêu cầu khác: không.",
+      "| TRƯỞNG BỘ MÔN<br>(ký, ghi rõ họ tên) |  |  | TP. Hồ Chí Minh, ngày …  tháng … năm 2023 <br>   TRƯỞNG KHOA<br>(ký, ghi rõ họ tên) |\n| --- | --- | --- | --- |",
+      "****",
+      "Quý thầy cô vui lòng hỗ trợ điền Ma trận chuẩn đầu ra (của Chương trình đào tạo) với môn học. Phần này BP. Giáo vụ sẽ cắt phần này ra khỏi đề cương khi tổng hợp các đề cương môn học.",
+      "Đánh dấu X vào mỗi chuẩn đầu ra nếu có liên kết với môn học.",
+      "| TÊN MÔN HỌC | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra | Chuẩn đầu ra |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TÊN MÔN HỌC | CCT1.1 | CCT1.2 | CCT1.3 | CCT1.4 | CCT1.5 | CCT2.1 | CCT2.2 | CCT2.3 | CCT2.4 | CCT3.1 | CCT4.1 |\n| Điều khiển tối ưu |  |  |  | X |  |  |  |  | X | X | X |"
+    ]
+  }
+}
