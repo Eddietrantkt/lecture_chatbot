@@ -20,12 +20,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // [MODIFIED] Default to Guest user to bypass Login
     const [user, setUser] = useState<User | null>(() => {
         const savedUser = localStorage.getItem('user');
-        return savedUser ? JSON.parse(savedUser) : { username: 'Guest' };
+        return savedUser ? JSON.parse(savedUser) : null;
     });
 
-    // [MODIFIED] Default to dummy token
     const [token, setToken] = useState<string | null>(() => {
-        return localStorage.getItem('token') || 'guest-token';
+        return localStorage.getItem('token');
     });
 
     useEffect(() => {
@@ -48,9 +47,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const logout = () => {
         localStorage.removeItem('token');
         localStorage.removeItem('user');
-        // Reset to Guest instead of null
-        setToken('guest-token');
-        setUser({ username: 'Guest' });
+        setToken(null);
+        setUser(null);
     };
 
     return (

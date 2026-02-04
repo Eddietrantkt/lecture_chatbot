@@ -114,7 +114,7 @@ export function ChatInterface({
         setMessages([
           {
             id: '1',
-            text: 'Xin chào! Tôi là trợ lý pháp luật AI. Tôi có thể giúp bạn tư vấn về các vấn đề pháp luật tại Việt Nam. Bạn có câu hỏi gì không?',
+            text: 'Xin chào! Tôi là trợ lý môn học AI. Tôi có thể giúp bạn tư vấn về các vấn đề môn học khoa toán-tin trường đại học Khoa học tự nhiên. Bạn có câu hỏi gì không?',
             sender: 'ai',
             timestamp: new Date(),
           },
@@ -125,7 +125,7 @@ export function ChatInterface({
       setMessages([
         {
           id: '1',
-          text: 'Xin chào! Tôi là trợ lý pháp luật AI. Tôi có thể giúp bạn tư vấn về các vấn đề pháp luật tại Việt Nam. Bạn có câu hỏi gì không?',
+          text: 'Xin chào! Tôi là trợ lý môn học AI. Tôi có thể giúp bạn tư vấn về các vấn đề môn học khoa toán-tin trường đại học Khoa học tự nhiên. Bạn có câu hỏi gì không?',
           sender: 'ai',
           timestamp: new Date(),
         },
