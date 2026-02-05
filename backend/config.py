@@ -5,7 +5,7 @@ import os
 
 class Config:
     # --- LLM Settings (Cloudflare Tunnel) ---
-    LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://along-climbing-clearing-looked.trycloudflare.com/v1")
+    LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://detect-limits-interact-married.trycloudflare.com/v1")
     LLM_API_KEY = os.getenv("LLM_API_KEY", "my_secret_token_123")
     LLM_MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-20b")
     LLM_TIMEOUT = 120.0

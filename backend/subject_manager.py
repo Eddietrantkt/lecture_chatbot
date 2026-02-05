@@ -165,9 +165,12 @@ class SubjectManager:
         """
         Detect subjects in the query using n-gram lookup.
         Supports both accented and no-accent matching.
+        Returns entries sorted by relevance to the query.
         """
         query_norm = normalize_text(query)
         query_no_accent = normalize_text(query, remove_accents=True)
+        query_tokens = set(query_norm.split())
+        query_tokens_no_accent = set(query_no_accent.split())
         
         detected_codes = set()
         
@@ -179,14 +182,15 @@ class SubjectManager:
                 detected_codes.add(w_code)
         
         # 2. Full Name Scanning (Accented & No Accent)
-        sorted_subjects = sorted(self.subjects.values(), key=lambda s: len(s.name), reverse=True)
-        for sub in sorted_subjects:
-            sub_norm = normalize_text(sub.name)
-            sub_no_accent = normalize_text(sub.name, remove_accents=True)
-            
-            if (sub_norm and sub_norm in query_norm) or (sub_no_accent and sub_no_accent in query_no_accent):
-                detected_codes.add(sub.code)
-
+        # We can iterate all, but for efficiency we might rely on N-gram to find candidates first.
+        # However, to be safe, let's keep the scan but we will score them later.
+        # Actually, let's allow the N-gram index to do the heavy lifting for retrieval, 
+        # BUT we must always check "Is this name actually in the query?" for high confidence.
+        
+        # Optimization: Let's trust N-gram + Code match to find candidates, then score them.
+        # If N-gram misses "Full Name", it's because the name is unique and not in N-gram? 
+        # No, N-gram indexes all valid grams.
+        
         # 3. N-Gram Matching (Both versions)
         def find_grams(q_text):
             n_words = len(q_text.split())
@@ -205,8 +209,35 @@ class SubjectManager:
         detected_codes.update(find_grams(query_norm))
         detected_codes.update(find_grams(query_no_accent))
 
-        results = [self.subjects[c] for c in detected_codes if c in self.subjects]
-        return results
+        # Retrieve SubjectInfo objects
+        candidates = [self.subjects[c] for c in detected_codes if c in self.subjects]
+        
+        # 4. Score and Sort
+        def calculate_score(subj: SubjectInfo):
+            score = 0
+            s_name_norm = normalize_text(subj.name)
+            s_name_no_accent = normalize_text(subj.name, remove_accents=True)
+            
+            # Criterion 1: Substring match (High Value)
+            if s_name_norm in query_norm:
+                score += 50
+                # Extra points for length of name (longer specific name is better)
+                score += len(s_name_norm)
+            elif s_name_no_accent in query_no_accent:
+                score += 40
+                score += len(s_name_no_accent)
+            
+            # Criterion 2: Token Overlap (Medium Value)
+            s_tokens = set(s_name_norm.split())
+            overlap = len(s_tokens & query_tokens)
+            score += overlap * 5
+            
+            return score
+
+        # Sort by score desc
+        sorted_candidates = sorted(candidates, key=calculate_score, reverse=True)
+        
+        return sorted_candidates
 
     def get_subject_by_code(self, code: str) -> Optional[SubjectInfo]:
         return self.subjects.get(code)
