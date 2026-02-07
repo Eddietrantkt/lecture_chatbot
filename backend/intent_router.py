@@ -21,9 +21,6 @@ class IntentRouter:
         """
         Determine intent of the query given the current subject context.
         """
-        # If no context, it's likely NEW_TOPIC or CHITCHAT. 
-        # But we still check to be safe (unless it's pure chitchat).
-        
         context_str = "None"
         if current_subject_name:
             context_str = f"{current_subject_name} (Code: {current_subject_code})"
@@ -33,24 +30,28 @@ class IntentRouter:
 Current Conversation Context: **{context_str}**
 User Query: "{query}"
 
-Task: Classify into one of 3 categories:
-1. **NEW_TOPIC**: User asks about a specific DIFFERENT subject, or a general question unrelated to the current one.
+Task: Classify into one of 4 categories:
+1. **MAJOR_INFO**: User asks about the text "**Ngành**" (Major/Program), curriculum structure, career opportunities, or list of courses in a major.
+   - E.g. "Ngành Toán học học gì?", "Giới thiệu ngành Toán", "Cơ hội việc làm ngành Toán", "Danh sách môn học ngành Toán", "Chuyên ngành toán ứng dụng".
+   - Key indicators: "Ngành", "Chuyên ngành", "Chương trình đào tạo", "Cử nhân", "Gồm những môn nào".
+
+2. **NEW_TOPIC**: User asks about a specific DIFFERENT subject, or a general question unrelated to the current one.
    - E.g. Context="Math", Query="Who teaches Art?" -> NEW_TOPIC
    - E.g. Context="Math", Query="Tell me about Calculus" -> NEW_TOPIC
    - E.g. Context="None", Query="Info about Math" -> NEW_TOPIC
 
-2. **FOLLOW_UP**: User asks for more details about the CURRENT subject (Context).
+3. **FOLLOW_UP**: User asks for more details about the CURRENT subject (Context).
    - E.g. Context="Math", Query="How many credits?" (Implies Math) -> FOLLOW_UP
    - E.g. Context="Math", Query="Who is the lecturer?" -> FOLLOW_UP
    - E.g. Context="Math", Query="Is it hard?" -> FOLLOW_UP
    *IF Context is None, this cannot be FOLLOW_UP.*
 
-3. **CHITCHAT**: Social interaction, greetings, thanks, or nonsense.
+4. **CHITCHAT**: Social interaction, greetings, thanks, or nonsense.
    - E.g. "Hello", "Thanks", "Good bot" -> CHITCHAT
 
 Output JSON ONLY:
 {{
-  "intent": "NEW_TOPIC" | "FOLLOW_UP" | "CHITCHAT",
+  "intent": "MAJOR_INFO" | "NEW_TOPIC" | "FOLLOW_UP" | "CHITCHAT",
   "reasoning": "Brief explanation"
 }}
 """

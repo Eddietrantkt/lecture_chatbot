@@ -102,6 +102,21 @@ class AdaptiveRetriever:
             return self._answer_with_subject(query, current_subject, section_intent)
             
         # Branch 3: NEW_TOPIC -> Proceed to Contextualize & Search
+        if intent == "MAJOR_INFO":
+            logger.info("Major Info detected -> Handling Major Query")
+            return self._handle_major_info(query)
+
+        # Branch 4: NEW_TOPIC -> Proceed to Contextualize & Search
+        # Check for missed MAJOR_INFO (heuristic fallback)
+        major_keywords = ["ngành", "chuyên ngành", "chương trình đào tạo", "cử nhân"]
+        if any(k in query.lower() for k in major_keywords):
+             logger.info("Heuristic detected Major keywords -> Attempting Major Info handling")
+             # Try to detect if it's actually about a major
+             detected = self.subject_manager.detect_subjects(query)
+             if any(getattr(s, 'is_major', False) for s in detected):
+                 logger.info("Confirmed Major subject in query -> Switching to MAJOR_INFO flow")
+                 return self._handle_major_info(query)
+
         logger.info("New Topic/Search detected -> Proceeding with RAG")
         
         # Step 1: Contextualize Query (resolve pronouns)
@@ -221,10 +236,12 @@ class AdaptiveRetriever:
         
         # Priority 1: Add name-based matches first (more accurate)
         for subj in detected_by_name:
+            # Skip Majors if we are looking for subjects in general flow, 
+            # OR include them? For now, include them, let LLM decide.
             if subj.name not in seen_names and subj.code not in seen_codes:
                 seen_codes.add(subj.code)
                 seen_names.add(subj.name)
-                top_subjects.append({"code": subj.code, "name": subj.name})
+                top_subjects.append({"code": subj.code, "name": subj.name, "is_major": getattr(subj, 'is_major', False)})
                 if len(top_subjects) >= max_subjects:
                     break
         
@@ -238,7 +255,11 @@ class AdaptiveRetriever:
                 if code and name and code not in seen_codes and name not in seen_names:
                     seen_codes.add(code)
                     seen_names.add(name)
-                    top_subjects.append({"code": code, "name": name})
+                    # Check if major (hacky check or lookup)
+                    s_info = self.subject_manager.get_subject_by_code(code)
+                    is_major = getattr(s_info, 'is_major', False) if s_info else False
+                    
+                    top_subjects.append({"code": code, "name": name, "is_major": is_major})
                     if len(top_subjects) >= max_subjects:
                         break
         
@@ -260,6 +281,10 @@ class AdaptiveRetriever:
         subj_info = self.subject_manager.get_subject_by_code(subject_code)
         subject_name = subject_name_hint if subject_name_hint else (subj_info.name if subj_info else None)
         
+        # Check if it's a Major
+        if subj_info and getattr(subj_info, 'is_major', False):
+            return self._answer_for_major(query, subj_info)
+
         full_course_data = self.course_loader.load_full_course_json(course_code=subject_code, course_name=subject_name)
         
         context_chunks = []
@@ -369,4 +394,103 @@ class AdaptiveRetriever:
             "sources": results,
             "intent": "GENERAL_ACADEMIC",
             "subjects": []
+        }
+
+    def _handle_major_info(self, query: str) -> Dict[str, Any]:
+        """
+        Handle questions about Major/Program (Ngành).
+        Logic:
+           1. Identify which Major.
+           2. Retrieve metadata (course list) and chunks.
+           3. Format answer.
+        """
+        # 1. Identify Major
+        # Try finding "Major" type subjects first
+        detected = self.subject_manager.detect_subjects(query)
+        major_candidates = [s for s in detected if getattr(s, 'is_major', False)]
+        
+        if not major_candidates:
+            # Try to see if ANY major matches the query loosely
+            all_majors = self.course_loader.get_all_majors_list() # implementation added in course_loader
+            # Use LLM or simple fuzzy match logic?
+            # Simple fallback: if only 1 major exists in system, assume it? 
+            # No, dangerous.
+            
+            # Fallback to search
+            logger.info("No explicit major detected, trying search to find major context")
+            results = self.retriever.hybrid_search(query, top_k=5)
+            # Check if results point to a major chunk
+            for res in results:
+                chunk = res.get('chunk', {})
+                if chunk.get('type') == 'MAJOR':
+                    # Found a major chunk, let's use its code
+                    code = chunk.get('course_code')
+                    major_candidates = [self.subject_manager.get_subject_by_code(code)]
+                    break
+        
+        if not major_candidates:
+             # Look like general question but classified as Major Info?
+             # Fallback to general answer
+             return self._general_answer(query, self.retriever.hybrid_search(query, top_k=5))
+             
+        target_major = major_candidates[0] # Pick top 1
+        return self._answer_for_major(query, target_major)
+
+    def _answer_for_major(self, query: str, major_info) -> Dict[str, Any]:
+        """Generate answer for a specific major."""
+        logger.info(f"Answering MAJOR info for: {major_info.name}")
+        
+        # 1. Get Major Metadata (Course List)
+        major_meta = self.course_loader.get_major_full_details(major_info.code)
+        
+        # 2. Get Major Text Chunks (Objectives, Opportunities...)
+        major_chunks = self.subject_manager.get_all_chunks_by_code(major_info.code)
+        
+        # 3. Construct Context
+        # Structure: "List of Courses" + "Relevant Text Chunks"
+        
+        # Format Course List
+        courses_str = ""
+        if major_meta and "courses_list" in major_meta:
+            courses = major_meta["courses_list"]
+            # Group by type?
+            # Or just list them formatted
+            lines = ["**Danh sách các môn học trong chương trình:**"]
+            for c in courses:
+                lines.append(f"- {c['code']} - {c['name']} ({c['type']})")
+            courses_str = "\n".join(lines)
+        
+        # Select relevant text chunks
+        # Use simple keyword scoring or just use all if small? 
+        # Major documents are usually not huge, maybe 10 chunks.
+        sorted_chunks = self._sort_chunks_by_intent(major_chunks, "major_general", query) # heuristic sort
+        
+        # Combine context
+        context_text = f"# THÔNG TIN NGÀNH {major_info.name}\n\n"
+        if courses_str:
+            context_text += courses_str + "\n\n"
+        
+        context_text += "## THÔNG TIN CHI TIẾT\n"
+        for c in sorted_chunks[:5]: # Take top 5 textual chunks
+            context_text += f"{c['text']}\n---\n"
+            
+        # 4. Ask LLM
+        prompt = f"""Based on the following information about the major "{major_info.name}", please answer the user's question.
+If the user asks for a list of subjects, refer to the "Danh sách các môn học" section provided.
+
+Context:
+{context_text}
+
+Question: {query}
+Answer:"""
+        
+        answer = self.llm._call_with_retry([{"role": "user", "content": prompt}])
+        
+        return {
+            "query": query,
+            "answer": answer,
+            "sources": [{"chunk": c, "score": 1.0} for c in sorted_chunks[:3]],
+            "intent": "MAJOR_INFO",
+            "subjects": [major_info.name],
+            "matched_code": major_info.code
         }

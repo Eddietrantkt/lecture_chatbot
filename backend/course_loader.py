@@ -41,17 +41,33 @@ class CourseLoader:
         """Load course metadata từ file"""
         if self.metadata_file.exists():
             with open(self.metadata_file, 'r', encoding='utf-8') as f:
-                self.metadata = json.load(f)
-            logger.info(f"Loaded metadata for {len(self.metadata)} courses")
+                data = json.load(f)
+            
+            # Handle new structure (Dict) vs old structure (List)
+            if isinstance(data, list):
+                self.metadata = data
+                self.majors = []
+            elif isinstance(data, dict):
+                self.metadata = data.get("courses", [])
+                self.majors = data.get("majors", [])
+            
+            logger.info(f"Loaded metadata for {len(self.metadata)} courses and {len(self.majors)} majors")
         else:
             logger.warning(f"Metadata file not found: {self.metadata_file}")
-    
+            self.metadata = []
+            self.majors = []
+
     def get_all_courses_summary(self) -> str:
         """
         Tạo summary text của tất cả môn học để LLM có thể tìm kiếm.
         Format: course_name (course_code) - Giảng viên: ...
         """
         lines = []
+        # Add Majors
+        for m in self.majors:
+             lines.append(f"- NGÀNH: {m['major_name']} ({m['major_code']})")
+
+        # Add Courses
         for m in self.metadata:
             lecturers = ", ".join(m.get('lecturers', [])) or "Chưa có"
             line = f"- {m['course_name']} ({m['course_code']}) - GV: {lecturers}"
@@ -195,11 +211,119 @@ class CourseLoader:
         
         return results
 
+    
     def get_course_list_for_matching(self) -> List[Dict[str, str]]:
         """
         Returns a simplified list of all courses for LLM matching.
         """
+        # Add Majors to the matching list too? 
+        # For now, keep it for courses. We might need a separate one for Majors.
         return [
             {"code": m["course_code"], "name": m["course_name"]}
             for m in self.metadata
         ]
+
+    def get_all_majors_list(self) -> List[Dict[str, str]]:
+        """Get summary list of all majors."""
+        # Ensure we return a list of dicts with code and name
+        results = []
+        for m in self.majors:
+            results.append({
+                "code": m.get("major_code", ""),
+                "name": m.get("major_name", ""),
+                "is_major": True
+            })
+        return results
+
+    def get_major_by_code(self, code: str) -> Optional[Dict]:
+        """Get major metadata by code."""
+        for major in self.majors:
+            if major.get("major_code") == code:
+                return major
+        return None
+
+    def get_major_by_name(self, name: str) -> Optional[Dict]:
+        """Get major metadata by name (fuzzy match)."""
+        name_lower = name.lower()
+        for major in self.majors:
+            if major.get("major_name", "").lower() in name_lower:
+                return major
+        return None
+
+    def get_major_full_details(self, code: str) -> Optional[Dict]:
+        """
+        Get full major details, loading from file if necessary.
+        Returns dict with keys: major_code, major_name, courses_list, etc.
+        """
+        # 1. Get metadata
+        meta = self.get_major_by_code(code)
+        if not meta:
+            return None
+        
+        # 2. Check if courses_list is already in metadata
+        if "courses_list" in meta and meta["courses_list"]:
+            return meta
+            
+        # 3. Load from file_path if valid
+        file_path = meta.get("file_path")
+        if file_path:
+            # Construct absolute path
+            # Assuming file_path is relative to project root (e.g. BM_Co_hoc/...)
+            # Config.BASE_DIR is usually backend/.. -> POC1
+            full_path = os.path.join(self.index_dir, "..", file_path) 
+            # Note: course_loader initialized with index_dir
+            
+            if os.path.exists(full_path):
+                try:
+                    import json
+                    import re
+                    with open(full_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    
+                    # Logically extract courses (Recursive logic)
+                    courses_list = []
+                    sections = data.get("sections", {})
+                    
+                    def extract_from_section(content):
+                        if isinstance(content, list):
+                            for line in content:
+                                if isinstance(line, dict):
+                                     code = line.get("Ma_HP")
+                                     name = line.get("Ten_HP")
+                                     if code and name:
+                                         courses_list.append({
+                                             "code": code,
+                                             "name": name,
+                                             "type": "Tự chọn"
+                                         })
+                                elif isinstance(line, str):
+                                    match = re.match(r'^\d+,\s*([A-Z0-9]+)\s*,\s*([^,]+),', line)
+                                    if match:
+                                        c_code = match.group(1).strip()
+                                        c_name = match.group(2).strip()
+
+                                        courses_list.append({
+                                            "code": c_code,
+                                            "name": c_name,
+                                            "type": "Bắt buộc" if "BB" in line else "Tự chọn"
+                                        })
+
+                        elif isinstance(content, dict):
+                            for k, v in content.items():
+                                extract_from_section(v)
+
+                    extract_from_section(sections)
+
+                                    
+                    # Return combined info
+                    result = meta.copy()
+                    result["courses_list"] = courses_list
+                    return result
+                    
+                except Exception as e:
+                    logger.error(f"Error loading full major JSON from {full_path}: {e}")
+                    return meta
+            else:
+                logger.warning(f"Major file path not found: {full_path}")
+                
+        return meta

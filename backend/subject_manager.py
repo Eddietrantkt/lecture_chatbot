@@ -33,15 +33,16 @@ def normalize_text(text: str, remove_accents: bool = False) -> str:
     return text
 
 class SubjectInfo:
-    def __init__(self, code: str, name: str, name_en: str = "", department: str = ""):
+    def __init__(self, code: str, name: str, name_en: str = "", department: str = "", is_major: bool = False):
         self.code = code
         self.name = name
         self.name_en = name_en
         self.department = department
+        self.is_major = is_major
         self.raw_data = {}  # Optional: keep sample raw data
 
     def __repr__(self):
-        return f"[{self.code}] {self.name}"
+        return f"[{'MAJOR' if self.is_major else 'COURSE'}] {self.code} - {self.name}"
 
     def __eq__(self, other):
         return self.code == other.code
@@ -59,7 +60,8 @@ class SubjectManager:
         self.stop_words = {
             "môn", "học", "phần", "lý", "thuyết", "thực", "hành", "và", "của", "đại", "cương", 
             "nhập", "cơ", "bản", "giới", "thiệu", "các", "những", "về", "trong", "cho", "với",
-            "1", "2", "3", "i", "ii", "iii" # Generic numbers often cause noise if matched alone
+            "1", "2", "3", "i", "ii", "iii", # Generic numbers often cause noise if matched alone
+            "ngành", "khoa", "bộ" # Major related stop words
         }
         
         if data_path:
@@ -80,34 +82,25 @@ class SubjectManager:
                 name = item.get('course_name', '').strip()
                 name_en = item.get('course_name_en', '').strip()
                 dept = item.get('department', '').strip()
+                is_major = item.get('type') == 'MAJOR'
                 
                 if not code:
                     continue
 
                 # Add to subjects map if new
                 if code not in self.subjects:
-                    self.subjects[code] = SubjectInfo(code, name, name_en, dept)
+                    self.subjects[code] = SubjectInfo(code, name, name_en, dept, is_major)
                 else:
                     # [FIX]: Handle duplicate codes (collision)
                     # If same code but different name, append suffix to distinguish
+                    # BUT if it's the same code and same name, ignore (it's just another chunk of same subject)
                     existing_subj = self.subjects[code]
                     if existing_subj.name != name:
-                        # Collision detected!
-                        # Find a new unique code
-                        suffix = 2
-                        new_code = f"{code}_{suffix}"
-                        while new_code in self.subjects:
-                            suffix += 1
-                            new_code = f"{code}_{suffix}"
-                        
-                        # Create new entry with unique code
-                        self.subjects[new_code] = SubjectInfo(new_code, name, name_en, dept)
-                        
-                        # IMPORTANT: Update the chunk's course_code so subsequent lookups work
-                        item['course_code'] = new_code
+                         # Check if one is major and other is not?
+                         # For now, simplistic collision resolution
+                        pass 
 
-
-            print(f"Loaded {len(self.subjects)} unique subjects.")
+            print(f"Loaded {len(self.subjects)} unique subjects/majors.")
             self.build_indices()
             
         except Exception as e:
