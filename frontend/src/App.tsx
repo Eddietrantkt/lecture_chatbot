@@ -24,32 +24,28 @@ function AuthenticatedApp() {
 
     // Load conversations from localStorage
     const savedConversations = localStorage.getItem('conversations');
+
+    let initialConversations: Conversation[] = [];
     if (savedConversations) {
       const parsed = JSON.parse(savedConversations);
-      setConversations(parsed.map((c: any) => ({
+      initialConversations = parsed.map((c: any) => ({
         ...c,
-        // Truncate title if it's too long (for backwards compatibility)
         title: c.title && c.title.length > 30 ? c.title.slice(0, 30) + '...' : c.title,
         timestamp: new Date(c.timestamp),
-      })));
-    } else {
-      // Add some demo conversations
-      const demoConversations: Conversation[] = [
-        {
-          id: '1',
-          title: '123',
-          preview: 'Quyền lợi khi tư thái',
-          timestamp: new Date(Date.now() - 3600000), // 1 hour ago
-        },
-        {
-          id: '2',
-          title: '123',
-          preview: 'Thủ tục ly hôn',
-          timestamp: new Date(Date.now() - 7200000), // 2 hours ago
-        },
-      ];
-      setConversations(demoConversations);
+      }));
     }
+
+    // Always start with a NEW conversation (Home/Welcome Screen)
+    const newId = `conv-${Date.now()}`;
+    const newConversation: Conversation = {
+      id: newId,
+      title: 'Cuộc trò chuyện mới',
+      preview: 'Bắt đầu đặt câu hỏi...',
+      timestamp: new Date(),
+    };
+
+    setConversations([newConversation, ...initialConversations]);
+    setActiveConversationId(newId);
   }, []);
 
   // Save conversations to localStorage when they change
