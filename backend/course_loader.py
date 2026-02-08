@@ -133,11 +133,11 @@ class CourseLoader:
         
         # Load file JSON gốc
         file_path = meta.get('file_path')
-        
-        # [FIX] Handle relative paths (Refactor)
+
+        # FIXED: Use consistent path resolution with Config.BASE_DIR
         if file_path and not os.path.isabs(file_path):
-             # Relative path -> Join with BASE_DIR
-             file_path = os.path.join(Config.BASE_DIR, file_path)
+            # Relative path -> Join with BASE_DIR
+            file_path = os.path.join(Config.BASE_DIR, file_path)
 
         if not file_path or not os.path.exists(file_path):
             logger.error(f"Course file not found: {file_path}")
@@ -214,14 +214,28 @@ class CourseLoader:
     
     def get_course_list_for_matching(self) -> List[Dict[str, str]]:
         """
-        Returns a simplified list of all courses for LLM matching.
+        Returns a simplified list of all courses AND majors for LLM matching.
+        FIXED: Now includes majors, not just courses
         """
-        # Add Majors to the matching list too? 
-        # For now, keep it for courses. We might need a separate one for Majors.
-        return [
-            {"code": m["course_code"], "name": m["course_name"]}
-            for m in self.metadata
-        ]
+        results = []
+
+        # Add courses
+        for m in self.metadata:
+            results.append({
+                "code": m["course_code"],
+                "name": m["course_name"],
+                "is_major": False
+            })
+
+        # Add majors (FIXED: was missing)
+        for major in self.majors:
+            results.append({
+                "code": major.get("major_code", ""),
+                "name": major.get("major_name", ""),
+                "is_major": True
+            })
+
+        return results
 
     def get_all_majors_list(self) -> List[Dict[str, str]]:
         """Get summary list of all majors."""
@@ -267,11 +281,11 @@ class CourseLoader:
         # 3. Load from file_path if valid
         file_path = meta.get("file_path")
         if file_path:
-            # Construct absolute path
-            # Assuming file_path is relative to project root (e.g. BM_Co_hoc/...)
-            # Config.BASE_DIR is usually backend/.. -> POC1
-            full_path = os.path.join(self.index_dir, "..", file_path) 
-            # Note: course_loader initialized with index_dir
+            # FIXED: Use Config.BASE_DIR for consistent path resolution
+            if not os.path.isabs(file_path):
+                full_path = os.path.join(Config.BASE_DIR, file_path)
+            else:
+                full_path = file_path
             
             if os.path.exists(full_path):
                 try:

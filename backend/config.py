@@ -15,10 +15,16 @@ class Config:
     MEMORY_MAX_MESSAGES = 10  # Số messages tối đa giữ trong memory
     
     # --- Retrieval Settings ---
-    TOP_K_SEARCH = 5  # Số candidates lấy từ hybrid search
+    TOP_K_SEARCH = 50  # Số candidates lấy từ hybrid search (FIXED: was 5, should be 50)
     TOP_K_SUBJECTS = 5  # Số subjects đưa cho LLM verify
     SIMILARITY_THRESHOLD = 0.35
     HYBRID_ALPHA = 0.8  # FAISS weight 80% (semantic search chiếm ưu thế)
+
+    # --- Domain Settings ---
+    DOMAIN_KEYWORDS = {
+        "major": ["ngành", "chuyên ngành", "cử nhân", "chương trình đào tạo"],
+        "subject": ["môn", "học phần", "môn học", "khóa học"]
+    }
     
     # --- Paths ---
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

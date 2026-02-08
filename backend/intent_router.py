@@ -1,4 +1,3 @@
-
 import logging
 from typing import Dict, List, Optional
 from backend.llm_interface import LLMInterface
@@ -9,11 +8,13 @@ class IntentRouter:
     """
     Classifies user query intent relative to the current conversation context.
     Intents:
-    - NEW_TOPIC: User is asking about a different subject or starting a new search.
-    - FOLLOW_UP: User is asking for more details about the CURRENT subject.
-    - CHITCHAT: Greetings, thanks, or irrelevant simple chatter.
+    - MAJOR_INFO: General program/major questions.
+    - COURSE_INFO: Specific course/subject questions.
+    - FOLLOW_UP: More details about the CURRENT context.
+    - CHITCHAT: Social interaction.
+    - OTHERS: Irrelevant or ambiguous.
     """
-    
+
     def __init__(self, llm: LLMInterface):
         self.llm = llm
 
@@ -25,71 +26,69 @@ class IntentRouter:
         if current_subject_name:
             context_str = f"{current_subject_name} (Code: {current_subject_code})"
 
-        prompt = f"""You are an Intent Classifier for a Course Q&A System.
+        prompt = f"""You are an Intent Classifier for a University Q&A System.
 
 Current Conversation Context: **{context_str}**
 User Query: "{query}"
 
-Task: Classify into one of 4 categories:
-1. **MAJOR_INFO**: User asks about the text "**Ngành**" (Major/Program), curriculum structure, career opportunities, or list of courses in a major.
-   - E.g. "Ngành Toán học học gì?", "Giới thiệu ngành Toán", "Cơ hội việc làm ngành Toán", "Danh sách môn học ngành Toán", "Chuyên ngành toán ứng dụng".
-   - Key indicators: "Ngành", "Chuyên ngành", "Chương trình đào tạo", "Cử nhân", "Gồm những môn nào".
+Task: Classify into one of 5 categories:
+1. **MAJOR_INFO**: User asks about a **Major/Program/Field** (Ngành, Chuyên ngành) generally.
+   - Keywords: "Ngành", "Chương trình đào tạo", "Cơ hội việc làm", "Ra trường làm gì", "Danh sách môn", "Khung chương trình", "Chuẩn đầu ra".
+   - E.g. "Ngành Toán học học gì?", "Giới thiệu ngành KHDL", "Học phí ngành này bao nhiêu?", "Sinh viên tốt nghiệp làm gì?".
 
-2. **NEW_TOPIC**: User asks about a specific DIFFERENT subject, or a general question unrelated to the current one.
-   - E.g. Context="Math", Query="Who teaches Art?" -> NEW_TOPIC
-   - E.g. Context="Math", Query="Tell me about Calculus" -> NEW_TOPIC
-   - E.g. Context="None", Query="Info about Math" -> NEW_TOPIC
+2. **COURSE_INFO**: User asks about a **Specific Subject/Course** (Môn học, Học phần).
+   - Keywords: "Môn", "Học phần", "Đề cương", "Giáo trình", "Thầy nào dạy", "Mã môn", "Tài liệu", "Điểm số", "Cách tính điểm".
+   - E.g. "Môn Giải tích 1 học gì?", "Ai dạy môn Python?", "Sách giáo trình môn Đại số", "Mã môn CSC10002".
 
-3. **FOLLOW_UP**: User asks for more details about the CURRENT subject (Context).
-   - E.g. Context="Math", Query="How many credits?" (Implies Math) -> FOLLOW_UP
-   - E.g. Context="Math", Query="Who is the lecturer?" -> FOLLOW_UP
-   - E.g. Context="Math", Query="Is it hard?" -> FOLLOW_UP
-   *IF Context is None, this cannot be FOLLOW_UP.*
+3. **FOLLOW_UP**: User asks for more details about the **CURRENT** subject/context mentioned above.
+   - E.g. Context="Math", Query="Who teaches it?" -> FOLLOW_UP
+   - *IF Context is None, this cannot be FOLLOW_UP.*
 
-4. **CHITCHAT**: Social interaction, greetings, thanks, or nonsense.
-   - E.g. "Hello", "Thanks", "Good bot" -> CHITCHAT
+4. **CHITCHAT**: Social interaction, greetings, thanks.
+
+5. **OTHERS**: Irrelevant questions, out-of-domain topics, or ambiguous queries that don't fit above.
 
 Output JSON ONLY:
 {{
-  "intent": "MAJOR_INFO" | "NEW_TOPIC" | "FOLLOW_UP" | "CHITCHAT",
+  "intent": "MAJOR_INFO" | "COURSE_INFO" | "FOLLOW_UP" | "CHITCHAT" | "OTHERS",
   "reasoning": "Brief explanation"
 }}
 """
         response = self.llm._call_with_retry([{"role": "user", "content": prompt}], temperature=0.0)
-        
-        default_intent = "NEW_TOPIC"
-        
+
+        default_intent = "OTHERS"
+
         if response:
             try:
                 # Clean response
                 clean_resp = response
                 if "</think>" in clean_resp:
                      clean_resp = clean_resp.split("</think>", 1)[1].strip()
-                
+
                 if "```json" in clean_resp:
                     clean_resp = clean_resp.split("```json")[1].split("```")[0].strip()
                 elif "```" in clean_resp:
                     clean_resp = clean_resp.split("```")[1].split("```")[0].strip()
-                
+
                 # Try to extract JSON
                 import json
                 if "{" in clean_resp:
                     start = clean_resp.find("{")
                     end = clean_resp.rfind("}") + 1
                     clean_resp = clean_resp[start:end]
-                    
+
                 data = json.loads(clean_resp)
                 intent = data.get("intent", default_intent).upper()
-                
+
                 # Safety check: Cannot be FOLLOW_UP if no context
                 if intent == "FOLLOW_UP" and not current_subject_name:
-                    logger.warning("Classified as FOLLOW_UP but no context exists. Forcing NEW_TOPIC.")
-                    return "NEW_TOPIC"
-                    
+                    logger.warning("Classified as FOLLOW_UP but no context exists. Forcing COURSE_INFO (search attempt).")
+                    return "COURSE_INFO"
+
                 return intent
-                
+
             except Exception as e:
                 logger.error(f"Error parsing intent: {e}")
                 return default_intent
-        
+
         return default_intent
