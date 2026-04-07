@@ -244,7 +244,7 @@ Answer:"""
             temperature=1.0,
             top_p=0.95,
             presence_penalty=1.5,
-            enable_thinking=True
+            enable_thinking=False
         )
 
         return {
