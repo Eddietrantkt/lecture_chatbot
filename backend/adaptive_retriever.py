@@ -82,6 +82,22 @@ class AdaptiveRetriever:
         intent = self.intent_router.classify(query, current_subject, current_subject_name)
         logger.info(f"Routing Intent: {intent} (Context: {current_subject_name})")
 
+        if intent == "FOLLOW_UP" and current_subject:
+            explicit_courses = self.subject_manager.detect_courses(query)
+            if explicit_courses and explicit_courses[0].code != current_subject:
+                target_course = explicit_courses[0]
+                logger.info(
+                    "Explicit course mention overrides FOLLOW_UP context: "
+                    f"{target_course.name} ({target_course.code})"
+                )
+                section_intent = self._detect_section_intent(query)
+                return self._answer_with_subject(
+                    query,
+                    target_course.code,
+                    section_intent,
+                    subject_name_hint=target_course.name
+                )
+
         # 3. Dispatch to Handlers
         if intent == "CHITCHAT":
             return {
