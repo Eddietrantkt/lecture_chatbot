@@ -6,10 +6,10 @@ import { DarkModeToggle } from './DarkModeToggle';
 import { PDFViewer } from './PDFViewer';
 import { ScrollArea } from './ui/scroll-area';
 import { Button } from './ui/button';
-import { ThumbsUp, ThumbsDown, Zap, Clock, Scale, LogOut, User as UserIcon } from 'lucide-react';
+import { ThumbsUp, ThumbsDown, Zap, Clock, Scale, LogOut } from 'lucide-react';
 import { WelcomeScreen } from './WelcomeScreen';
 import { LoadingDots } from './LoadingDots';
-import { askQuestion, submitFeedback as apiSubmitFeedback, suggestQuestions } from '../services/api';
+import { askQuestion, clarifySubject, submitFeedback as apiSubmitFeedback, suggestQuestions, type AnswerResponse } from '../services/api';
 import { SuggestedQuestions } from './SuggestedQuestions';
 
 interface Message {
@@ -29,6 +29,7 @@ interface Message {
   timing_ms?: number;
   search_method?: string;
   candidates?: Array<{ code: string; name: string }>;
+  clarification_question?: string;
 }
 
 interface User {
@@ -197,6 +198,15 @@ export function ChatInterface({
     }
   };
 
+  const buildDisplaySources = (response: AnswerResponse) => (
+    (response.pdf_sources || []).slice(0, 3).map((pdfSource) => ({
+      title: formatLawName(pdfSource.json_file),
+      page: pdfSource.article_num ? `Điều ${pdfSource.article_num}` : undefined,
+      pdfUrl: pdfSource.pdf_file,
+      articleNum: pdfSource.article_num?.toString(),
+    }))
+  );
+
   const handleSendMessage = async (text: string) => {
     const userMessage: Message = {
       id: Date.now().toString(),
@@ -224,27 +234,21 @@ export function ChatInterface({
           .join(' | ');
       }
 
-      const response = await askQuestion(text, mode, chatHistory, previousContext);
-
-      const displaySources = response.pdf_sources.slice(0, 3).map((pdfSource) => ({
-        title: formatLawName(pdfSource.json_file),
-        page: pdfSource.article_num ? `Điều ${pdfSource.article_num}` : undefined,
-        pdfUrl: pdfSource.pdf_file,
-        articleNum: pdfSource.article_num?.toString(),
-      }));
+      const response = await askQuestion(text, conversationId, mode, chatHistory, previousContext);
 
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
         text: response.answer,
         sender: 'ai',
         timestamp: new Date(),
-        sources: displaySources,
-        pdf_sources: response.pdf_sources,
+        sources: buildDisplaySources(response),
+        pdf_sources: response.pdf_sources || [],
         context: response.sources,
         feedback: null,
         timing_ms: response.timing_ms,
         search_method: response.search_method,
         candidates: response.candidates,
+        clarification_question: response.need_clarification ? text : undefined,
       };
 
       setMessages((prev) => [...prev, aiMessage]);
@@ -267,6 +271,68 @@ export function ChatInterface({
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
         text: 'Xin lỗi, đã có lỗi xảy ra khi xử lý câu hỏi của bạn. Vui lòng thử lại.',
+        sender: 'ai',
+        timestamp: new Date(),
+        feedback: null,
+      };
+      setMessages((prev) => [...prev, errorMessage]);
+    } finally {
+      setIsTyping(false);
+    }
+  };
+
+  const handleSelectCandidate = async (
+    candidate: { code: string; name: string },
+    originalQuestion: string
+  ) => {
+    if (isTyping) return;
+
+    const selectionText = `Tôi chọn ${candidate.name} (${candidate.code})`;
+    const userMessage: Message = {
+      id: Date.now().toString(),
+      text: selectionText,
+      sender: 'user',
+      timestamp: new Date(),
+    };
+
+    setMessages((prev) => [...prev, userMessage]);
+    setIsTyping(true);
+    setSuggestedQuestions([]);
+
+    try {
+      const response = await clarifySubject(conversationId, candidate.code, originalQuestion);
+
+      const aiMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        text: response.answer,
+        sender: 'ai',
+        timestamp: new Date(),
+        sources: buildDisplaySources(response),
+        pdf_sources: response.pdf_sources || [],
+        context: response.sources,
+        feedback: null,
+        timing_ms: response.timing_ms,
+        search_method: response.search_method,
+      };
+
+      setMessages((prev) => [...prev, aiMessage]);
+      setChatHistory([
+        ...chatHistory,
+        { role: 'user', content: originalQuestion },
+        { role: 'assistant', content: response.answer },
+      ]);
+
+      try {
+        const suggestions = await suggestQuestions(originalQuestion, response.answer, 3);
+        setSuggestedQuestions(suggestions);
+      } catch (err) {
+        console.error('Error getting suggestions:', err);
+      }
+    } catch (error) {
+      console.error('Error clarifying subject:', error);
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        text: 'Xin lỗi, đã có lỗi xảy ra khi xử lý lựa chọn của bạn. Vui lòng thử lại.',
         sender: 'ai',
         timestamp: new Date(),
         feedback: null,
@@ -424,7 +490,7 @@ export function ChatInterface({
                         message={message}
                         isDarkMode={isDarkMode}
                         onOpenPDF={handleOpenPDF}
-                        onSelectQuestion={handleSendMessage}
+                        onSelectCandidate={handleSelectCandidate}
                       />
 
                       {/* Feedback Buttons - Show for AI messages */}

@@ -10,13 +10,14 @@ interface ChatMessageProps {
     timestamp: Date;
     pdf_sources?: Array<{ json_file?: string; pdf_file?: string; article_num?: string; page_num?: number }>;
     candidates?: Array<{ code: string; name: string }>;
+    clarification_question?: string;
   };
   isDarkMode: boolean;
   onOpenPDF?: (url: string, title: string, articleNum?: string, pageNum?: number) => void;
-  onSelectQuestion?: (question: string) => void;
+  onSelectCandidate?: (candidate: { code: string; name: string }, originalQuestion: string) => void;
 }
 
-export function ChatMessage({ message, isDarkMode, onOpenPDF, onSelectQuestion }: ChatMessageProps) {
+export function ChatMessage({ message, isDarkMode, onOpenPDF, onSelectCandidate }: ChatMessageProps) {
   const isUser = message.sender === 'user';
 
   return (
@@ -107,7 +108,7 @@ export function ChatMessage({ message, isDarkMode, onOpenPDF, onSelectQuestion }
                     key={index}
                     onClick={(e) => {
                       e.stopPropagation();
-                      onSelectQuestion?.(candidate.name);
+                      onSelectCandidate?.(candidate, message.clarification_question || '');
                     }}
                     className="px-3 py-1.5 rounded-full text-xs font-medium bg-blue-500/10 hover:bg-blue-500/20 text-blue-700 dark:text-blue-300 border border-blue-500/30 transition-colors cursor-pointer"
                   >

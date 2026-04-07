@@ -239,7 +239,13 @@ Context:
 Question: {query}
 Answer:"""
 
-        answer = self.llm._call_with_retry([{"role": "user", "content": prompt}])
+        answer = self.llm._call_with_retry(
+            [{"role": "user", "content": prompt}],
+            temperature=1.0,
+            top_p=0.95,
+            presence_penalty=1.5,
+            enable_thinking=True
+        )
 
         return {
             "query": query,

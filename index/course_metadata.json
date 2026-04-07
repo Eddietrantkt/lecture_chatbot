@@ -12,7 +12,7 @@
       "file_name": "MTH10427_Co_hoc_ly_thuyet.json"
     },
     {
-      "course_code": "MTH10428.",
+      "course_code": "MTH10428",
       "course_name": "CƠ HỌC MÔI TRƯỜNG LIÊN TỤC.",
       "course_name_en": "CONTINUUM MECHANICS",
       "department": "BM Cơ học",
@@ -115,12 +115,14 @@
       "course_name": "Đại số đại cương",
       "course_name_en": "Abstract Algebra",
       "department": "Bộ môn Đại số",
-      "lecturers": [],
+      "lecturers": [
+        "Trịnh Thanh Đèo"
+      ],
       "file_path": "BM_Dai_so\\MTH00031_Dai_so_dai_cuong.json",
       "file_name": "MTH00031_Dai_so_dai_cuong.json"
     },
     {
-      "course_code": "MTH00034.",
+      "course_code": "MTH00034",
       "course_name": "Đại Số Tuyến Tính 1A.",
       "course_name_en": "Linear Algebra 1A.",
       "department": "Bộ môn Đại số.",
@@ -135,7 +137,9 @@
       "course_name": "Toán rời rạc 1A",
       "course_name_en": "Discrete Mathematics 1A",
       "department": "Bộ môn Đại số",
-      "lecturers": [],
+      "lecturers": [
+        "Lê Văn Luyện"
+      ],
       "file_path": "BM_Dai_so\\MTH00043_Toan_roi_rac_1A.json",
       "file_name": "MTH00043_Toan_roi_rac_1A.json"
     },
@@ -144,7 +148,9 @@
       "course_name": "Đại số đại cương",
       "course_name_en": "Abstract Algebra Practice",
       "department": "Bộ môn Đại số",
-      "lecturers": [],
+      "lecturers": [
+        "Lê Văn Luyện"
+      ],
       "file_path": "BM_Dai_so\\MTH00084_Thuc_hanh_Dai_so_dai_cuong.json",
       "file_name": "MTH00084_Thuc_hanh_Dai_so_dai_cuong.json"
     },
@@ -164,12 +170,14 @@
       "course_name": "Đại số hiện đại",
       "course_name_en": "Modern Algebra",
       "department": "Bộ môn Đại số",
-      "lecturers": [],
+      "lecturers": [
+        "Trịnh Thanh Đèo"
+      ],
       "file_path": "BM_Dai_so\\MTH10421_Dai_so_hien_dai.json",
       "file_name": "MTH10421_Dai_so_hien_dai.json"
     },
     {
-      "course_code": "MTH10422.",
+      "course_code": "MTH10422",
       "course_name": "Trường và Lý thuyết Galois",
       "course_name_en": "Fields and Galois Theory",
       "department": "Bộ môn đại số.",
@@ -195,12 +203,14 @@
       "course_name": "Đại số phân bậc",
       "course_name_en": "Graded Algebra",
       "department": "Bộ môn Đại số",
-      "lecturers": [],
+      "lecturers": [
+        "Trịnh Thanh Đèo"
+      ],
       "file_path": "BM_Dai_so\\MTH10505_Dai_so_phan_bac.json",
       "file_name": "MTH10505_Dai_so_phan_bac.json"
     },
     {
-      "course_code": "MTH10596.",
+      "course_code": "MTH10596",
       "course_name": "Lý Thuyết Nhóm.",
       "course_name_en": "Group Theory.",
       "department": "Bộ môn đại số.",
@@ -288,7 +298,7 @@
       "file_name": "MTHxxxxx_Nhom_tuyen_tinh.json"
     },
     {
-      "course_code": "MTH00010.",
+      "course_code": "MTH00010",
       "course_name": "Giải tích 1A.",
       "course_name_en": "Analysis 1A.",
       "department": "Bộ môn Giải tích",
@@ -299,7 +309,7 @@
       "file_name": "MTH00010_Giai_tich_1A_moi.json"
     },
     {
-      "course_code": "MTH00011.",
+      "course_code": "MTH00011",
       "course_name": "Vi tích phân 1A.",
       "course_name_en": "Differential and Integral Calculus 1A.",
       "department": "Bộ môn Giải tích",
@@ -310,7 +320,7 @@
       "file_name": "MTH00011_Vi_tich_phan_1A_moi.json"
     },
     {
-      "course_code": "MTH00013.",
+      "course_code": "MTH00013",
       "course_name": "Vi tích phân 2A",
       "course_name_en": "Differential and Integral Calculus 2A",
       "department": "Bộ môn Giải tích",
@@ -343,7 +353,7 @@
       "file_name": "MTH00087_Thuc_hanh_phan_mem_tinh_toan.json"
     },
     {
-      "course_code": "MTH10403.",
+      "course_code": "MTH10403",
       "course_name": "Giải tích hàm.",
       "course_name_en": "Functional Analysis.",
       "department": "Bộ môn Giải Tích.",
@@ -354,7 +364,7 @@
       "file_name": "MTH10403_Giai_tich_ham.json"
     },
     {
-      "course_code": "MTH10408.",
+      "course_code": "MTH10408",
       "course_name": "Giải tích thực.",
       "course_name_en": "Real Analysis.",
       "department": "Bộ môn Giải Tích.",
@@ -365,7 +375,7 @@
       "file_name": "MTH10408_Giai_tich_thuc.json"
     },
     {
-      "course_code": "MTH10410.",
+      "course_code": "MTH10410",
       "course_name": "Giải tích số",
       "course_name_en": "Numerical analysis",
       "department": "Bộ môn Giải tích",
@@ -388,9 +398,9 @@
     },
     {
       "course_code": "MTH10413",
-      "course_name": "",
-      "course_name_en": "",
-      "department": "",
+      "course_name": "Phương trình toán lý.",
+      "course_name_en": "Equations of mathematical physics.",
+      "department": "Bộ môn Giải tích.",
       "lecturers": [
         "Lê Đức Hưng"
       ],
@@ -398,7 +408,7 @@
       "file_name": "MTH10413_Phuong_trinh_toan_ly.json"
     },
     {
-      "course_code": "MTH10462.",
+      "course_code": "MTH10462",
       "course_name": "Lý thuyết độ đo và tích phân.",
       "course_name_en": "Measure Theory and Integration.",
       "department": "Bộ môn Giải Tích.",
@@ -431,7 +441,7 @@
       "file_name": "MTH10604_Phuong_phap_so_trong_toi_uu.json"
     },
     {
-      "course_code": "MTH10438.",
+      "course_code": "MTH10438",
       "course_name": "Chuyên đề giải tích số.",
       "course_name_en": "Topics in numerical analysis.",
       "department": "Bộ môn Giải tích",
@@ -442,7 +452,7 @@
       "file_name": "MTHxxxxx_Chuyen_de_giai_tich_so.json"
     },
     {
-      "course_code": "MTH00012.",
+      "course_code": "MTH00012",
       "course_name": "Giải tích 2A",
       "course_name_en": "Analysis 2A",
       "department": "Bộ môn Giải tích",
@@ -453,7 +463,7 @@
       "file_name": "MTHxxxxx_Giai_tich_2A.json"
     },
     {
-      "course_code": "MTHxxxxx.",
+      "course_code": "MTHxxxxx",
       "course_name": "Giải tích số cho phương trình đạo hàm riêng.",
       "course_name_en": "Numerical analysis for partial differential equations",
       "department": "Bộ môn Giải tích",
@@ -572,10 +582,10 @@
       "file_name": "MTHxxxxx_Tam_ly_giao_duc.json"
     },
     {
-      "course_code": "MTHxxxxx",
-      "course_name": "",
-      "course_name_en": "",
-      "department": "",
+      "course_code": "(……)",
+      "course_name": "Tiếp cận tích hợp STEM trong giảng dạy Toán",
+      "course_name_en": "Integrated STEM Approach in Teaching Mathematics",
+      "department": "Bộ môn Giáo dục Toán học.",
       "lecturers": [
         "Châu Thị Hiếu"
       ],
@@ -592,7 +602,7 @@
       "file_name": "MTHxxxxx_Ung_dung_CNTT_trong_day_hoc.json"
     },
     {
-      "course_code": "MTH10446.",
+      "course_code": "MTH10446",
       "course_name": "VẬN TRÙ HỌC.",
       "course_name_en": "OPERATIONS RESEARCH.",
       "department": "Tối ưu và hệ thống",
@@ -603,7 +613,7 @@
       "file_name": "MTH10446_VanTruHoc.json"
     },
     {
-      "course_code": "MTH10447.",
+      "course_code": "MTH10447",
       "course_name": "LÝ THUYẾT QUY HOẠCH PHI TUYẾN.",
       "course_name_en": "NONLINEAR PROGRAMMING.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -614,7 +624,7 @@
       "file_name": "MTH10447_LyThuyetQuyHoachPhiTuyen.json"
     },
     {
-      "course_code": "MTH10449.",
+      "course_code": "MTH10449",
       "course_name": "QUY HOẠCH TUYẾN TÍNH.",
       "course_name_en": "LINEAR PROGRAMMING.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -636,7 +646,7 @@
       "file_name": "MTH10450_ThuatToanToiUu.json"
     },
     {
-      "course_code": "MTH10538.",
+      "course_code": "MTH10538",
       "course_name": "Tối ưu hoá ứng dụng.",
       "course_name_en": "Applied Optimization.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -658,7 +668,7 @@
       "file_name": "MTH10539_Quy_Hoach_Tuyen_Tinh_Nang_Cao.json"
     },
     {
-      "course_code": "MTH10540.",
+      "course_code": "MTH10540",
       "course_name": "LÝ THUYẾT VÀ THUẬT TOÁN TỐI ƯU KHÔNG TRƠN.",
       "course_name_en": "NONSMOOTH OPTIMIZATION: THEORY and NUMERICAL METHODS.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -669,7 +679,7 @@
       "file_name": "MTH10540_LyThuyetvaThuatToanToiUuKhongTron.json"
     },
     {
-      "course_code": "MTH10541.",
+      "course_code": "MTH10541",
       "course_name": "LÝ THUYẾT TRÒ CHƠI.",
       "course_name_en": "GAME THEORY.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -691,7 +701,7 @@
       "file_name": "MTH10543_CoSoGiaiTichLoiVaQuyHoachLoi.json"
     },
     {
-      "course_code": "MTH10544.",
+      "course_code": "MTH10544",
       "course_name": "ĐIỀU KIỆN TỐI ƯU KHÔNG TRƠN.",
       "course_name_en": "OPTIMALITY CONDITIONS IN NONSMOOTH OPTIMIZATION.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -702,7 +712,7 @@
       "file_name": "MTH10544_DieuKienToiUuKhongTron.json"
     },
     {
-      "course_code": "MTH10545.",
+      "course_code": "MTH10545",
       "course_name": "Điều khiển tối ưu.",
       "course_name_en": "Optimal control.",
       "department": "Bộ môn Tối ưu và hệ thống.",
@@ -735,7 +745,7 @@
       "file_name": "MTH10614_PhuongPhapBienPhanTrongToiUu.json"
     },
     {
-      "course_code": "MTH10615.",
+      "course_code": "MTH10615",
       "course_name": "Mô hình tối ưu trong kinh tế",
       "course_name_en": "Optimization madels in economics",
       "department": "Bộ môn Tối ưu và hệ thống.",
@@ -746,7 +756,7 @@
       "file_name": "MTH10615_Mo_hinh_toi_uu_trong_kinh_te.json"
     },
     {
-      "course_code": "MTH10616.",
+      "course_code": "MTH10616",
       "course_name": "Seminar Tối ưu.",
       "course_name_en": "Seminar on Optimization.",
       "department": "Bộ môn Tối ưu và Hệ thống.",
@@ -786,7 +796,7 @@
       "file_name": "MTH00042_Xac_suat.json"
     },
     {
-      "course_code": "MTH10404.",
+      "course_code": "MTH10404",
       "course_name": "Lý thuyết thống kê.",
       "course_name_en": "Mathematical Statistics.",
       "department": "Bộ môn Xác suất – Thống kê.",
@@ -801,7 +811,9 @@
       "course_name": "Mô hình Bayes 1",
       "course_name_en": "Bayesian Models 1",
       "department": "Bộ môn Xác suất-Thống kê, khoa Toán-Tin học",
-      "lecturers": [],
+      "lecturers": [
+        "Tô Đức Khánh"
+      ],
       "file_path": "BM_Xac_suat_thong_ke\\MTHxxxxx_Lap_trinh_Bayes.json",
       "file_name": "MTHxxxxx_Lap_trinh_Bayes.json"
     },
@@ -817,7 +829,7 @@
       "file_name": "MTHxxxxx_May_hoc_thong_ke.json"
     },
     {
-      "course_code": "MTHxxxxx.",
+      "course_code": "MTHxxxxx",
       "course_name": "Phân tích dữ liệu sống sót.",
       "course_name_en": "Survival Analysis.",
       "department": "Bộ môn Xác suất - Thống kê.",
@@ -828,7 +840,7 @@
       "file_name": "MTHxxxxx_Phan_tich_du_lieu_song_sot.json"
     },
     {
-      "course_code": "MTHxxxxx.",
+      "course_code": "MTHxxxxx",
       "course_name": "Thực hành thống kê.",
       "course_name_en": "R practice for Statistics.",
       "department": "Bộ môn Xác suất – Thống kê.",

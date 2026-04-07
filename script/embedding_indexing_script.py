@@ -8,9 +8,23 @@ import pickle
 import numpy as np
 from pathlib import Path
 import os
+import sys
 from typing import List, Dict, Any, Tuple
 import warnings
 warnings.filterwarnings('ignore')
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
+try:
+    from backend.config import Config
+except ImportError:
+    class Config:
+        EMBEDDING_MODEL_NAME = "microsoft/harrier-oss-v1-270m"
+        EMBEDDING_QUERY_PROMPT_NAME = "web_search_query"
+        EMBEDDING_MAX_SEQ_LENGTH = 1024
 
 
 class HybridRetriever:
@@ -18,14 +32,21 @@ class HybridRetriever:
     Hybrid retriever kết hợp FAISS (dense vectors) và BM25 (sparse vectors)
     """
     
-    def __init__(self, embedding_model_name: str = "dangvantuan/vietnamese-embedding"):
+    def __init__(
+        self,
+        embedding_model_name: str = None,
+        query_prompt_name: str = None,
+        max_seq_length: int = None
+    ):
         """
         Khởi tạo Hybrid Retriever
         
         Args:
             embedding_model_name: Tên model embedding (hỗ trợ tiếng Việt)
         """
-        self.embedding_model_name = embedding_model_name
+        self.embedding_model_name = embedding_model_name or Config.EMBEDDING_MODEL_NAME
+        self.query_prompt_name = query_prompt_name or Config.EMBEDDING_QUERY_PROMPT_NAME
+        self.max_seq_length = max_seq_length or Config.EMBEDDING_MAX_SEQ_LENGTH
         self.chunks = []
         self.embeddings = None
         self.faiss_index = None
@@ -37,8 +58,16 @@ class HybridRetriever:
         try:
             from sentence_transformers import SentenceTransformer
             print(f"Loading embedding model: {self.embedding_model_name}")
-            self.embedding_model = SentenceTransformer(self.embedding_model_name, device='cpu')
-            self.embedding_model.max_seq_length = 256
+            model_kwargs = {}
+            if self.embedding_model_name.startswith("microsoft/harrier-oss-v1"):
+                model_kwargs["dtype"] = "auto"
+
+            self.embedding_model = SentenceTransformer(
+                self.embedding_model_name,
+                device='cpu',
+                model_kwargs=model_kwargs
+            )
+            self.embedding_model.max_seq_length = self.max_seq_length
             print(f"Model loaded successfully with max_seq_length={self.embedding_model.max_seq_length}")
         except ImportError:
             raise ImportError("Cần cài đặt: pip install sentence-transformers")
@@ -176,6 +205,8 @@ class HybridRetriever:
             "num_chunks": len(self.chunks),
             "embedding_dim": self.embeddings.shape[1],
             "embedding_model": self.embedding_model_name,
+            "query_prompt_name": self.query_prompt_name,
+            "max_seq_length": self.max_seq_length,
             "total_vectors": self.faiss_index.ntotal
         }
         metadata_path = output_path / "metadata.json"
@@ -219,6 +250,14 @@ class HybridRetriever:
         # Load embeddings
         embeddings_path = index_path / "embeddings.npy"
         self.embeddings = np.load(embeddings_path)
+
+        metadata_path = index_path / "metadata.json"
+        if metadata_path.exists():
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+            self.embedding_model_name = metadata.get("embedding_model", self.embedding_model_name)
+            self.query_prompt_name = metadata.get("query_prompt_name", self.query_prompt_name)
+            self.max_seq_length = metadata.get("max_seq_length", self.max_seq_length)
         
         # Load model
         self.load_embedding_model()
@@ -240,7 +279,10 @@ class HybridRetriever:
             self.load_embedding_model()
         
         # Encode query
-        query_vector = self.embedding_model.encode([query], convert_to_numpy=True)
+        encode_kwargs = {"convert_to_numpy": True}
+        if self.query_prompt_name:
+            encode_kwargs["prompt_name"] = self.query_prompt_name
+        query_vector = self.embedding_model.encode([query], **encode_kwargs)
         
         # Normalize
         import faiss

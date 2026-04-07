@@ -12,8 +12,14 @@ Chứa:
 import json
 import os
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Any
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 
 def extract_lecturer_name(lecturer_info: List[str]) -> List[str]:
@@ -25,6 +31,16 @@ def extract_lecturer_name(lecturer_info: List[str]) -> List[str]:
             if name and name != "…" and name != "...":
                 lecturers.append(name)
     return lecturers
+
+
+def get_section(sections: Dict[str, Any], target_name: str) -> List[str]:
+    """Get a section while tolerating minor heading punctuation variants."""
+    target = target_name.strip().rstrip(":").strip().lower()
+    for section_name, content in sections.items():
+        normalized = section_name.strip().rstrip(":").strip().lower()
+        if normalized == target:
+            return content
+    return []
 
 
 def extract_course_info(filepath: str, data: Dict[str, Any], project_root: str) -> Dict[str, Any]:
@@ -49,10 +65,10 @@ def extract_course_info(filepath: str, data: Dict[str, Any], project_root: str) 
     }
     
     # Extract từ Thông tin chung về học phần
-    general_info = sections.get("Thông tin chung về học phần", [])
+    general_info = get_section(sections, "Thông tin chung về học phần")
     for item in general_info:
         if "Mã học phần:" in item:
-            code = item.split("Mã học phần:")[-1].strip()
+            code = item.split("Mã học phần:")[-1].strip().rstrip(".")
             if code and code not in ["Chưa có", "…", "..."]:
                 info["course_code"] = code
         elif "Tên học phần:" in item and "bằng tiếng Anh" not in item:
@@ -63,7 +79,7 @@ def extract_course_info(filepath: str, data: Dict[str, Any], project_root: str) 
             info["department"] = item.split("Bộ môn phụ trách học phần:")[-1].strip()
     
     # Extract giảng viên
-    lecturer_info = sections.get("Thông tin về giảng viên:", [])
+    lecturer_info = get_section(sections, "Thông tin về giảng viên")
     info["lecturers"] = extract_lecturer_name(lecturer_info)
     
     # Fallback: lấy course_code từ filename nếu chưa có
@@ -82,7 +98,7 @@ def find_all_course_files(root_dir: str) -> List[str]:
         path_parts = Path(root).parts
         if any("BM_" in part for part in path_parts):
             for file in files:
-                if file.endswith(".json"):
+                if file.endswith(".json") and not file.startswith("CTDT_"):
                     json_files.append(str(Path(root) / file))
     return json_files
 

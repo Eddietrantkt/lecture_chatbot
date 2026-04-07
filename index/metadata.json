@@ -1,6 +1,8 @@
 {
-  "num_chunks": 2205,
-  "embedding_dim": 768,
-  "embedding_model": "dangvantuan/vietnamese-embedding",
-  "total_vectors": 2205
+  "num_chunks": 2232,
+  "embedding_dim": 640,
+  "embedding_model": "microsoft/harrier-oss-v1-270m",
+  "query_prompt_name": "web_search_query",
+  "max_seq_length": 1024,
+  "total_vectors": 2232
 }

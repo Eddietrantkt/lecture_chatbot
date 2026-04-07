@@ -25,6 +25,16 @@ class CourseChunker:
         """
         self.max_chunk_size = max_chunk_size
         self.chunks = []
+
+    @staticmethod
+    def get_section(sections: Dict[str, Any], target_name: str) -> List[str]:
+        """Get a section while tolerating minor heading punctuation variants."""
+        target = target_name.strip().rstrip(":").strip().lower()
+        for section_name, content in sections.items():
+            normalized = section_name.strip().rstrip(":").strip().lower()
+            if normalized == target:
+                return content
+        return []
     
     def extract_course_info(self, filepath: str, data: Dict[str, Any]) -> Dict[str, str]:
         """
@@ -52,11 +62,11 @@ class CourseChunker:
         
         # Trích xuất từ sections
         sections = data.get("sections", {})
-        general_info = sections.get("Thông tin chung về học phần", [])
+        general_info = self.get_section(sections, "Thông tin chung về học phần")
         
         for item in general_info:
             if "Mã học phần:" in item:
-                code = item.split("Mã học phần:")[-1].strip()
+                code = item.split("Mã học phần:")[-1].strip().rstrip(".")
                 if code and code != "Chưa có":
                     course_info["course_code"] = code
             elif "Tên học phần:" in item and "bằng tiếng Anh" not in item:
@@ -240,6 +250,7 @@ class CourseChunker:
         json_files = [
             f for f in json_files 
             if f.name != "chunked_data.json" 
+            and not f.name.startswith("CTDT_")
             and "index" not in f.parts
             and ".git" not in f.parts
         ]

@@ -40,24 +40,61 @@ class LLMInterface:
             logger.error(f"Error configuring LLM: {e}")
             self.enabled = False
 
-    def _call_with_retry(self, messages: List[Dict], temperature: float = 0.7, max_tokens: int = None) -> Optional[str]:
+    def _qwen_extra_body(self, enable_thinking: bool, top_k: int, extra_body: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """Build Qwen3.5 OpenAI-compatible request extras."""
+        body = dict(extra_body or {})
+        body.setdefault("top_k", top_k)
+
+        chat_template_kwargs = dict(body.get("chat_template_kwargs") or {})
+        chat_template_kwargs["enable_thinking"] = enable_thinking
+        body["chat_template_kwargs"] = chat_template_kwargs
+        return body
+
+    def _strip_thinking_content(self, content: str) -> str:
+        """Remove legacy inline thinking blocks if a serving backend emits them."""
+        if "</think>" in content:
+            return content.split("</think>", 1)[1].strip()
+        return content
+
+    def _call_with_retry(
+        self,
+        messages: List[Dict],
+        temperature: float = 0.7,
+        max_tokens: Optional[int] = None,
+        enable_thinking: bool = False,
+        top_p: Optional[float] = None,
+        top_k: int = 20,
+        presence_penalty: Optional[float] = None,
+        extra_body: Optional[Dict[str, Any]] = None
+    ) -> Optional[str]:
         """
         Call LLM with exponential backoff retry logic.
         Returns response content or None on failure.
         """
+        if top_p is None:
+            top_p = 0.95 if enable_thinking else 0.8
+        if presence_penalty is None:
+            presence_penalty = 1.5
+
         for attempt in range(self.max_retries):
             try:
                 kwargs = {
                     "model": self.model,
                     "messages": messages,
-                    "temperature": temperature
+                    "temperature": temperature,
+                    "top_p": top_p,
+                    "presence_penalty": presence_penalty,
+                    "extra_body": self._qwen_extra_body(enable_thinking, top_k, extra_body)
                 }
                 if max_tokens:
                     kwargs["max_tokens"] = max_tokens
                     
                 response = self.client.chat.completions.create(**kwargs)
                 if response and response.choices:
-                    return response.choices[0].message.content
+                    content = response.choices[0].message.content
+                    if content:
+                        return self._strip_thinking_content(content)
+                    return None
                 return None
             except Exception as e:
                 wait_time = 2 ** attempt
@@ -107,7 +144,13 @@ Ngữ cảnh (Context):
 Câu hỏi: {query}
 Câu trả lời:
 """
-        content = self._call_with_retry([{"role": "user", "content": prompt}])
+        content = self._call_with_retry(
+            [{"role": "user", "content": prompt}],
+            temperature=1.0,
+            top_p=0.95,
+            presence_penalty=1.5,
+            enable_thinking=True
+        )
         
         if content:
             logger.info("LLM Generation complete.")

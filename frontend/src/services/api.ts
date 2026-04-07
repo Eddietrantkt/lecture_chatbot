@@ -39,10 +39,17 @@ export interface ChatMessage {
 
 export interface QuestionRequest {
   question: string;
+  session_id: string;
   use_advanced: boolean;
   model_mode: 'summary' | 'detail';
   chat_history: ChatMessage[];
   previous_context?: string;
+}
+
+export interface ClarifyRequest {
+  session_id: string;
+  selected_code: string;
+  original_question: string;
 }
 
 export interface PDFSource {
@@ -74,6 +81,7 @@ export interface AnswerResponse {
   timing_ms?: number;  // Simple timing in milliseconds
   candidates?: Array<{ code: string; name: string }>;
   need_clarification?: boolean;
+  selected_subject?: string;
 }
 export interface FeedbackRequest {
   query: string;
@@ -99,6 +107,7 @@ export interface StatsResponse {
  */
 export async function askQuestion(
   question: string,
+  sessionId: string,
   mode: 'summary' | 'detail' = 'detail',
   chatHistory: ChatMessage[] = [],
   previousContext?: string
@@ -110,11 +119,39 @@ export async function askQuestion(
     },
     body: JSON.stringify({
       question,
+      session_id: sessionId,
       use_advanced: true,
       model_mode: mode,
       chat_history: chatHistory,
       previous_context: previousContext,
     } as QuestionRequest),
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * Resolve an ambiguous course/major candidate selection.
+ */
+export async function clarifySubject(
+  sessionId: string,
+  selectedCode: string,
+  originalQuestion: string
+): Promise<AnswerResponse> {
+  const response = await fetch(`${API_BASE}/clarify`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      session_id: sessionId,
+      selected_code: selectedCode,
+      original_question: originalQuestion,
+    } as ClarifyRequest),
   });
 
   if (!response.ok) {

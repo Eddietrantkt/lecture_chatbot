@@ -270,6 +270,7 @@ async def clarify_subject(request: ClarifyRequest):
     return {
         "answer": result.get("answer", ""),
         "sources": sources,
+        "pdf_sources": [],
         "search_method": "SPECIFIC_COURSE",
         "timing_ms": total_ms,
         "selected_subject": subject_name
@@ -291,9 +292,15 @@ Return ONLY a JSON array of strings in VIETNAMESE. Example: ["Câu hỏi 1?", "C
 """
     
     try:
-        content = llm._call_with_retry([{"role": "user", "content": prompt}])
+        content = llm._call_with_retry(
+            [{"role": "user", "content": prompt}],
+            temperature=0.7,
+            enable_thinking=False
+        )
         if content:
             # Try to parse JSON
+            if "</think>" in content:
+                content = content.split("</think>", 1)[1].strip()
             if "```json" in content:
                 content = content.split("```json")[1].split("```")[0].strip()
             elif "```" in content:
