@@ -1,5 +1,5 @@
 """
-LLM Interface for Self-Hosted Model via Ngrok
+LLM Interface for Self-Hosted Model
 Refactored with centralized config and retry logic.
 """
 import os
@@ -25,13 +25,18 @@ class LLMInterface:
         self.timeout = Config.LLM_TIMEOUT
         self.max_retries = Config.LLM_MAX_RETRIES
         
-        logger.info(f"Initializing LLM connection to {self.base_url}...")
+        masked_key = f"***{self.api_key[-4:]}" if self.api_key else "(empty)"
+        logger.info(
+            "Initializing LLM connection: base_url=%s, model=%s, api_key=%s",
+            self.base_url,
+            self.model,
+            masked_key,
+        )
         
         try:
             self.client = OpenAI(
                 base_url=self.base_url,
                 api_key=self.api_key,
-                default_headers={"ngrok-skip-browser-warning": "true"},
                 timeout=self.timeout
             )
             self.enabled = True
@@ -107,7 +112,12 @@ class LLMInterface:
                     return None
         return None
 
-    def generate_answer(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
+    def generate_answer(
+        self,
+        query: str,
+        context_chunks: List[Dict[str, Any]],
+        graph_context: Optional[str] = None
+    ) -> str:
         """Generate answer based on context chunks."""
         if not self.enabled:
             return "LLM integration is not enabled. Please check your configuration."
@@ -118,6 +128,10 @@ class LLMInterface:
             source = chunk.get('course_name', 'Unknown Source')
             content = chunk.get('text', '')
             context_text += f"Source {i+1} ({source}):\n{content}\n\n"
+
+        graph_text = ""
+        if graph_context:
+            graph_text = f"Tri thức đồ thị (GraphRAG):\n{graph_context}\n\n"
         
         prompt = f"""
 Bạn là một trợ lý giảng dạy nhiệt tình và hữu ích. Hãy sử dụng thông tin từ các đoạn văn bản trong đề cương môn học được cung cấp dưới đây để trả lời câu hỏi của sinh viên.
@@ -138,9 +152,8 @@ Bạn là một trợ lý giảng dạy nhiệt tình và hữu ích. Hãy sử 
    - KHÔNG dùng LaTeX phức tạp.
 6. Nếu thông tin không có trong ngữ cảnh, hãy nói rõ là bạn không tìm thấy thông tin trong tài liệu được cung cấp.
 
-Ngữ cảnh (Context):
+{graph_text}Ngữ cảnh (Context):
 {context_text}
-
 Câu hỏi: {query}
 Câu trả lời:
 """

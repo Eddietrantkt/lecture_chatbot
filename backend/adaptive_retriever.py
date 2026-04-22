@@ -18,6 +18,7 @@ from backend.course_loader import CourseLoader
 from backend.intent_router import IntentRouter
 from backend.subject_manager import SubjectManager, SubjectInfo
 from backend.llm_interface import LLMInterface
+from backend.graph_rag import GraphRAG
 from backend.config import Config
 
 
@@ -45,6 +46,9 @@ class AdaptiveRetriever:
 
         # Initialize LLM Interface
         self.llm = LLMInterface()
+
+        # Initialize GraphRAG
+        self.graph_rag = GraphRAG(Config.KNOWLEDGE_GRAPH_DIR)
 
         # Initialize Intent Router
         self.intent_router = IntentRouter(self.llm)
@@ -238,6 +242,15 @@ class AdaptiveRetriever:
         sorted_chunks = self._sort_chunks_by_relevance(major_chunks, query)[:5]
 
         context_text = f"# THÔNG TIN NGÀNH {major_info.name}\n\n"
+        graph_context = self.graph_rag.build_program_context(major_info.code, major_info.name)
+        logger.info(
+            "GraphRAG major enrichment: major=%s, used=%s, chars=%s",
+            major_info.code,
+            bool(graph_context),
+            len(graph_context or ""),
+        )
+        if graph_context:
+            context_text += graph_context + "\n\n"
         if courses_str:
             context_text += courses_str + "\n\n"
 
@@ -269,7 +282,8 @@ Answer:"""
             "sources": [{"chunk": c, "score": 1.0} for c in sorted_chunks[:3]],
             "intent": "MAJOR_INFO",
             "subjects": [major_info.name],
-            "matched_code": major_info.code
+            "matched_code": major_info.code,
+            "graph_rag_used": bool(graph_context),
         }
 
     def _answer_with_subject(
@@ -293,6 +307,18 @@ Answer:"""
         context_chunks = []
         is_full_context = False
         display_name = subject_name or subject_code
+        graph_context = self.graph_rag.build_course_context(
+            subject_code,
+            course_name_hint=subject_name,
+            section_intent=section_intent,
+        )
+        logger.info(
+            "GraphRAG course enrichment: subject=%s, section_intent=%s, used=%s, chars=%s",
+            subject_code,
+            section_intent,
+            bool(graph_context),
+            len(graph_context or ""),
+        )
 
         if full_course_data:
             logger.info(f"Using FULL JSON context for course {subject_code}")
@@ -323,7 +349,7 @@ Answer:"""
                 context_chunks = self._sort_chunks_by_intent(context_chunks, section_intent, query)
 
         # Generate answer
-        answer = self.llm.generate_answer(query, context_chunks)
+        answer = self.llm.generate_answer(query, context_chunks, graph_context=graph_context)
 
         return {
             "query": query,
@@ -332,20 +358,43 @@ Answer:"""
             "intent": "SPECIFIC_COURSE",
             "subjects": [display_name],
             "matched_code": subject_code,
-            "is_full_context": is_full_context
+            "is_full_context": is_full_context,
+            "graph_rag_used": bool(graph_context),
         }
 
     def _generate_general_answer(self, query: str, results: List[Dict]) -> Dict[str, Any]:
         """Generate general answer from raw chunks."""
         context_chunks = [r.get('chunk', r) for r in results]
-        answer = self.llm.generate_answer(query, context_chunks)
+        graph_context = self._build_general_graph_context(results)
+        answer = self.llm.generate_answer(query, context_chunks, graph_context=graph_context)
         return {
             "query": query,
             "answer": answer,
             "sources": results,
             "intent": "GENERAL_SEARCH",
-            "subjects": []
+            "subjects": [],
+            "graph_rag_used": bool(graph_context),
         }
+
+    def _build_general_graph_context(self, results: List[Dict]) -> str:
+        """Try to enrich general search with graph context from the top course hit."""
+        for item in results:
+            chunk = item.get("chunk", item)
+            course_code = chunk.get("course_code")
+            course_name = chunk.get("course_name")
+            if not course_code:
+                continue
+            graph_context = self.graph_rag.build_course_context(course_code, course_name_hint=course_name)
+            if graph_context:
+                logger.info(
+                    "GraphRAG general enrichment selected top course: course_code=%s, course_name=%s, chars=%s",
+                    course_code,
+                    course_name,
+                    len(graph_context),
+                )
+                return graph_context
+        logger.info("GraphRAG general enrichment found no usable graph context")
+        return ""
 
     def _detect_section_intent(self, query: str) -> Optional[str]:
         """Detect section intent using keyword heuristics."""

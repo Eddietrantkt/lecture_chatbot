@@ -1,0 +1,39 @@
+{
+  "node_count": 3369,
+  "edge_count": 7964,
+  "labels": {
+    "Document": 80,
+    "Section": 720,
+    "Program": 1,
+    "PLO": 10,
+    "Course": 179,
+    "Department": 14,
+    "Lecturer": 44,
+    "Objective": 382,
+    "CLO": 353,
+    "Assessment": 538,
+    "Topic": 833,
+    "Material": 215
+  },
+  "edge_types": {
+    "HAS_SECTION": 720,
+    "EVIDENCED_BY": 2521,
+    "HAS_PLO": 5,
+    "BELONGS_TO_PROGRAM": 158,
+    "OFFERS": 76,
+    "TAUGHT_BY": 97,
+    "AFFILIATED_WITH": 52,
+    "HAS_OBJECTIVE": 382,
+    "HAS_CLO": 353,
+    "ALIGNS_WITH_OBJECTIVE": 501,
+    "ALIGNS_WITH_PLO": 270,
+    "HAS_ASSESSMENT": 538,
+    "HAS_TOPIC": 833,
+    "SUPPORTS_CLO": 791,
+    "ASSESSES_TOPIC": 371,
+    "USES_MATERIAL": 236,
+    "REQUIRES": 14,
+    "PRECEDED_BY": 34,
+    "COREQUISITE_WITH": 12
+  }
+}

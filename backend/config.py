@@ -2,12 +2,17 @@
 Centralized Configuration for Backend
 """
 import os
+from dotenv import load_dotenv
+
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 class Config:
-    # --- LLM Settings (Cloudflare Tunnel) ---
-    LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:8000/v1")
+    # --- LLM Settings (Remote vLLM via tunnel by default) ---
+    LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://penguin-architects-sie-descending.trycloudflare.com/v1")
     LLM_API_KEY = os.getenv("LLM_API_KEY", "my_secret_token_123")
-    LLM_MODEL = os.getenv("LLM_MODEL", "Qwen/Qwen3.5-9B")
+    LLM_MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-20b")
     LLM_TIMEOUT = 120.0
     LLM_MAX_RETRIES = 3
 
@@ -32,6 +37,7 @@ class Config:
     }
     
     # --- Paths ---
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    BASE_DIR = BASE_DIR
     INDEX_DIR = os.path.join(BASE_DIR, "index")
     CHUNKS_FILE = os.path.join(INDEX_DIR, "chunks.json")
+    KNOWLEDGE_GRAPH_DIR = os.path.join(INDEX_DIR, "knowledge_graph")

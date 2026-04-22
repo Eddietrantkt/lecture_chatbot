@@ -1,24 +1,9 @@
 /**
  * API Service - Connect to FastAPI Backend
  */
+import { getApiBase } from '../config/api';
 
-// Configure API base URL based on environment
-// 100% Docker setup + browser access from host machine
-const getAPIBase = (): string => {
-  // ✅ Priority 1: Check VITE_API_URL environment variable (set in docker-compose.yml)
-  if (import.meta.env.VITE_API_URL) {
-    const apiUrl = import.meta.env.VITE_API_URL as string;
-    console.log('[API] Using VITE_API_URL:', apiUrl);
-    return apiUrl; 
-  }
-  if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-    return 'http://localhost:7860';
-  }
-
-  return '';
-};
-
-const API_BASE = getAPIBase();
+const API_BASE = getApiBase();
 console.log('[API] API_BASE initialized:', API_BASE);
 
 export interface ChatMessage {
@@ -64,10 +49,10 @@ export interface AnswerResponse {
     content: string;
   }>;
   pdf_sources: PDFSource[];
-  search_mode?: string;  // Legacy field
-  search_method?: string;  // New field (domain_based_quality, etc.)
+  search_mode?: string;
+  search_method?: string;
   timing?: TimingInfo;
-  timing_ms?: number;  // Simple timing in milliseconds
+  timing_ms?: number;
   candidates?: Array<{ code: string; name: string }>;
   need_clarification?: boolean;
   selected_subject?: string;
@@ -234,7 +219,6 @@ export async function getStats(): Promise<StatsResponse> {
 export async function getDocument(filename: string): Promise<{ filename: string; data: string }> {
   console.log('[API] getDocument called with:', filename);
 
-  // ✅ Map filename to domain_id
   const domainMap: Record<string, string> = {
     'luat_hon_nhan.pdf': 'hon_nhan',
     'luat_hinh_su.pdf': 'hinh_su',
@@ -245,7 +229,7 @@ export async function getDocument(filename: string): Promise<{ filename: string;
     'nghi_dinh_214_2025.pdf': 'nghi_dinh_214',
   };
 
-  let domain_id = 'hon_nhan'; // default
+  let domain_id = 'hon_nhan';
   for (const [pdf, domain] of Object.entries(domainMap)) {
     if (filename.includes(pdf)) {
       domain_id = domain;
@@ -283,12 +267,9 @@ export async function getDocument(filename: string): Promise<{ filename: string;
 }
 
 /**
- * ✅ NEW: Build PDF URL from backend
- * Gets the direct URL to PDF from backend (không cần base64)
+ * Build PDF URL from backend.
  */
 export function getPDFUrl(pdfFile: string): string {
-  // ✅ Extract base filename without version/year suffix
-  // Example: "luat_dau_thau(57_2024).pdf" → "luat_dau_thau"
   const baseFilename = pdfFile.replace(/\([^)]*\)/, '').replace('.pdf', '');
 
   const domainMap: Record<string, string> = {
@@ -298,12 +279,11 @@ export function getPDFUrl(pdfFile: string): string {
     'luat_dat_dai': 'dat_dai',
     'luat_dau_thau': 'dau_thau',
     'luat_chuyen_giao_cong_nghe': 'chuyen_giao_cong_nghe',
-    'nghi_dinh_214_2025': 'dau_thau',  // Nghị định 214 thuộc domain dau_thau
+    'nghi_dinh_214_2025': 'dau_thau',
     'luat_so_huu_tri_tue': 'lshtt',
   };
 
-  // Match base filename to domain
-  let domain_id = domainMap[baseFilename] || 'hon_nhan';
+  const domain_id = domainMap[baseFilename] || 'hon_nhan';
 
   console.log('[API] getPDFUrl:', {
     pdfFile,

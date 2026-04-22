@@ -27,7 +27,6 @@ class QueryRefiner:
             model=Config.LLM_MODEL,
             temperature=0.1,
             timeout=Config.LLM_TIMEOUT,
-            default_headers={"ngrok-skip-browser-warning": "true"},
             extra_body={
                 "top_k": 20,
                 "chat_template_kwargs": {"enable_thinking": False}

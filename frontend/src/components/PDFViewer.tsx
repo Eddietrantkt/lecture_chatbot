@@ -2,8 +2,9 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, FileText, ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 import { useState, useEffect } from 'react';
+import { getApiBase } from '../config/api';
 
-const BACKEND_API_BASE = (import.meta.env.VITE_API_URL as string) || 'http://localhost:7860';
+const BACKEND_API_BASE = getApiBase();
 
 interface PDFViewerProps {
   isOpen: boolean;

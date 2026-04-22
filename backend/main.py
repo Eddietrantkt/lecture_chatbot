@@ -57,6 +57,12 @@ memory_manager = None
 async def startup_event():
     global retriever, llm, memory_manager
     logger.info(f"Loading resources from {Config.BASE_DIR}...")
+    logger.info(
+        "Backend config: LLM_BASE_URL=%s, LLM_MODEL=%s, KG_DIR=%s",
+        Config.LLM_BASE_URL,
+        Config.LLM_MODEL,
+        Config.KNOWLEDGE_GRAPH_DIR,
+    )
     
     # Initialize Langchain Memory Manager
     memory_manager = LangchainMemoryManager(max_messages_per_session=Config.MEMORY_MAX_MESSAGES)
@@ -108,11 +114,13 @@ class ClarifyRequest(BaseModel):
 
 @app.get("/health")
 async def health_check():
+    graph_stats = retriever.graph_rag.get_stats() if retriever and getattr(retriever, "graph_rag", None) else {"available": False}
     return {
         "status": "ok", 
         "models_loaded": retriever is not None,
         "total_chunks": len(retriever.retriever.chunks) if retriever and retriever.retriever else 0,
-        "active_sessions": memory_manager.get_session_count() if memory_manager else 0
+        "active_sessions": memory_manager.get_session_count() if memory_manager else 0,
+        "graph_rag": graph_stats,
     }
 
 @app.get("/stats")
@@ -126,7 +134,8 @@ async def get_stats():
             "embedder": "sentence-transformers",
             "llm": Config.LLM_MODEL
         },
-        "active_sessions": memory_manager.get_session_count() if memory_manager else 0
+        "active_sessions": memory_manager.get_session_count() if memory_manager else 0,
+        "graph_rag": retriever.graph_rag.get_stats() if getattr(retriever, "graph_rag", None) else {"available": False},
     }
 
 
@@ -208,6 +217,7 @@ async def ask_question(request: QuestionRequest):
         "pdf_sources": [],
         "search_mode": "hybrid",
         "search_method": result.get("intent", "GENERAL"),
+        "graph_rag_used": result.get("graph_rag_used", False),
         "timing": {
             "total_ms": total_ms,
             "status": "success"
@@ -272,6 +282,7 @@ async def clarify_subject(request: ClarifyRequest):
         "sources": sources,
         "pdf_sources": [],
         "search_method": "SPECIFIC_COURSE",
+        "graph_rag_used": result.get("graph_rag_used", False),
         "timing_ms": total_ms,
         "selected_subject": subject_name
     }

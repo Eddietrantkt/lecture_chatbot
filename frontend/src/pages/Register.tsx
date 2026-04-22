@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { AnimatedBackground } from '../components/AnimatedBackground';
 import { Scale, Loader2, UserPlus, ArrowRight, AlertCircle, CheckCircle } from 'lucide-react';
+import { getApiBase } from '../config/api';
 
-const AUTH_API_BASE = (import.meta.env.VITE_API_URL as string) || 'http://localhost:7860';
+const AUTH_API_BASE = getApiBase();
 
 export default function Register({ onRegisterSuccess }: { onRegisterSuccess: () => void }) {
     const [username, setUsername] = useState('');
