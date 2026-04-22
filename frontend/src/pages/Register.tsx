@@ -3,6 +3,8 @@ import { motion } from 'motion/react';
 import { AnimatedBackground } from '../components/AnimatedBackground';
 import { Scale, Loader2, UserPlus, ArrowRight, AlertCircle, CheckCircle } from 'lucide-react';
 
+const AUTH_API_BASE = (import.meta.env.VITE_API_URL as string) || 'http://localhost:7860';
+
 export default function Register({ onRegisterSuccess }: { onRegisterSuccess: () => void }) {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -51,7 +53,7 @@ export default function Register({ onRegisterSuccess }: { onRegisterSuccess: () 
         setSuccess('');
 
         try {
-            const response = await fetch('http://localhost:7860/register', {
+            const response = await fetch(`${AUTH_API_BASE}/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

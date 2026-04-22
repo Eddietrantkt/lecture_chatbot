@@ -1,38 +1,34 @@
 
-  import { defineConfig } from 'vite';
+  import { defineConfig, loadEnv } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
+  
+  export default defineConfig(({ mode }) => {
+    const env = loadEnv(mode, process.cwd(), '');
+    const backendUrl = (env.VITE_API_URL || (env.DOCKER_ENV === 'true' ? 'http://backend:7860' : 'http://localhost:7860'))
+      .trim()
+      .replace(/\/$/, '');
 
-  export default defineConfig({
+    return {
     plugins: [react()],
      server: {
       port: 3000,
       host: '0.0.0.0',
+      allowedHosts: true,
       watch: {
         usePolling: true, // Enable polling for Docker
       },
       proxy: {
         // Proxy all backend endpoints
-        '/ask': {
-          target: process.env.DOCKER_ENV === 'true' ? 'http://backend:7860' : 'http://localhost:7860',
-          changeOrigin: true,
-        },
-        '/feedback': {
-          target: process.env.DOCKER_ENV === 'true' ? 'http://backend:7860' : 'http://localhost:7860',
-          changeOrigin: true,
-        },
-        '/stats': {
-          target: process.env.DOCKER_ENV === 'true' ? 'http://backend:7860' : 'http://localhost:7860',
-          changeOrigin: true,
-        },
-        '/health': {
-          target: process.env.DOCKER_ENV === 'true' ? 'http://backend:7860' : 'http://localhost:7860',
-          changeOrigin: true,
-        },
-        '/api': {
-          target: process.env.DOCKER_ENV === 'true' ? 'http://backend:7860' : 'http://localhost:7860',
-          changeOrigin: true,
-        },
+        '/ask': { target: backendUrl, changeOrigin: true },
+        '/clarify': { target: backendUrl, changeOrigin: true },
+        '/suggest-questions': { target: backendUrl, changeOrigin: true },
+        '/token': { target: backendUrl, changeOrigin: true },
+        '/register': { target: backendUrl, changeOrigin: true },
+        '/feedback': { target: backendUrl, changeOrigin: true },
+        '/stats': { target: backendUrl, changeOrigin: true },
+        '/health': { target: backendUrl, changeOrigin: true },
+        '/api': { target: backendUrl, changeOrigin: true },
       },
     },
     resolve: {
@@ -69,7 +65,7 @@
         '@radix-ui/react-hover-card@1.1.6': '@radix-ui/react-hover-card',
         '@radix-ui/react-dropdown-menu@2.1.6': '@radix-ui/react-dropdown-menu',
         '@radix-ui/react-dialog@1.1.6': '@radix-ui/react-dialog',
-        '@radix-ui/react-context-menu@2.2.6': '@radix-ui/react-context-menu',
+        '@radix-ui/react-context-menu@2.2.6': '@radix-ui/react-con````````````````````````````````````text-menu',
         '@radix-ui/react-collapsible@1.1.3': '@radix-ui/react-collapsible',
         '@radix-ui/react-checkbox@1.1.4': '@radix-ui/react-checkbox',
         '@radix-ui/react-avatar@1.1.3': '@radix-ui/react-avatar',
@@ -83,4 +79,5 @@
       target: 'esnext',
       outDir: 'build',
     },
+  };
   });

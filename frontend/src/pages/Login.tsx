@@ -4,6 +4,8 @@ import { motion } from 'motion/react';
 import { AnimatedBackground } from '../components/AnimatedBackground';
 import { LogIn, Loader2, ArrowRight, AlertCircle } from 'lucide-react';
 
+const AUTH_API_BASE = (import.meta.env.VITE_API_URL as string) || 'http://localhost:7860';
+
 export default function Login({ onLoginSuccess, onRegisterClick }: { onLoginSuccess: () => void, onRegisterClick: () => void }) {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -22,7 +24,7 @@ export default function Login({ onLoginSuccess, onRegisterClick }: { onLoginSucc
             formData.append('username', username);
             formData.append('password', password);
 
-            const response = await fetch('http://localhost:7860/token', {
+            const response = await fetch(`${AUTH_API_BASE}/token`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',

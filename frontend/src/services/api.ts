@@ -7,26 +7,15 @@
 const getAPIBase = (): string => {
   // ✅ Priority 1: Check VITE_API_URL environment variable (set in docker-compose.yml)
   if (import.meta.env.VITE_API_URL) {
-    let apiUrl = import.meta.env.VITE_API_URL as string;
-    console.log('[API] VITE_API_URL from env:', apiUrl);
-
-    // ✅ Priority 2: Detect if running in browser (máy host) vs container
-    // Nếu chạy trong browser trên máy host, cần replace "backend" → "localhost"
-    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-      // Browser trên máy host → replace backend → localhost
-      apiUrl = apiUrl.replace('http://backend:', 'http://localhost:');
-      console.log('[API] Detected browser on host machine → using:', apiUrl);
-    } else if (typeof window !== 'undefined') {
-      // Browser trên container hoặc khác → giữ nguyên
-      console.log('[API] Detected container environment → using:', apiUrl);
-    }
-
-    return apiUrl;
+    const apiUrl = import.meta.env.VITE_API_URL as string;
+    console.log('[API] Using VITE_API_URL:', apiUrl);
+    return apiUrl; 
+  }
+  if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+    return 'http://localhost:7860';
   }
 
-  // ✅ Fallback
-  console.log('[API] ⚠️ Fallback to http://localhost:7860');
-  return 'http://localhost:7860';
+  return '';
 };
 
 const API_BASE = getAPIBase();

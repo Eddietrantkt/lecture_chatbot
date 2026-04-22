@@ -3,6 +3,8 @@ import { X, FileText, ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 import { useState, useEffect } from 'react';
 
+const BACKEND_API_BASE = (import.meta.env.VITE_API_URL as string) || 'http://localhost:7860';
+
 interface PDFViewerProps {
   isOpen: boolean;
   url: string;
@@ -27,7 +29,7 @@ export function PDFViewer({ isOpen, url, title, articleNum, pageNum, onClose }: 
 
           if (domainId) {
             console.log(`[PDFViewer] Fetching page for Article ${articleNum} in domain ${domainId}...`);
-            const res = await fetch(`http://localhost:7860/api/pdf/find-page/${domainId}/${articleNum}`);
+            const res = await fetch(`${BACKEND_API_BASE}/api/pdf/find-page/${domainId}/${articleNum}`);
             const data = await res.json();
 
             if (data.found && data.page) {
